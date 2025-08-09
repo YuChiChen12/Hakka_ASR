@@ -7,6 +7,8 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 def find_audio_paths(base_dir):
     audio_dict = {}
+    for path in Path(base_dir).rglob("*/*.wav"):
+        audio_dict[path.name] = str(path)
     for path in Path(base_dir).rglob("*/*/*.wav"):
         audio_dict[path.name] = str(path)
     return audio_dict
@@ -18,20 +20,33 @@ def preprocess_csv_and_audio(raw_data_dir, output_csv_path):
         return
 
     logging.info(f"Found {len(csv_paths)} CSV files.")
-    all_df = pd.concat([pd.read_csv(csv) for csv in csv_paths], ignore_index=True)
+    dfs = []
+    for csv in csv_paths:
+        df = pd.read_csv(csv)
+        df["source_csv"] = str(csv)   # 新增來源欄位
+        dfs.append(df)
+    all_df = pd.concat(dfs, ignore_index=True)
     audio_map = find_audio_paths(raw_data_dir)
     logging.info(f"Indexed {len(audio_map)} audio files.")
 
     processed_rows = []
     no_note_count = 0
     with_note_count = 0
+    seen_files = set()
+    duplicate_in_rows = 0
 
     for _, row in all_df.iterrows():
         file_name = row["檔名"]
         audio_path = audio_map.get(file_name)
 
+        # 檢查重複
+        if file_name in seen_files:
+            duplicate_in_rows += 1
+        else:
+            seen_files.add(file_name)
+
         if audio_path is None:
-            logging.warning(f"Audio file not found: {file_name}")
+            logging.warning(f"Audio file not found: {file_name} (from {row['source_csv']})")
             continue
 
         if pd.isna(row["客語漢字"]) or pd.isna(row["客語拼音"]):
@@ -59,6 +74,7 @@ def preprocess_csv_and_audio(raw_data_dir, output_csv_path):
 
     logging.info(f"Saved {len(df_output)} entries to {output_csv_path}")
     logging.info(f"Items with empty note: {no_note_count}, with note: {with_note_count}")
+    logging.info(f"Duplicate '檔名' found in processed rows: {duplicate_in_rows}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert Hakka CSV + audio files to simplified CSV format.")

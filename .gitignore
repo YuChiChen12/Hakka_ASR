@@ -1,1 +1,5 @@
-data/FSR-2025-Hakka-train/
+data/dataset_2/
+hakka_asr_models/
+logs/
+result/
+*.log

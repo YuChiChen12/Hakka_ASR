@@ -28,38 +28,24 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+def character_error_rate(reference, hypothesis):
+    ref_chars = list(reference)
+    hyp_chars = list(hypothesis)
+    edit_distance = nltk.edit_distance(ref_chars, hyp_chars)
+    len_ref = len(ref_chars)
+    if len_ref == 0:
+        return 0.0 if len(hyp_chars) == 0 else 1.0
+    return edit_distance / len_ref
+
 
 def word_error_rate(reference, hypothesis):
-    """Calculate Word Error Rate"""
-    ref_words = reference.split()
-    hyp_words = hypothesis.split()
-    edit_distance = nltk.edit_distance(ref_words, hyp_words)
-    len_ref = len(ref_words)
+    ref_syl = reference.split()
+    hyp_syl = hypothesis.split()
+    edit_distance = nltk.edit_distance(ref_syl, hyp_syl)
+    len_ref = len(ref_syl)
     if len_ref == 0:
-        return 0.0 if len(hyp_words) == 0 else 1.0
-    wer = float(edit_distance) / len_ref
-    return wer
-
-
-def sentence_error_rate(references, hypotheses):
-    """Calculate Sentence Error Rate"""
-    if len(references) != len(hypotheses):
-        logger.warning(f"Reference and hypothesis lengths don't match: {len(references)} vs {len(hypotheses)}")
-    
-    incorrect = 0
-    total = len(references)
-    
-    for ref, hyp in zip(references, hypotheses):
-        ref_clean = ref.strip()
-        hyp_clean = hyp.strip()
-        if ref_clean != hyp_clean:
-            incorrect += 1
-    
-    if total == 0:
-        return 0.0
-    
-    ser = float(incorrect) / total
-    return ser
+        return 0.0 if len(hyp_syl) == 0 else 1.0
+    return edit_distance / len_ref
 
 
 def load_model_and_processor(model_path, device):
@@ -130,7 +116,7 @@ def transcribe_audio(audio_path, model, processor, device, language=None, task="
             padding=True
         )
         
-        input_features = inputs.input_features.to(device)
+        input_features = inputs.input_features.to(device, dtype=torch.float16)
         
         # Generate transcription
         start_time = time.time()
@@ -188,10 +174,12 @@ def batch_inference(args):
     # Determine target column for evaluation
     if args.track == "track1":
         target_column = "客語漢字"
-        metric_name = "WER"
-    else:
+        metric_name = "CER"
+        compute_metric = character_error_rate
+    elif args.track == "track2":
         target_column = "客語拼音"
-        metric_name = "SER"
+        metric_name = "WER"
+        compute_metric = word_error_rate
     
     # Run inference
     results = []
@@ -219,7 +207,7 @@ def batch_inference(args):
         
         results.append(result)
         
-        if args.verbose and idx < 5:  # Show first 5 examples
+        if args.verbose:  # Show first 5 examples (if args.verbose and idx < 5:)
             logger.info(f"Sample {idx + 1}:")
             logger.info(f"  Reference: {reference}")
             logger.info(f"  Prediction: {prediction}")
@@ -231,17 +219,26 @@ def batch_inference(args):
     
     if references and predictions:
         if args.track == "track1":
-            # Calculate WER
-            wer_scores = [word_error_rate(ref, pred) for ref, pred in zip(references, predictions)]
-            avg_metric = np.mean(wer_scores) * 100  # Convert to percentage
+            # corpus-level CER: total edits / total reference chars
+            total_edits = sum(
+                nltk.edit_distance(list(r), list(p))
+                for r, p in zip(references, predictions)
+            )
+            total_ref_chars = sum(len(r) for r in references)
+            avg_metric = total_edits / total_ref_chars * 100
+            metric_name = "CER (%)"
         else:
-            # Calculate SER
-            avg_metric = sentence_error_rate(references, predictions) * 100  # Convert to percentage
-        
-        logger.info(f"Average {metric_name}: {avg_metric:.4f}%")
-    else:
-        avg_metric = None
-        logger.warning("No valid reference-prediction pairs found for evaluation")
+            # corpus-level WER: total word-edits / total reference words
+            total_edits = sum(
+                nltk.edit_distance(r.split(), p.split())
+                for r, p in zip(references, predictions)
+            )
+            total_ref_words = sum(len(r.split()) for r in references)
+            avg_metric = total_edits / total_ref_words * 100
+            metric_name = "WER (%)"
+
+        logger.info(f"Corpus-level {metric_name}: {avg_metric:.2f}")
+
     
     # Summary statistics
     avg_time = total_time / len(results) if results else 0
@@ -338,13 +335,13 @@ def main():
     
     # Mode selection
     parser.add_argument("--mode", type=str, choices=["single", "batch", "interactive"],
-                       default="interactive", help="Inference mode")
+                       default="batch", help="Inference mode")
     
     # Model arguments
-    parser.add_argument("--model_path", type=str, required=True,
+    parser.add_argument("--model_path", type=str, default="formospeech/whisper-large-v3-taiwanese-hakka",
                        help="Path to fine-tuned model or HuggingFace model name")
     parser.add_argument("--track", type=str, choices=["track1", "track2"], default="track1",
-                       help="Track for evaluation: track1 (漢字+WER) or track2 (拼音+SER)")
+                       help="Track for evaluation: track1 (漢字+CER) or track2 (拼音+WER)")
     
     # Single file mode
     parser.add_argument("--audio_path", type=str,
@@ -352,12 +349,12 @@ def main():
     
     # Batch mode
     parser.add_argument("--csv_path", type=str,
-                       help="CSV file path (for batch mode)")
+                       default="data/test.csv", help="CSV file path (for batch mode)")
     parser.add_argument("--output_file", type=str,
                        help="Output JSON file path (for batch mode)")
     
     # Generation parameters
-    parser.add_argument("--language", type=str, default=None,
+    parser.add_argument("--language", type=str, default="Chinese",
                        help="Force language (e.g., 'chinese', 'english')")
     parser.add_argument("--task", type=str, default="transcribe", choices=["transcribe", "translate"],
                        help="Task type")

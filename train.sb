@@ -1,25 +1,27 @@
 #!/bin/bash
-#SBATCH --job-name=data_prepare
-#SBATCH --output=logs/data_prepare_%j.out
-#SBATCH --error=logs/data_prepare_%j.err
-#SBATCH --time=00:30:00
-#SBATCH --partition=cpu     # or gpu if needed
-#SBATCH --ntasks=1
+#SBATCH --account=GOV113054
+#SBATCH --job-name="T1_d1_finetune"
+#SBATCH --partition=normal
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=4
+#SBATCH --time=2-00:00:00
+#SBATCH --mem=16G
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --error=logs/%x_%j.err
 
-# 1. 移動到專案根目錄
-cd "$(dirname "$0")"
-mkdir -p data logs
+# ====== 可調參數 ======
+CONDA_ENV_NAME="hakka_asr"
+DATA_CSV="data/dataset_1.csv"
 
-# 2. 下載資料（若資料夾已存在就略過）
-cd data
-if [ ! -d "FSR-2025-Hakka-train" ]; then
-    git clone https://speech.nchc.org.tw/FSR-2025/FSR-2025-Hakka-train
-else
-    echo "FSR-2025-Hakka-train already exists, skipping clone."
-fi
-cd ..
+# ====== 建立必要資料夾 ======
+mkdir -p logs
 
-# 3. 執行資料預處理腳本
-echo "Running data preparation..."
-python data_prepare.py
+# ====== 啟用 conda 環境 ======
+ml load miniconda3/24.11.1
+conda activate "$CONDA_ENV_NAME"
+
+# ====== Finetune ======
+python train.py --csv_path "$DATA_CSV" --track track1 --batch_size 4 --grad_accumulation_steps 4 --warmup_steps 500 --learning_rate 1e-5 --max_steps 20000 --eval_steps 5000 --save_steps 5000 --use_tensorboard
+
