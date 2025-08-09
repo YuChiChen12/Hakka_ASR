@@ -219,18 +219,18 @@ def batch_inference(args):
     
     if references and predictions:
         if args.track == "track1":
-            # corpus-level CER: total edits / total reference chars
+            # corpus-level CER
             total_edits = sum(
-                nltk.edit_distance(list(r), list(p))
+                character_error_rate(r, p) * len(r)
                 for r, p in zip(references, predictions)
             )
             total_ref_chars = sum(len(r) for r in references)
             avg_metric = total_edits / total_ref_chars * 100
             metric_name = "CER (%)"
         else:
-            # corpus-level WER: total word-edits / total reference words
+            # corpus-level WER
             total_edits = sum(
-                nltk.edit_distance(r.split(), p.split())
+                word_error_rate(r, p) * len(r.split())
                 for r, p in zip(references, predictions)
             )
             total_ref_words = sum(len(r.split()) for r in references)
