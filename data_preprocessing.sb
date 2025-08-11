@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --account=GOV113054
-#SBATCH --job-name="hakka_data"
+#SBATCH --job-name="T1_d2_data_preprocessing"
 #SBATCH --partition=dev
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -13,8 +13,9 @@
 
 # ====== 可調參數 ======
 CONDA_ENV_NAME="hakka_asr"
-DATA_DIR="/work/raytsai0214/data/FSR-2025-Hakka-train"
-DATA_DIR2="dataset_1"
+# DATA_DIR="/work/raytsai0214/data/FSR-2025-Hakka-train"
+DATA_DIR="data/dataset_2"
+DATA_DIR2="dataset_2"
 RAW_DATA_DIR="$DATA_DIR"
 OUTPUT_CSV="data/$DATA_DIR2.csv"
 

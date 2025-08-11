@@ -54,14 +54,16 @@ def preprocess_csv_and_audio(raw_data_dir, output_csv_path):
 
         if pd.isna(row["備註"]):
             no_note_count += 1
-            processed_rows.append({
-                "audio_path": audio_path,
-                "客語漢字": row["客語漢字"],
-                "客語拼音": row["客語拼音"]
-            })
             
         else:
             with_note_count += 1
+        
+        processed_rows.append({
+            "audio_path": audio_path,
+            "客語漢字": row["客語漢字"],
+            "客語拼音": row["客語拼音"],
+            "備註": row["備註"],
+        })
 
     if not processed_rows:
         logging.warning("No valid data found.")

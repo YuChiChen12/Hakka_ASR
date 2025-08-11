@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --account=GOV113054
+#SBATCH --job-name="T1_d1_upload_model"
+#SBATCH --partition=dev
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:30:00
+#SBATCH --mem=16G
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --error=logs/%x_%j.err
+
+# ====== 啟用 conda 環境 ======
+ml load miniconda3/24.11.1
+conda activate "hakka_asr"
+
+set -a
+source .env
+set +a
+hf whoami
+hf upload chi-gs12/Hakka_ASR hakka_asr_models/track1/checkpoint-20000 ./track1/checkpoint-20000

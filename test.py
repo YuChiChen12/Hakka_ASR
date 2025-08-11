@@ -22,7 +22,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('hakka_asr_inference.log'),
+        logging.FileHandler('hakka_asr_test.log'),
         logging.StreamHandler()
     ]
 )
@@ -51,28 +51,30 @@ def word_error_rate(reference, hypothesis):
 def load_model_and_processor(model_path, device):
     logger.info(f"Loading model from: {model_path}")
     logger.info(f"Using device: {device}")
-    
+
+    model_dir = Path(model_path)
+
     try:
-        # Try to load as fine-tuned model first
-        if Path(model_path).exists() and Path(model_path).is_dir():
-            logger.info("Loading fine-tuned model...")
-            processor = WhisperProcessor.from_pretrained(model_path)
-            model = WhisperForConditionalGeneration.from_pretrained(model_path)
+        if model_dir.exists() and model_dir.is_dir():
+            # 本地微調後模型
+            logger.info("Detected local model directory. Loading fine-tuned model...")
+            processor = WhisperProcessor.from_pretrained(model_dir.as_posix())
+            model = WhisperForConditionalGeneration.from_pretrained(model_dir.as_posix())
         else:
-            # Load as pre-trained model from HuggingFace Hub
-            logger.info("Loading pre-trained model from HuggingFace Hub...")
+            # HuggingFace Hub 模型
+            logger.info("Detected HuggingFace Hub ID. Loading pre-trained model from HF Hub...")
             processor = WhisperProcessor.from_pretrained(model_path)
             model = WhisperForConditionalGeneration.from_pretrained(model_path)
-        
-        # Set torch dtype based on device
+
+        # 設定 dtype
         torch_dtype = torch.float16 if device.type == "cuda" else torch.float32
         model = model.to(device, dtype=torch_dtype)
-        
+
         logger.info(f"Model loaded successfully with {model.num_parameters():,} parameters")
         logger.info(f"Model dtype: {model.dtype}")
-        
+
         return model, processor
-        
+
     except Exception as e:
         logger.error(f"Failed to load model: {e}")
         raise
@@ -116,7 +118,7 @@ def transcribe_audio(audio_path, model, processor, device, language=None, task="
             padding=True
         )
         
-        input_features = inputs.input_features.to(device, dtype=torch.float16)
+        input_features = inputs.input_features.to(device, dtype=model.dtype)
         
         # Generate transcription
         start_time = time.time()
@@ -140,7 +142,7 @@ def transcribe_audio(audio_path, model, processor, device, language=None, task="
             
             generated_ids = model.generate(**generation_kwargs)
         
-        inference_time = time.time() - start_time
+        test_time = time.time() - start_time
         
         # Decode result
         transcription = processor.batch_decode(
@@ -148,16 +150,16 @@ def transcribe_audio(audio_path, model, processor, device, language=None, task="
             skip_special_tokens=True
         )[0]
         
-        return transcription, inference_time
+        return transcription, test_time
         
     except Exception as e:
         logger.error(f"Error transcribing audio {audio_path}: {e}")
         return "", 0.0
 
 
-def batch_inference(args):
-    """Run batch inference on CSV dataset"""
-    logger.info(f"Starting batch inference")
+def batch_test(args):
+    """Run batch test on CSV dataset"""
+    logger.info(f"Starting batch test")
     logger.info(f"CSV path: {args.csv_path}")
     logger.info(f"Model: {args.model_path}")
     
@@ -169,7 +171,7 @@ def batch_inference(args):
     
     # Load dataset
     df = pd.read_csv(args.csv_path)
-    logger.info(f"Loaded {len(df)} samples for inference")
+    logger.info(f"Loaded {len(df)} samples for test")
     
     # Determine target column for evaluation
     if args.track == "track1":
@@ -181,37 +183,40 @@ def batch_inference(args):
         metric_name = "WER"
         compute_metric = word_error_rate
     
-    # Run inference
+    # Run test
     results = []
     total_time = 0
     
-    logger.info("Starting inference...")
-    for idx, row in tqdm(df.iterrows(), total=len(df), desc="Processing audio files"):
+    logger.info("Starting test...")
+    for idx, row in tqdm(df.iterrows(), total=len(df), desc="Processing audio files", disable=True):
         audio_path = row['audio_path']
         reference = str(row[target_column]) if target_column in row else ""
         
         # Transcribe
-        prediction, inference_time = transcribe_audio(
+        prediction, test_time = transcribe_audio(
             audio_path, model, processor, device, 
             language=args.language, task=args.task
         )
         
-        total_time += inference_time
+        total_time += test_time
         
         result = {
             "audio_path": audio_path,
             "reference": reference,
             "prediction": prediction,
-            "inference_time": inference_time
+            "test_time": test_time
         }
         
         results.append(result)
         
-        if args.verbose:  # Show first 5 examples (if args.verbose and idx < 5:)
+        if args.verbose:
             logger.info(f"Sample {idx + 1}:")
-            logger.info(f"  Reference: {reference}")
-            logger.info(f"  Prediction: {prediction}")
-            logger.info(f"  Time: {inference_time:.3f}s")
+            if reference == prediction:
+                logger.info(f"  Prediction is the same as Reference: {reference}")
+            else:
+                logger.info(f"  Reference: {reference}")
+                logger.info(f"  Prediction: {prediction}")
+            # logger.info(f"  Time: {test_time:.3f}s")
     
     # Calculate metrics
     references = [r["reference"] for r in results if r["reference"]]
@@ -242,10 +247,10 @@ def batch_inference(args):
     
     # Summary statistics
     avg_time = total_time / len(results) if results else 0
-    logger.info(f"Inference completed!")
+    logger.info(f"Test completed!")
     logger.info(f"Total files: {len(results)}")
     logger.info(f"Total time: {total_time:.3f}s")
-    logger.info(f"Average time per file: {avg_time:.3f}s")
+    # logger.info(f"Average time per file: {avg_time:.3f}s")
     
     # Save results
     if args.output_file:
@@ -268,9 +273,9 @@ def batch_inference(args):
     return results
 
 
-def single_inference(args):
-    """Run inference on a single audio file"""
-    logger.info(f"Single file inference")
+def single_test(args):
+    """Run test on a single audio file"""
+    logger.info(f"Single file test")
     logger.info(f"Audio: {args.audio_path}")
     logger.info(f"Model: {args.model_path}")
     
@@ -281,20 +286,20 @@ def single_inference(args):
     model, processor = load_model_and_processor(args.model_path, device)
     
     # Transcribe
-    prediction, inference_time = transcribe_audio(
+    prediction, test_time = transcribe_audio(
         args.audio_path, model, processor, device,
         language=args.language, task=args.task
     )
     
     logger.info(f"Transcription: {prediction}")
-    logger.info(f"Inference time: {inference_time:.3f}s")
+    logger.info(f"Test time: {test_time:.3f}s")
     
     return prediction
 
 
-def interactive_inference(args):
-    """Interactive inference mode"""
-    logger.info("Starting interactive inference mode")
+def interactive_test(args):
+    """Interactive test mode"""
+    logger.info("Starting interactive test mode")
     logger.info("Type 'quit' to exit")
     
     # Setup device
@@ -315,13 +320,13 @@ def interactive_inference(args):
                 continue
             
             print("Transcribing...")
-            prediction, inference_time = transcribe_audio(
+            prediction, test_time = transcribe_audio(
                 audio_path, model, processor, device,
                 language=args.language, task=args.task
             )
             
             print(f"Transcription: {prediction}")
-            print(f"Time: {inference_time:.3f}s")
+            print(f"Time: {test_time:.3f}s")
             
         except KeyboardInterrupt:
             print("\nExiting...")
@@ -331,15 +336,15 @@ def interactive_inference(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Hakka ASR Inference Script")
+    parser = argparse.ArgumentParser(description="Hakka ASR Test Script")
     
     # Mode selection
     parser.add_argument("--mode", type=str, choices=["single", "batch", "interactive"],
-                       default="batch", help="Inference mode")
+                       default="batch", help="Test mode")
     
     # Model arguments
-    parser.add_argument("--model_path", type=str, default="formospeech/whisper-large-v3-taiwanese-hakka",
-                       help="Path to fine-tuned model or HuggingFace model name")
+    parser.add_argument("--model_path", type=str, default="./hakka_asr_models/track1/final_model",
+                       help="Path to your fine-tuned model directory")
     parser.add_argument("--track", type=str, choices=["track1", "track2"], default="track1",
                        help="Track for evaluation: track1 (漢字+CER) or track2 (拼音+WER)")
     
@@ -378,7 +383,7 @@ def main():
         nltk.download('punkt')
     
     # Log configuration
-    logger.info("Inference configuration:")
+    logger.info("Test configuration:")
     for arg, value in vars(args).items():
         logger.info(f"  {arg}: {value}")
     logger.info("=" * 60)
@@ -392,21 +397,21 @@ def main():
         logger.error("Batch mode requires --csv_path")
         return
     
-    # Run inference based on mode
+    # Run test based on mode
     try:
         if args.mode == "single":
-            result = single_inference(args)
+            result = single_test(args)
             
         elif args.mode == "batch":
-            results = batch_inference(args)
+            results = batch_test(args)
             
         elif args.mode == "interactive":
-            interactive_inference(args)
+            interactive_test(args)
         
-        logger.info("Inference completed successfully!")
+        logger.info("Test completed successfully!")
         
     except Exception as e:
-        logger.error(f"Inference failed: {e}")
+        logger.error(f"Test failed: {e}")
         raise
     
     logger.info("Done!")

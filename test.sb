@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --account=GOV113054
+
+#SBATCH --job-name="T1_d2_ckpt20000_test"
+#SBATCH --partition=dev
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:30:00
+#SBATCH --mem=16G
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --error=logs/%x_%j.err
+
+CONDA_ENV_NAME="hakka_asr"
+TRACK=1
+TEST_DATA=2
+CKPT="checkpoint-20000"
+TEST_RESULT="result/test/track$TRACK/$TEST_DATA_$CKPT.csv"
+
+mkdir -p data logs result/test/track1 result/test/track2
+
+ml load miniconda3/24.11.1
+conda activate "$CONDA_ENV_NAME"
+
+python test.py --model_path "hakka_asr_models/track$TRACK/$CKPT" --csv_path "data/dataset_$TEST_DATA.csv" --output_file "$TEST_RESULT" --verbose

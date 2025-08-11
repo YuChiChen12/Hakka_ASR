@@ -1,5 +1,7 @@
+# data/dataset_1/
 data/dataset_2/
 hakka_asr_models/
 logs/
-result/
+# result/
+.env
 *.log

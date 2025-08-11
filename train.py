@@ -134,7 +134,6 @@ def set_random_seed(seed):
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
-    # Make CUDA convs deterministic (slower but reproducible)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
@@ -161,14 +160,19 @@ def word_error_rate(reference, hypothesis):
 
 def setup_model_and_processor(args):
     """Initialize Whisper model and processor"""
-    logger.info(f"Loading model: {args.model_name}")
-    
-    processor = WhisperProcessor.from_pretrained(
-        args.model_name, 
-        language=args.language, 
-        task=args.task
-    )
-    model = WhisperForConditionalGeneration.from_pretrained(args.model_name)
+
+    try:
+        model_dir = Path(args.model_name)
+        if model_dir.exists() and model_dir.is_dir():
+            # 本地微調後模型
+            logger.info("Detected local model directory. Loading fine-tuned model...")
+            processor = WhisperProcessor.from_pretrained(model_dir.as_posix(), language=args.language, task=args.task)
+            model = WhisperForConditionalGeneration.from_pretrained(model_dir.as_posix())
+        else:
+            # HuggingFace Hub 模型
+            logger.info("Detected HuggingFace Hub ID. Loading pre-trained model from HF Hub...")
+            processor = WhisperProcessor.from_pretrained(args.model_name, language=args.language, task=args.task)
+            model = WhisperForConditionalGeneration.from_pretrained(args.model_name)
     
     model.generation_config.language = args.language
     model.generation_config.task = args.task
@@ -274,8 +278,8 @@ def train_model(args):
         dataloader_num_workers=args.num_workers,
         remove_unused_columns=False,
         # Seq2Seq specific parameters
-        predict_with_generate=True,  # Important! Used for evaluation text generation
-        generation_max_length=225,   # Maximum length for generated text
+        predict_with_generate=True,
+        generation_max_length=225,
         logging_first_step=True,
         logging_strategy="steps",
         seed=args.seed,
