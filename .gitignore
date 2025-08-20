@@ -1,0 +1,80 @@
+# Data files - exclude CSV data
+*.csv
+Hakka_ASR/data/hakka_data_*.csv
+audio_mapping.json
+split_data.py
+create_audio_mapping.py
+
+# Training outputs
+enhanced_hakka_asr_models/
+*.log
+enhanced_hakka_asr_training.log
+
+# Test and demo files  
+test_augmentation.py
+demo_data/
+demo_outputs/
+noise_demo_hakka/
+
+# Documentation (user can add manually if needed)
+docs/
+完整訓練指南.md
+
+# Claude Flow metrics and hive mind
+.claude-flow/
+.hive-mind/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment files
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model checkpoints (too large for git)
+*.bin
+*.pt
+*.pth
+pytorch_model.bin
+*.safetensors
+
+# Scripts directory (exclude utility scripts)
+scripts/
+tests/
