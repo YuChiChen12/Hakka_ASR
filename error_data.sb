@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name="T1_d2_error"
+#SBATCH --partition=a100-al9
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=5-00:00:00
+#SBATCH --mem=16G
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --error=logs/%x_%j.err
+
+CONDA_ENV_NAME="hakka_asr"
+INPUT_CSV="result/test/track1/checkpoint-20000.csv"
+OUTPUT_CSV="data/t1_dataset_2_error.csv"
+TRACK="track1"
+
+module load anaconda3/2024.10-1
+eval "$(conda shell.bash hook)"
+conda activate "$CONDA_ENV_NAME"
+
+export HOME=/ceph/work/KLP/yuchi/Hakka_ASR && cd
+export TMPDIR=${HOME}/.tmp
+
+python error_data.py --input_csv $INPUT_CSV --output_csv $OUTPUT_CSV --track $TRACK

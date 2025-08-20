@@ -1,23 +1,56 @@
 #!/bin/bash
-#SBATCH --account=GOV113054
-#SBATCH --job-name="T1_d1_finetune"
-#SBATCH --partition=normal
+#SBATCH --job-name="train_T1_baseline_formospeech"
+#SBATCH --partition=a100-al9
+#SBATCH --reservation=klp_reservation
+#SBATCH --qos=klp_a100_reservation
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=4
-#SBATCH --time=2-00:00:00
-#SBATCH --mem=16G
+#SBATCH --gres=gpu:4
+#SBATCH --cpus-per-task=8
+#SBATCH --time=5-00:00:00
+#SBATCH --mem=32G
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
 CONDA_ENV_NAME="hakka_asr"
-DATA_CSV="data/dataset_1.csv"
+DATA_CSV="data/train.csv"
+TRACK="track1"
+MODEL="formospeech/whisper-large-v3-taiwanese-hakka"   # formospeech/whisper-large-v3-taiwanese-hakka / chi-gs12/Hakka_ASR/track1/checkpoint-20000
 
 mkdir -p logs
 
-ml load miniconda3/24.11.1
+module load anaconda3/2024.10-1
+eval "$(conda shell.bash hook)"
 conda activate "$CONDA_ENV_NAME"
 
-python train.py --csv_path "$DATA_CSV" --track track1 --batch_size 4 --grad_accumulation_steps 4 --warmup_steps 500 --learning_rate 1e-5 --max_steps 20000 --eval_steps 5000 --save_steps 5000 --use_tensorboard
+export HOME=/ceph/work/KLP/yuchi/Hakka_ASR && cd
+export TMPDIR=${HOME}/.tmp
 
+# python - << 'PY'
+# import os, torch
+# print("PYTHON:", os.popen("which python").read().strip())
+# print("GPUs visible:", torch.cuda.device_count())
+# print("CUDA avail:", torch.cuda.is_available())
+# print("CUDA avail:", torch.cuda.is_available())
+# PY
+ 
+NGPUS=${SLURM_GPUS_ON_NODE:-2}
+export NCCL_DEBUG=warn
+export TORCH_DISTRIBUTED_DEBUG=DETAIL
+
+torchrun --standalone --nproc_per_node="$NGPUS" train.py \
+  --csv_path "$DATA_CSV" \
+  --train_split 0.8 \
+  --track "$TRACK" \
+  --pair_sep " || " \
+  --primary_metric "avg" \
+  --model_name "$MODEL" \
+  --batch_size 4 \
+  --grad_accumulation_steps 4 \
+  --warmup_steps 500 \
+  --learning_rate 1e-5 \
+  --max_steps 30000 \
+  --eval_steps 3000 \
+  --save_steps 3000 \
+  --num_workers 8 \
+  --use_tensorboard

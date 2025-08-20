@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name="test_py_hz_dataset"
+#SBATCH --partition=a100-al9
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=00:30:00
+#SBATCH --mem=16G
+#SBATCH --output=logs/%x_%j.out
+#SBATCH --error=logs/%x_%j.err
+
+CONDA_ENV_NAME="hakka_asr"
+RAW_DATA_DIR="data/test.csv"
+OUT_SUFFIX="_py_hz"
+
+mkdir -p data
+
+module load anaconda3/2024.10-1
+eval "$(conda shell.bash hook)"
+conda activate "$CONDA_ENV_NAME"
+
+export HOME=/ceph/work/KLP/yuchi/Hakka_ASR && cd
+export TMPDIR=${HOME}/.tmp
+
+python py_hz_dataset.py --input_glob "$RAW_DATA_DIR" --out_suffix "$OUT_SUFFIX"

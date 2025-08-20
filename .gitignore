@@ -1,7 +1,11 @@
-# data/dataset_1/
+data/dataset_1/
 data/dataset_2/
+data/debug/
 hakka_asr_models/
 logs/
+nltk_data/
 # result/
 .env
 *.log
+.cache/
+.local/

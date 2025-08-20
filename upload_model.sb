@@ -1,7 +1,6 @@
 #!/bin/bash
-#SBATCH --account=GOV113054
-#SBATCH --job-name="T1_d1_upload_model"
-#SBATCH --partition=dev
+#SBATCH --job-name="T2_d1_ckpt21000_model_upload"
+#SBATCH --partition=a100-al9
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --gres=gpu:1
@@ -11,12 +10,18 @@
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
-# ====== 啟用 conda 環境 ======
-ml load miniconda3/24.11.1
-conda activate "hakka_asr"
+CONDA_NEV_NAME="hakka_asr"
+
+module load anaconda3/2024.10-1
+eval "$(conda shell.bash hook)"
+conda activate "$CONDA_ENV_NAME"
+
+export HOME=/ceph/work/KLP/yuchi/Hakka_ASR && cd
+export PATH="$HOME/.local/bin:$PATH"
+export TMPDIR="$HOME/.tmp"
 
 set -a
 source .env
 set +a
 hf whoami
-hf upload chi-gs12/Hakka_ASR hakka_asr_models/track1/checkpoint-20000 ./track1/checkpoint-20000
+hf upload chi-gs12/Hakka_ASR hakka_asr_models/track2/checkpoint-21000 ./track2/checkpoint-21000

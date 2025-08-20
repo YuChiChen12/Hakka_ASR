@@ -1,7 +1,6 @@
 #!/bin/bash
-#SBATCH --account=GOV113054
-#SBATCH --job-name="curve"
-#SBATCH --partition=dev
+#SBATCH --job-name="T1_d2_ckpt20000_loss_curve"
+#SBATCH --partition=a100-al9
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --gres=gpu:1
@@ -11,8 +10,12 @@
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
-# ====== 啟用 conda 環境 ======
-ml load miniconda3/24.11.1
-conda activate "hakka_asr"
+module load anaconda3/2024.10-1
+eval "$(conda shell.bash hook)"
+conda activate "$CONDA_ENV_NAME"
 
-python training_curve.py
+export HOME=/ceph/work/KLP/yuchi/Hakka_ASR && cd
+export TMPDIR=${HOME}/.tmp
+
+python loss_curve.py T2_d1_pretrained_train_1493808
+

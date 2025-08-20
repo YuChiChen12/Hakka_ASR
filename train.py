@@ -17,6 +17,9 @@ from typing import Any, Dict, List, Union
 from tqdm import tqdm
 
 
+if int(os.environ.get("LOCAL_RANK", 0)) != 0:
+    logging.getLogger().setLevel(logging.ERROR)
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -29,14 +32,22 @@ logger = logging.getLogger(__name__)
 
 
 class HakkaASRDataset(Dataset):
-    
-    def __init__(self, csv_path, processor, track="track1"):
-        self.df = pd.read_csv(csv_path)
+    def __init__(self, data, processor, track="track1", from_dataframe=False):
+        if from_dataframe:
+            self.df = data.reset_index(drop=True)
+        else:
+            self.df = pd.read_csv(data)   # data 是 CSV 路徑
         self.processor = processor
         self.track = track
         
-        # Determine target column based on track
-        self.text_column = "客語漢字" if track == "track1" else "客語拼音"
+        if track == "track1":
+            self.text_column = "客語漢字"
+        elif track == "track2":
+            self.text_column = "客語拼音"
+        elif track == "track3":
+            self.text_column = "拼音漢字"
+        else:  # track4
+            self.text_column = "漢字拼音"
         
         logger.info(f"Loaded {len(self.df)} samples for {track}")
         logger.info(f"Target column: {self.text_column}")
@@ -81,18 +92,9 @@ class HakkaASRDataset(Dataset):
         )
         input_features = inputs.input_features.squeeze(0)  # → (seq_len, feat_dim)
 
-        # Process text labels using tokenizer
-        labels = self.processor.tokenizer(
-            text,
-            return_tensors="pt",        # 直接拿到 torch.Tensor
-            truncation=True,
-            max_length=448,
-            padding=False,
-        ).input_ids.squeeze(0)         # → shape (seq_len,)
-
         return {
             "input_features": input_features,  # torch.FloatTensor (seq_len, feat_dim)
-            "labels": labels,                  # torch.LongTensor  (seq_len,)
+            "text": text,
         }
 
 @dataclass
@@ -114,8 +116,10 @@ class DataCollatorSpeechSeq2SeqWithPadding:
         batch = self.processor.feature_extractor.pad(input_features, return_tensors="pt", padding=True)
 
         # Handle text labels - need special padding treatment
-        label_features = [{"input_ids": feature["labels"]} for feature in features]
-        labels_batch = self.processor.tokenizer.pad(label_features, return_tensors="pt", padding=True)
+        texts = [f["text"] for f in features]
+        labels_batch = self.processor.tokenizer(
+            texts, return_tensors="pt", padding=True, truncation=True, max_length=512
+        )
 
         # Replace padding tokens with -100 so they are ignored during loss computation
         labels = labels_batch["input_ids"].masked_fill(labels_batch.attention_mask.ne(1), -100)
@@ -171,9 +175,20 @@ def setup_model_and_processor(args):
         else:
             # HuggingFace Hub 模型
             logger.info("Detected HuggingFace Hub ID. Loading pre-trained model from HF Hub...")
-            processor = WhisperProcessor.from_pretrained(args.model_name, language=args.language, task=args.task)
-            model = WhisperForConditionalGeneration.from_pretrained(args.model_name)
+            repo_id = args.model_name.split("/")[0] + "/" + args.model_name.split("/")[1] if args.model_name.count("/") >= 1 else args.model_name
+            subfolder = "/".join(args.model_name.split("/")[2:]) if args.model_name.count("/") >= 2 else None
+
+            if subfolder:
+                processor = WhisperProcessor.from_pretrained(repo_id, subfolder=subfolder)
+                model = WhisperForConditionalGeneration.from_pretrained(repo_id, subfolder=subfolder)
+            else:
+                processor = WhisperProcessor.from_pretrained(repo_id)
+                model = WhisperForConditionalGeneration.from_pretrained(repo_id)
     
+    except Exception as e:
+        logger.error(f"Error loading model: {e}")
+        raise
+
     model.generation_config.language = args.language
     model.generation_config.task = args.task
     model.generation_config.forced_decoder_ids = None
@@ -186,32 +201,61 @@ def setup_model_and_processor(args):
 
 
 def create_datasets(csv_path, processor, track, train_split=0.8, seed=42):
-    """Create train/validation datasets with random split and a fixed seed."""
     logger.info(f"Creating datasets from {csv_path}")
-
     df = pd.read_csv(csv_path)
     logger.info(f"Total samples: {len(df)}")
 
-    # Random, reproducible split
     train_df = df.sample(frac=train_split, random_state=seed)
     val_df = df.drop(train_df.index)
 
     logger.info(f"Train samples: {len(train_df)}, Validation samples: {len(val_df)}")
 
-    # Save the actual split (for full reproducibility)
-    train_csv = csv_path.replace('.csv', f'_train_{track}.csv')
-    val_csv   = csv_path.replace('.csv', f'_val_{track}.csv')
-    train_df.to_csv(train_csv, index=False)
-    val_df.to_csv(val_csv, index=False)
-    logger.info(f"Split data saved: {train_csv}, {val_csv}")
+    # train_csv = csv_path.replace('.csv', f'_train.csv')
+    # val_csv   = csv_path.replace('.csv', f'_val.csv')
+    # train_df.to_csv(train_csv, index=False)
+    # val_df.to_csv(val_csv, index=False)
+    # logger.info(f"Split data saved: {train_csv}, {val_csv}")
 
-    logger.info("Creating train dataset...")
-    train_dataset = HakkaASRDataset(train_csv, processor, track)
-
-    logger.info("Creating validation dataset...")
-    val_dataset = HakkaASRDataset(val_csv, processor, track)
+    # 直接用 DataFrame 建 Dataset（不存檔）
+    train_dataset = HakkaASRDataset(train_df, processor, track, from_dataframe=True)
+    val_dataset = HakkaASRDataset(val_df, processor, track, from_dataframe=True)
+    # # 給 CSV 檔案路徑
+    # train_dataset = HakkaASRDataset("data/dataset_1_train.csv", processor, track, from_dataframe=False)
+    # val_dataset = HakkaASRDataset("data/dataset_1_val.csv", processor, track, from_dataframe=False)
 
     return train_dataset, val_dataset
+
+
+def _safe_split_pair(s: str, sep: str) -> (str, str):
+    """把 'A || B' 拆成 ('A','B')，若沒有 sep，回傳 ('', '') 以免報錯。"""
+    if s is None:
+        return "", ""
+    parts = s.split(sep)
+    if len(parts) >= 2:
+        left = parts[0].strip()
+        right = sep.join(parts[1:]).strip()  # 容許 sep 在右半邊內再出現
+        return left, right
+    return "", ""
+
+def _batch_cer(refs, hyps):
+    total_edits = 0
+    total_len = 0
+    for r, h in zip(refs, hyps):
+        total_edits += nltk.edit_distance(list(r), list(h))
+        total_len   += len(r)
+    total_len = max(total_len, 1)
+    return total_edits / total_len
+
+def _batch_wer(refs, hyps):
+    total_edits = 0
+    total_len = 0
+    for r, h in zip(refs, hyps):
+        r_tok = r.split()
+        h_tok = h.split()
+        total_edits += nltk.edit_distance(r_tok, h_tok)
+        total_len   += len(r_tok)
+    total_len = max(total_len, 1)
+    return total_edits / total_len
 
 
 def train_model(args):
@@ -236,23 +280,47 @@ def train_model(args):
 
         label_ids[label_ids == -100] = processor.tokenizer.pad_token_id
 
-        pred_str  = processor.tokenizer.batch_decode(pred_ids,  skip_special_tokens=True)
-        label_str = processor.tokenizer.batch_decode(label_ids, skip_special_tokens=True)
+        pred_strs  = processor.tokenizer.batch_decode(pred_ids,  skip_special_tokens=True)
+        label_strs = processor.tokenizer.batch_decode(label_ids, skip_special_tokens=True)
 
         if args.track == "track1":
-            total_edits = sum(nltk.edit_distance(list(ref), list(hyp))
-                            for ref, hyp in zip(label_str, pred_str))
-            total_ref = sum(len(ref) for ref in label_str) or 1
-            cer = total_edits / total_ref
+            cer = _batch_cer(label_strs, pred_strs)
             logger.info(f"Corpus-level CER: {cer*100:.2f}%")
             return {"cer": cer}
-        else:
-            total_edits = sum(nltk.edit_distance(ref.split(), hyp.split())
-                            for ref, hyp in zip(label_str, pred_str))
-            total_ref = sum(len(ref.split()) for ref in label_str) or 1
-            wer = total_edits / total_ref
+
+        elif args.track == "track2":
+            wer = _batch_wer(label_strs, pred_strs)
             logger.info(f"Corpus-level WER: {wer*100:.2f}%")
             return {"wer": wer}
+
+        elif args.track == "track3":
+            # label/pred: "拼音 || 漢字"
+            lab_pinyin, lab_hanzi = zip(*[_safe_split_pair(s, args.pair_sep) for s in label_strs])
+            pred_pinyin, pred_hanzi = zip(*[_safe_split_pair(s, args.pair_sep) for s in pred_strs])
+
+            wer = _batch_wer(lab_pinyin, pred_pinyin)   # 拼音 → WER
+            cer = _batch_cer(lab_hanzi,  pred_hanzi)    # 漢字 → CER
+            avg = (wer + cer) / 2.0
+            logger.info(f"[track3] WER(pinyin): {wer*100:.2f}%, CER(hanzi): {cer*100:.2f}%, AVG: {avg*100:.2f}%")
+            return {"wer": wer, "cer": cer, "avg": avg}
+
+        else:  # track4
+            # label/pred: "漢字 || 拼音"
+            lab_hanzi, lab_pinyin = zip(*[_safe_split_pair(s, args.pair_sep) for s in label_strs])
+            pred_hanzi, pred_pinyin = zip(*[_safe_split_pair(s, args.pair_sep) for s in pred_strs])
+
+            cer = _batch_cer(lab_hanzi,  pred_hanzi)    # 漢字 → CER
+            wer = _batch_wer(lab_pinyin, pred_pinyin)   # 拼音 → WER
+            avg = (wer + cer) / 2.0
+            logger.info(f"[track4] CER(hanzi): {cer*100:.2f}%, WER(pinyin): {wer*100:.2f}%, AVG: {avg*100:.2f}%")
+            return {"cer": cer, "wer": wer, "avg": avg}
+    
+    if args.track == "track1":
+        metric_for_best = "cer"
+    elif args.track == "track2":
+        metric_for_best = "wer"
+    else:
+        metric_for_best = args.primary_metric  # "wer" / "cer" / "avg"
     
     # Training arguments using Seq2SeqTrainingArguments
     training_args = Seq2SeqTrainingArguments(
@@ -272,14 +340,16 @@ def train_model(args):
         logging_steps=args.logging_steps,
         report_to=["tensorboard"] if args.use_tensorboard else [],
         load_best_model_at_end=True,
-        metric_for_best_model="cer" if args.track == "track1" else "wer",
+        metric_for_best_model=metric_for_best,
         greater_is_better=False,
         save_total_limit=2,
         dataloader_num_workers=args.num_workers,
         remove_unused_columns=False,
         # Seq2Seq specific parameters
+        ddp_backend="nccl",
+        ddp_find_unused_parameters=False,
         predict_with_generate=True,
-        generation_max_length=225,
+        generation_max_length=512,
         logging_first_step=True,
         logging_strategy="steps",
         seed=args.seed,
@@ -324,8 +394,10 @@ def main():
     
     # Data arguments
     parser.add_argument("--csv_path", type=str, default="data/hakka_data.csv", help="Path to CSV file with audio_path, 客語漢字, 客語拼音 columns")
-    parser.add_argument("--track", type=str, choices=["track1", "track2"], required=True, help="Track 1: 客語漢字 (CER), Track 2: 客語拼音 (WER)")
     parser.add_argument("--train_split", type=float, default=0.8, help="Training split ratio (default: 0.8)")
+    parser.add_argument("--track", type=str, choices=["track1", "track2", "track3", "track4"], required=True, help="track1: 客語漢字(CER), track2: 客語拼音(WER), track3: 拼音+漢字, track4: 漢字+拼音")
+    parser.add_argument("--pair_sep", type=str, default=" || ", help="track3/4 的拼音與漢字之間的分隔符，須與轉檔一致 (default: ' || ')")
+    parser.add_argument("--primary_metric", type=str, default="avg", choices=["wer", "cer", "avg"], help="選擇用哪個指標挑 best model：wer / cer / avg（track3/4 會用到）")
 
     # Model arguments
     parser.add_argument("--model_name", type=str, default="formospeech/whisper-large-v3-taiwanese-hakka", help="Whisper model name (default: openai/whisper-small)")

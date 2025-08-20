@@ -4,6 +4,7 @@ import pandas as pd
 import torch
 import torchaudio
 import numpy as np
+import re
 import json
 import time
 from pathlib import Path
@@ -63,8 +64,15 @@ def load_model_and_processor(model_path, device):
         else:
             # HuggingFace Hub 模型
             logger.info("Detected HuggingFace Hub ID. Loading pre-trained model from HF Hub...")
-            processor = WhisperProcessor.from_pretrained(model_path)
-            model = WhisperForConditionalGeneration.from_pretrained(model_path)
+            repo_id = model_path.split("/")[0] + "/" + model_path.split("/")[1] if model_path.count("/") >= 1 else model_path
+            subfolder = "/".join(model_path.split("/")[2:]) if model_path.count("/") >= 2 else None
+
+            if subfolder:
+                processor = WhisperProcessor.from_pretrained(repo_id, subfolder=subfolder)
+                model = WhisperForConditionalGeneration.from_pretrained(repo_id, subfolder=subfolder)
+            else:
+                processor = WhisperProcessor.from_pretrained(repo_id)
+                model = WhisperForConditionalGeneration.from_pretrained(repo_id)
 
         # 設定 dtype
         torch_dtype = torch.float16 if device.type == "cuda" else torch.float32
@@ -98,6 +106,23 @@ def load_audio(audio_path, target_sr=16000):
     except Exception as e:
         logger.error(f"Error loading audio {audio_path}: {e}")
         return None
+
+
+def normalize_text(s: str, track: str) -> str:
+    if s is None:
+        return ""
+    s = s.strip()
+    # 把連續空白擠成一個
+    s = re.sub(r"\s+", " ", s)
+    # 全形標點（常見的是中文逗句號）→ 半形
+    s = s.replace("，", ",").replace("。", ".")
+    if track == "track1":
+        # track1（漢字）通常不需要空白；去掉空白避免 CER 受空白影響
+        s = s.replace(" ", "")
+    else:
+        # track2（拼音）一律小寫，避免大小寫差異
+        s = s.lower()
+    return s
 
 
 def transcribe_audio(audio_path, model, processor, device, language=None, task="transcribe"):
@@ -146,10 +171,8 @@ def transcribe_audio(audio_path, model, processor, device, language=None, task="
         
         # Decode result
         transcription = processor.batch_decode(
-            generated_ids, 
-            skip_special_tokens=True
-        )[0]
-        
+            generated_ids, skip_special_tokens=True
+        )[0].strip()
         return transcription, test_time
         
     except Exception as e:
@@ -200,11 +223,14 @@ def batch_test(args):
         
         total_time += test_time
         
+        reference = normalize_text(reference, args.track)
+        prediction = normalize_text(prediction, args.track)
+
         result = {
             "audio_path": audio_path,
             "reference": reference,
             "prediction": prediction,
-            "test_time": test_time
+            # "test_time": test_time
         }
         
         results.append(result)
@@ -254,19 +280,8 @@ def batch_test(args):
     
     # Save results
     if args.output_file:
-        output_data = {
-            "model_path": args.model_path,
-            "track": args.track,
-            "total_files": len(results),
-            "total_time": total_time,
-            "average_time": avg_time,
-            "average_metric": avg_metric,
-            "metric_name": metric_name,
-            "results": results
-        }
-        
-        with open(args.output_file, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, ensure_ascii=False, indent=2)
+        df_results = pd.DataFrame(results, columns=["audio_path", "reference", "prediction"])
+        df_results.to_csv(args.output_file, index=False)
         
         logger.info(f"Results saved to: {args.output_file}")
     
@@ -292,7 +307,7 @@ def single_test(args):
     )
     
     logger.info(f"Transcription: {prediction}")
-    logger.info(f"Test time: {test_time:.3f}s")
+    # logger.info(f"Test time: {test_time:.3f}s")
     
     return prediction
 

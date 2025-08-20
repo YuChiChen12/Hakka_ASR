@@ -1,11 +1,804 @@
 audio_path,客語漢字,客語拼音
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_001.wav,佢起性地啊,gui53 ki31 sim31 ti55 a33
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_002.wav,恁久無䀴著,ngin31 giu31 mo53 ngiang31 choo55
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_003.wav,𠊎轉來啊,ngai53 zhen31 loi53 a11
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_004.wav,你討去哪位,hen53 too31 kui31 ni55 bbi55
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_005.wav,真得人惜哦,zhin11 did24 ngin53 sia24 o24
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_006.wav,真得人慼哦,zhin11 did24 ngin53 cied24 o24
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_007.wav,阿依猶吂轉,a11 i55 ia53 mang11 zhen31
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_008.wav,有閒正來尞,rhiu11 heen53 zhiang31 loi53 leeu55
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_009.wav,你夫娘真靚,hen53 bun11 ngiong53 zhin11 ziang11
-/work/raytsai0214/data/FSR-2025-Hakka-train/train_ZaoAn_30H/ZM113P2101/ZM113P2101_010.wav,拁電火關莫,ga11 teen55 foo31 guan11 mai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_011.wav,會用無毋會用,bbue55 rhung55 mo53 m11 bboi55 rhung55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_110.wav,後禮拜三愛記得交作業,hio55 le31 bai31 sam11 oo31 gi31 le24 gau11 zoo24 rhiab43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_091.wav,阿奶个鎖匙搭搭陪𠊎二十寒暑,a33 ne31 gai33 so31 shi113 dab21 dab21 pui113 ngai113 ngi53 shib54 hon113 chu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_045.wav,第二日打早𠊎人三個做一下攏無疶尿,ti55 ngi55 ngid24 da31 zoo31 ngai53 ngin53 sam11 gai31 zoo31 id24 ha55 lung31 mo53 cheed24 niau55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_034.wav,本來係客家夫娘人用佢靈活个頭腦,bun31 loi53 he55 ka24 ga11 bu11 ngiong53 ngin53 rhung55 gui53 len53 ua55 e55 tio53 nau31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/3jcnoktnzy.wav,遐係當然好食啊,ga24 he55 dng11 rhen53 hoo31 shied43 a33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/mv8qk8r3gl.wav,哦壞啊王國戰隊變身,o11 fai55 a33 ong53 gud24 zhen31 tui55 bien31 shin11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_023.wav,今晡日天時已好,gim33 bi33 ngid21 tien33 shi113 i53 ho31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_040.wav,𠊎真愛食青菜,ngai53 zhin11 oi31 shed43 ciang11 coi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_090.wav,半點都無伸想討食又早早跋毋會起來,ban31 deen31 doo55 mo53 chin55 siong55 too31 shied43 rhiu55 zoo31 zoo31 ba24 m11 bboi55 ki31 loi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_169.wav,檢查報告大約愛等十八分鐘請你先坐一下,giam31 ca113 bo53 go53 tai53 rhog21 oi33 den31 shib54 bad21 fun33 zhung33 ciang31 hn113 sien33 co33 rhid21 ha53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203M2056/DM203M2056_001.wav,賊牯吾老屋在當單純當恬靜个東勢莊下,ced54 gu31 nga33 lo31 vug21 to33 dong33 dan33 shun113 dong33 diam33 cin53 gai33 dung33 shi53 zong33 ha33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/pi7u4ko1s6.wav,獾族已經在另外一裡摟啊達拉里敢有擱較多个地動到現時猶真好無定著𫣆人會真好運哦壞啊,fan11 cu55 rhi31 gen11 da55 lin55 nguai55 rhid24 le31 leu31 a11 tad43 la11 li31 gam31 rhiu11 goo24 ka31 doo11 e55 ti55 tung11 doo31 hien55 shi53 ia53 zhin11 hoo31 mo53 ten55 chio55 een11 ngin53 bbue55 zhin11 hoo31 bbin55 o11 fai55 a33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_079.wav,𠊎人感覺魚會生腳真心色忍毋核偷偷拁阿怙講,ngai53 ngin53 gam31 goo24 m53 bbue55 sang11 gio24 zhin11 sim11 sied24 nun11 m11 hed43 tio11 tio11 ga11 a11 u24 gong31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_133.wav,客語認證个認證日係十月二十,kag21 ngi33 ngin53 zhin53 gai33 ngin53 zhin53 ngid21 he53 shib54 ngied54 ngi53 shib54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_155.wav,大家作垺來打鬥四,tai55 ga11 zoo24 pu53 loi53 da31 dio31 si31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_084.wav,下次擺過再約時間共下坐尞,ha53 ci53 bai31 go53 zai53 rhog21 shi113 gien33 kiung53 ha53 co33 liau53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_172.wav,佢這擺買火車票開兩百箍,gui53 li24 bai31 mi11 foo31 cha11 pio31 koi11 liong31 ba24 kio11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_073.wav,目豺豺走到牆頭脣尖尖个觜還咕嚕咕嚕叫無停,mug21 sai113 sai113 zeu31 do53 ciong113 teu113 shun113 ziam33 ziam33 gai33 zui31 han113 gu33 lu33 gu33 lu53 giau53 mo113 tin113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/aanz2e9exe.wav,怪奇啊係仰子在行動个時艙門會打開,guai31 ki53 a11 he55 ngiong55 zi31 de55 hang53 tung55 e55 shi53 cong11 mun53 bbue55 da31 koi11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_026.wav,阿德得人控告講偷提人个物件,a11 ded24 ded24 ngin53 kung31 goo31 gong31 teu11 te55 ngin53 e55 mi55 kien55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/ni08iy5p71.wav,毋過這滿單淨賣山羊酸乳當難絡食,m113 go53 lia31 man33 dan33 ciang53 mai53 san33 rhong113 son33 nen53 dong33 nan113 log21 shid54
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_161.wav,請問你幾多號𠊎係八十五號,ciang31 mun53 hn113 gid21 do33 ho53 ngai113 he33 bad21 shib54 ng31 ho53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_031.wav,寒天北部不時落雨,hon53 teen11 bed24 pu55 bud24 shi53 loo55 bbu31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_119.wav,請問南港火車頭仰脣去𠊎帶你去火車頭還多人哦,ciang31 mun53 nam113 gong31 fo31 cha33 teu113 ngiong31 shun113 ki53 ngai113 dai53 hn113 ki53 fo31 cha33 teu113 han113 do33 ngin113 o31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_057.wav,阿姆同阿姑已有講親暱暱像姊妹个樣,a33 me33 tung113 a33 gu33 i53 rhiu33 gong31 cin33 nag21 nag21 ciong53 zi31 moi53 gai33 rhong53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/7w5m2xwh2v.wav,𫣆人即討無電啊討仰子即按做賈洛皮 較退一兜貝卡你人細義哦,een11 ngin53 cid43 too31 mo53 teen55 a33 too31 ngiong55 zu31 cid43 an24 zoo31 ga31 loo55 pi53 ka31 toi31 rhid24 deu11 bue11 ka31 hen53 ngin53 se31 ngi55 o11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_123.wav,你幾*多歲啊𠊎今年四歲,hen53 gi31 *doo11 gio33 se31 a31 ngai53 gin11 neen53 si31 se31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_051.wav,歸臺灣个人皮即挷緪緪,gui11 tai53 bban53 e55 ngin53 pi53 cid43 bang11 an53 an53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/rvfn3qeij2.wav,𠊎頭下在想若係𠊎用溜行即會用噴起一兜泥拁火滅么你做了真好捷巴利啊𠊎人做了無好𫣆人無表現出團隊个樣拁遐兜猴害到真慘,ngai53 teu53 ha55 de55 siong55 na31 he55 ngai53 rhung55 liu11 hang53 cid43 bbue55 rhung55 pun31 ki31 rhid24 deu11 ni53 ga11 foo31 med43 iaunn11 hen53 zoo31 leeu31 zhin11 hoo31 ciab43 ba11 li55 a31 ngai53 ngin53 zoo31 leeu31 mo53 hoo31 een11 ngin53 mo53 bio31 hien55 chid24 ton53 tui55 e55 rhiong55 ga11 ga24 deu11 hio53 hoi55 doo31 zhin11 cam31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_011.wav,駛車愛細義,su31 cha11 oo31 se31 ngi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_226.wav,你韶日討坐幾*多點个火車𠊎討坐十一點个火車,hen53 shio53 ngid24 too31 coo11 gi31*doo11 gio33 deem31 e55 foo31 cha11 ngai53 too31 coo11 shib43 id24 deem31 e55 foo31 cha11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_034.wav,衰過个㸐毛蟲閃都毋離,coi33 go53 gai33 nad21 mo33 chung113 sham31 do33 m113 li53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/hn8dw9yf07.wav,大家緊去安納波利斯𠊎人來對付機器人較細義兜莫拁佢人打壞去所以𫣆人鬥底討仰子對付這個物件咧你人个座騎有一個頭特別个功能,tai55 ga11 gin31 kui31 on11 nab43 poo11 li55 su11 ngai53 ngin53 loi53 doi31 fu31 ga11 ki31 ngin53 ka31 se31 ngi55 deu11 mai31 ga11 gui53 ngin53 da31 fai55 kui31 su31 rhi31 een11 ngin53 deu31 de31 too31 ngiong55 zu31 doi31 fu31 li24 gai31 mi55 kien55 le11 hen53 ngin53 e55 coo55 ki53 rhiu11 rhid24 gai31 teu53 ted43 pied43 e55 gung11 lin53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_053.wav,𠊎當𤸁𠊎當暢,ngai113 dong33 kioi53 ngai113 dong33 tiong53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_175.wav,桌崠有七支燒水罐紙箱內底有九粒球,zoo24 dung31 rhiu11 cid24 gi11 shio11 fi31 guan31 zhi31 siong11 nui55 de31 rhiu11 giu31 liab43 kiu53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_084.wav,後次擺正擱約時間共下坐坐个,heu55 ci31 bai31 zhang31 goo24 rhio24 shi53 geen11 kiung55 ha55 coo11 coo11 e11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_018.wav,雨水較足遐時務拁香茅種種落去,bbu31 fi31 ka31 ziu24 ga24 shi53 bbu55 ga11 hiong11 mau53 zhung31 zhung31 loo55 kui31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_022.wav,上課毋好啄目睡,shong53 ko53 m113 ho31 dug21 mug21 shoi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_107.wav,佢𨃰柵欄毋堵好嗄頓著下身疾都佇毋著,gi113 kiam53 cag54 lan113 m113 du31 ho31 sa53 dun53 do31 ha33 shin33 cid54 do33 du53 m113 diau113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_114.wav,後次擺討食碗粄毋使擱早早起來去菜市攔人个時間,heu55 ci55 bai31 too31 shied43 bban31 ban31 m55 su31 goo24 zoo31 zoo31 ki31 loi53 kui31 coi31 shi55 lan53 ngin53 e55 shi53 geen11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_040.wav,佢破病係無抑係屙痢肚,gi113 po53 piang53 he53 mo113 rha33 he53 o33 li53 du31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_146.wav,請問你討辦麼個手續,ciann31 mun31 hen53 too31 peen55 bboo24 gai31 shiu31 siu55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_055.wav,食著無萋个菜歸日落屎,shied43 choo55 mo53 cinn11 e55 coi31 gui11 ngid24 lau31 shi31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_035.wav,請問需要麼个服務,ciang31 mun53 si33 rheu53 ma31 gai33 fug54 mu53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_128.wav,這個幾多錢這個兩千八百箍,li24 gai31 gid24 doo11 cien53 li24 gai31 liong31 cien11 beed24 ba24 keu11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_124.wav,學會打竳个嬰兒這片聽著恁餳人个聲說,hog54 voi53 da31 den113 gai33 o113 nga53 lia31 pien31 ten33 do31 an31 sia113 ngin113 gai33 shang33 shod21
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/tr55ejorwj.wav,𠊎人知𠊎人在做麼个這係你人第一擺駛王國座騎啊𠊎相信𠊎人會曉做个𠊎人來啊,ngai53 ngin53 di11 ngai53 ngin53 da55 zoo31 bboo24 gai31 lia24 he55 hen53 ngin53 ti55 rhid24 bai31 su31 ong53 gud24 coo11 ki53 a33 ngai53 siong11 sin31 ngai53 ngin53 bbue55 hiau31 zoo31 e11 ngai53 ngin53 loi53 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_082.wav,舅㜷做碗粄賣鬥相共顧一屋下人个食著,kiu11 mi55 zoo31 bban31 ban31 mi11 deu31 siong11 kung55 gu31 rhid24 bbu24 ha11 ngin53 e55 shied43 zhoo24
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/wihgdtg7p5.wav,著𫣆人準備拁雪引去大火遐裡毋過𫣆人愛先送工人過遐條橋到位安全个所在毋過橋熊橋佢猶吂做好啊所以𫣆人愛合力拁佢完成啊,choo55 een11 ngin53 zhin31 pi55 ga11 sied24 rhin31 kui31 tai55 foo31 ga24 le31 m55 goo31 een11 ngin53 oi31 sien11 sung31 gung11 ngin53 goo31 ga24 teeu53 kio53 doo31 bbi55 on11 cien53 e55 su31 cai55 m55 goo31 kio53 him53 kio53 gui53 ia53 mang11 zoo31 hoo31 a33 su31 rhi31 een11 ngin53 oi31 hab43 lid43 ga11 gui53 bbin53 shin53 a33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/6bz71eo2nn.wav,係賈洛皮戰隊个頭路,he55 ga31 loo55 pi53 zhen31 tui55 e55 teu53 lu55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_040.wav,𠊎真愛食青菜,ngai53 zhin11 oi31 shied43 ciang11 coi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_174.wav,佢去踅百貨公司刷卡買物件開三萬箍,gui53 kui31 se55 ba24 foo31 gung11 su11 suad24 ka31 mi11 mi55 kien55 koi11 sam11 bban55 kio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_179.wav,請問你有指定个醫生無,ciang31 mun31 hen53 rhiu11 chi31 ting55 e55 rhi55 sien11 mo53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/4u1eg9a8ue.wav,𠊎係自由長尾在灰熊村為你做个現場直播這係永遠毋會欠席个夢幻團隊王國戰隊大家攏猶好無,ngai53 he55 cu55 rhiu53 chong53 mui11 da55 fue11 him53 chen11 bbui55 hen53 zoo31 e11 hien55 chong53 chid43 boo31 lia24 he55 bbin31 bbien31 m11 bboi55 kiam31 sid24 e55 mong55 fan55 ton53 tui55 ong53 gud24 zhen31 tui55 tai55 ga11 lung31 ia53 hoo31 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_203.wav,佢一個人去基隆打拚厥依真擘心,gui53 id24 gai31 ngin53 kui31 gi11 lng53 da31 biang31 gua55 i55 zhin11 ba24 sim11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_265.wav,生日快樂身體康健萬事如意,sang11 ngid24 kuai31 loo55 shin11 te31 kong11 kien55 bban55 su55 rhi53 rhi31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/cflzmub53f.wav,為著愛閃開這條路線厥等行一條細路無過該定著愛穿過歸座森林,vui53 do31 oi33 sham31 koi33 lia31 tiau113 lu53 sien53 gia33 nen35 hang113 rhid21 tiau113 se53 lu53 mo113 go53 gai53 tin53 chog54 oi33 chon33 go53 gui33 co53 sem33 lim113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_050.wav,勞瀝毋使細義失禮,lo113 lad54 m113 sii31 se53 ngi53 shid21 li33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/u2wl9n7ute.wav,𠊎會用个控制佢毋過𠊎愛一兜時間恁𠊎人即佮你鬥相共王國戰隊變身,ngai53 bbue55 rhung55 e55 kung31 zhi31 gui53 m55 goo31 ngai53 oi31 rhid24 deu11 shi53 geen11 en24 ngai53 ngin53 cid43 ga24 hen53 deu31 siong11 kung55 ong53 gud24 zhen31 tui55 bien31 shin11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/7cwprechsc.wav,在遐,de55 ga24
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/e5l2346tod.wav,收著,shiu11 choo55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_187.wav,請問到終點還有幾多站還有五站斯會到咧,ciang31 mun53 do53 zhung33 diam31 han113 rhiu33 gid21 do33 zam53 han113 rhiu33 ng31 zam53 sii33 voi33 do53 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_187.wav,生菇个物件即無用食啊,sang11 gu11 e55 mi55 kien55 cid43 mo53 rhung55 shied43 a31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203M2056/DM203M2056_024.wav,毋過一個月過撇無捉著賊無打緊該賊又來了,m113 go53 rhid21 gai53 ngied54 go33 ped21 mo113 zog21 do31 ced54 mo113 da31 gin31 gai53 ced54 rhiu53 loi113 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_032.wav,請在這斡倒裡,ciang31 da55 lia24 uainn55 doo31 le31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/y7kfapzm2m.wav,大家攏安全啊𫣆人出發啦達里拉諾文䀴你人个啊,tai55 ga11 lung31 on11 cien53 a11 een11 ngin53 chid24 fad24 la11 tad43 li31 la11 no55 bbun53 ngiang31 hen53 ngin53 gai31 a11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_070.wav,也逐緊來媽𠊎放聲噭咻阿姆,rha33 giug21 gin31 loi113 ma33 ngai113 biong53 shang33 gieu53 hiu33 a33 me33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_190.wav,佢無瘸手跛腳也毋會目瞨耳聾應該毋會尋毋著頭路,gi113 mo113 kio113 shiu31 bai113 giog21 rha33 m113 voi33 mug21 pu31 ngi31 lung33 rhin53 goi33 m113 voi33 cim113 m113 do31 teu113 lu53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_212.wav,佢生理失敗走路啊過年去到哪位攏人尖人,gui53 sen11 li31 shid24 pai55 zeu31 lu55 a31 goo31 neen53 kui31 doo31 ni55 bbi55 lung31 ngin53 ziam11 ngin53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_016.wav,阿叔毋慣著西裝,a33 shug21 m113 guan53 zhog21 si33 zong33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_135.wav,這比賽無輸無贏佢用竹篙炙衫褲,lia24 bi31 soi31 mo53 shi11 mo53 rhiang53 gui53 rhung55 zhu24 goo11 zha24 sam11 ku31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_022.wav,有人在屋下無,rhiu11 ngin53 de55 bbu24 ha11 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_141.wav,避暑係𠊎同外阿公外阿婆个期待,pid21 chu31 he53 ngai113 tung113 nguai53 a33 gung33 nguai53 a33 po113 gai33 ki113 tai53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_156.wav,香噴噴个番薯嘛烳好啊藏入外媽个房間,hiong11 pun31 pun31 e55 han11 shi53 ma11 pu53 hoo31 a31 ciong31 ngib43 nguai55 ma53 e55 fung53 geen11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_080.wav,正來尞順行有閒正來尞,zhang33 loi113 liau53 shun53 hang113 rhiu33 han113 zhang33 loi113 liau53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_097.wav,請問高鐵車頭仰子行,ca31 mun31 goo11 teed24 cha11 tio53 ngiong55 zu31 hang53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/5r54d017hh.wav,直直到佢使得真正照顧厥等為止佢同厥等保證若講佢使得做先生佢會到轉來這位照顧厥等厥夢想係在莊肚開一間毋使錢个醫療中心,chid54 chid54 do53 gi113 sii31 ded21 zhin33 zhin53 zheu53 gu53 gia33 nen35 vui53 zhi31 gi113 tung113 gia33 nen35 bo31 zhin53 na33 gong31 gi113 sii31 ded21 zo53 sin33 sen33 gi113 voi33 do53 zhon31 loi113 lia31 vui53 zheu53 gu53 gia33 nen35 gia33 mung53 siong31 he33 to33 zong33 du31 koi33 rhid21 gien33 m113 sii31 cien113 gai33 rhi33 liau113 zhung33 sim33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_038.wav,想同歸油紙絡个火黏蟲放在間肚,siong31 tung113 gui33 rhiu113 zhi31 log54 gai33 fo31 ngiam113 chung113 biong53 to33 gien33 du31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205K2001/DF205K2001_009.wav,也同這兜生理人个錢袋塞淰淰,rha33 tung113 lia31 deu33 sen33 li33 ngin113 gai33 cien113 toi53 ced21 nem33 nem33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_160.wav,阿弟本來攏真聽事佢正考著二十七分爺哀真失望,a11 te11 bun31 loi53 lung31 zhin11 ten11 su55 gui53 zhang31 koo31 choo55 ngi55 shib43 cid24 fun11 rhia53 oi11 zhin11 shid24 mong55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_123.wav,你幾*多歲啊𠊎今年四歲,hen53 gi31*doo11 gio33 se31 a11 ngai53 gin11 neen53 si31 se31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_057.wav,溪水流毋會俐加上海水倒灌入來,ke11 fi31 lau53 m11 bboi55 li55 ga11 shong55 hoi31 fi31 doo31 guan31 ngib43 loi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_164.wav,這西瓜幾多錢五十五箍,lia24 se11 gua11 gi31 doo11 cien53 m31 shib43 m31 kio11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206L2062/DF206L2062_006.wav,鉛筆盒無帶著佢自家走轉去拿,rhen113 bid21 hab54 mo113 dai53 do31 gi113 cid21 ga33 zeu31 zhon31 ki53 na33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_162.wav,一斤正四十九箍忒等價數當實在較便宜兜好無,rhid21 gin33 zhang53 si53 shib54 giu31 kieu33 ted21 nen35 ga53 sii53 dong33 shid54 cai53 ka33 pien113 ngi113 deu33 ho31 mo113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_046.wav,得先生罵猶直直笑毋知見笑,ded24 sien11 sen11 ma31 ia53 chid43 chid43 sio31 m11 di11 gien31 sio31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/pnmd4sclxb.wav,你人兩個照顧山坑脣个熊族提絜你跈𠊎來𫣆人出發,hen53 ngin53 liong31 gai31 zhio31 gu31 san11 kang11 fin53 e55 him53 cu55 te55 gied24 hen53 ten53 ngai53 loi53 een11 ngin53 chid24 fad24
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/k8e79gj6y3.wav,提絜失禮毋過𠊎講倒退啊捷巴利有遐兜細子个消息無有人想討和你人相借問係路卡路卡𠊎會用和你翕一張相無,te55 gied24 shid24 li31 m55 goo31 ngai53 gong31 doo31 toi31 a33 ciab43 ba11 li55 rhiu11 ga24 deu11 se31 zi31 e55 sio11 sid24 mo53 rhiu11 ngin53 siong55 too31 ham55 hen53 ngin53 siong11 zia24 mun31 he55 lu55 ka31 lu55 ka31 ngai53 bbue55 rhung55 ham55 hen53 hib24 rhid24 zhong11 siong31 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_135.wav,有時務若堵著同學,rhiu11 shi53 bbu55 na31 du31 choo55 tung53 hoo55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/kunqcgl16s.wav,德維天光愛考試這滿當認真讀書,ded21 vui113 tien33 gong35 oi33 kau31 shi53 lia31 man33 dong33 ngin53 zhin33 tug54 shu33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_006.wav,暗晡頭探火黏蟲个活動來廣告,am53 bu33 teu113 tam31 fo31 ngiam113 chung113 gai33 fad54 tung53 loi113 gong31 go53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_103.wav,朳仔食起來澀澀佢在學校做會計,bad24 a53 shied43 ki31 loi53 sied24 sied24 gui53 da55 hoo55 hau55 zoo31 fue55 ge31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/911c6738fo.wav,哦足寬个哦實驗室這實在足好个會議室大電視咧,o11 ziu24 kuan11 e55 o24 shid43 ngiam55 shid24 lia24 shid43 cai55 ziu24 hoo31 e11 fue55 ngi55 shid24 tai55 teen55 shi55 le11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_051.wav,敗勢無關係拜託你,pai33 she53 mo113 guan33 he53 bai53 tog21 hn113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/p77adkw6em.wav,𫣆人成功啊做了好路卡兄弟你真厲害哦𠊎係自由長尾𠊎頭下䀴著王國戰隊完成𠊎毋識䀴過頭驚人个救援行動,een11 ngin53 shin53 gung11 a11 zoo31 leeu31 hoo31 lu55 ka31 shang11 te11 hen53 zhin11 li55 hoi55 o24 ngai53 he55 cu55 rhiu53 chong53 mui11 ngai53 teu53 ha55 ngiang31 choo55 ong53 gud24 zhen31 tui55 bbien53 shin53 ngai53 m11 shid24 ngiang31 goo31 teu53 giang11 ngin53 e55 giu31 bbien53 hang53 tung11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_030.wav,阿原哥討心臼大家鬥陣來去分佢請,a33 ngien113 go33 to31 sim33 kiu33 tai53 ga33 deu53 chin53 loi113 ki53 bun33 gi113 ciang31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_190.wav,請等一下佢黏時過來,ciang31 den31 id24 ha55 gu53 neem53 shi53 goo31 loi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_155.wav,你討辦个業務在八樓𠊎拁你擪電梯,hen53 too31 peen55 e55 ngiab43 bbu55 da55 beed24 leu53 ngai53 ga11 hen53 ed24 teen55 toi11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_143.wav,今日五點愛開會哦請鬥準備資料,gin11 ngid24 m31 deem31 oi31 koi11 fui55 o11 ciang31 deu31 zhin31 pi55 zu11 liau55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/r8lmvibe9t.wav,分離艙發射器這會用,fun11 li53 cong11 fad24 sha55 ki31 lia24 bbue55 rhung55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_047.wav,屋愛起來好斯愛使錢喊人設計,vug21 oi33 ki31 loi113 ho31 sii33 oi33 sii31 cien113 hem33 ngin113 shed21 gie53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/aamimu2mcg.wav,衫係白色个褲係藍色个在馬來西亞个學校定著愛著學校个制服同先生行禮課程結束了後厥等愛用共款个方式來勞瀝先生,sam33 he33 pag54 sed21 gai33 ku53 he33 lam113 sed21 gai33 to33 ma33 loi113 si33 a31 gai33 hog54 gau31 tin53 chog54 oi33 zhog21 hog54 gau31 gai33 zhi53 fug54 tung113 sin33 sen33 hang113 li33 ko53 chang113 gied21 sug21 liau31 heu53 gia33 nen35 oi33 rhung53 kiung53 kuan31 gai33 fong33 shid21 loi113 lo113 lad54 sin33 sen33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_219.wav,這係假藥會食壞人這果子進口个真貴食,lia24 he55 ga31 rhio55 bbue55 shied43 fai55 ngin53 lia24 goo31 zu31 zin31 keu31 e55 zhin11 gui31 shied43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_095.wav,共下來去公園運動啦,kung55 ha55 lui53 kui31 gung11 bbien53 bbin55 tung55 la11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_123.wav,分佢緊來緊有信心蹀蹀蹀蹀,fun33 gi113 gin31 loi113 gin31 rhiu33 sin53 sim33 dia113 dia53 dia113 dia53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_069.wav,第二個講伯公伯婆,ti55 ngi55 gai31 gong31 ba24 gung11 ba24 poo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_002.wav,做大水个時節這河壩做下係泥漿水,zo53 tai53 shui31 gai33 shi113 zied21 lia31 ho113 ba53 zo53 ha53 he33 ne113 ziong33 shui31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_207.wav,鑪牙齒个時節牙齦肉若會流血可能係牙周病哦,lu53 nga113 chi31 gai33 shi113 zied21 nga113 ngin33 ngiug21 na33 voi33 liu113 hied21 ko31 nen113 he53 nga113 zhiu33 piang53 o33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_180.wav,頭家雞卵一斤幾*多箍雞卵一斤三十八箍,teu53 ga11 ge11 lon31 rhid24 gun11 gi31 *doo11 gio33 kio11 ge11 lon31 rhid24 gun11 sam11 shib43 beed24 kio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_051.wav,歹勢無要緊拜託你,painn31 she31 mo53 rhio31 gin31 bai31 too24 hen53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/wc0qu2oae1.wav,跡係自由長尾有特別个事情報導有消息講當地動在滿哪位發生个時確定有人䀴著在五王國个官方總部安納波利斯个天崠,zia24 he55 cu55 rhiu53 chong53 mui11 rhiu11 ted43 pied43 e55 su55 cin53 boo31 too55 rhiu11 sio11 sid24 gong31 dong11 ti55 tung11 da55 man31 na55 bbi55 fad24 sen11 e55 shi53 koo24 ten55 rhiu11 ngin53 ngiang31 choo55 da55 m31 ong53 gud24 e55 guan11 fong11 zung31 pu55 on11 nab43 poo11 li55 su11 e55 teen11 dung31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/f6flbmub0q.wav,埤頭,bi11 teu53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_033.wav,阿爸請媒人婆去阿碌伯屋家講親,a33 ba33 ciang31 moi113 ngin113 po113 ki53 a33 lug21 bag21 vug21 ka33 gong31 cin33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_027.wav,阿妹背書包去學校,a11 moi31 painn11 shi11 bau11 kui31 hoo55 hau55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_106.wav,這本書攏總有五百頁,li24 bun31 shi11 lng31 zung31 rhiu11 m31 ba24 rhiab43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_145.wav,超過十一點猶吂到即算慢到啊,chio11 goo31 shib43 rhid24 deem31 ia53 mang11 doo31 cid43 son31 meen55 doo31 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_175.wav,這領褲猶有別種色地無,li24 liang31 ku31 ia53 rhiu11 pe55 zhung31 sed24 ti55 mo53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/98178chgve.wav,去學校之前佢去尋厥同學,ki33 hog54 gau31 zii33 cien113 gi113 ki33 cim113 gia33 tung113 hog54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_197.wav,佢過年前有來𠊎个店內底後下即無擱䀴著佢啊,gui53 goo31 neen53 cien53 rhiu11 loi53 ngai53 e55 deem31 nui55 de31 hio55 ha55 cid43 mo53 goo24 ngiang31 choo55 gui53 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_115.wav,請問臺北市信義區公所在幾多樓在八樓,ciang31 mun31 tai53 bed24 shi55 sin31 ngi55 ki11 gung11 soo31 da55 gi31 doo11 lio53 da55 beed24 lio53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_153.wav,請問掛號櫃臺在哪位,ca31 mun31 gua31 hoo55 gui55 tai53 de55 na55 bbi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_035.wav,請問愛麼个服務,ciang31 mun31 oi31 bboo24 gai31 fu55 bbu55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_089.wav,歹勢攪吵啊你愛攔時間無,painn31 she31 gio55 cau31 a31 hen53 oi31 lan53 shi53 geen11 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_109.wav,請問中壢火車頭仰子去,ciang31 mun31 zhung11 led43 foo31 cha11 teu53 ngiong55 zu31 kui31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_094.wav,拁電火關莫麻煩你開電火好無,ga11 teen55 foo31 guan11 mai31 ma53 fan53 hen53 koi11 teen55 foo31 hoo31 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_259.wav,落車个時請注意後背个來車,loo55 cha11 e55 shi53 ciang31 zhi31 rhi31 hio55 bue31 e55 loi53 cha11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_097.wav,天時漸漸熱哩*喲這學期个考試總算也考煞了,tien33 shi113 ciam53 ciam53 ngied54 li33 *io33 lio33 lia31 hog54 ki113 gai33 kau31 shi53 zung31 son53 rha33 kau31 sod21 le33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/zftq2nx9pm.wav,係得人慼个機器人佢在這𠊎人嘛毋知佢有可能係別款物件大地吐出一個較細型个機器人,he55 dad24 ngin53 cied24 e55 ga11 ki31 ngin53 gui53 de55 lia24 ngai53 ngin53 ma11 m11 di11 gui53 rhiu11 koo31 nen53 he55 pe55 kuan31 mi55 kien55 tai55 ti55 tu31 chid24 rhid24 gai31 ka31 se31 hin53 e55 ga11 ki31 ngin53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/x4eolqhw9w.wav,𠊎入來啊做了好捷巴利這滿坐電梯去駕駛室大力踢遐隻貓一下,ngai53 ngib43 loi53 a11 zoo31 leeu31 hoo31 ciab43 ba11 li55 li24 man31 coo11 teen55 toi11 kui31 ga31 su31 shid24 tai55 lid43 ted24 ga24 zha24 ngiau11 rhid24 ha55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_014.wav,佢腳㞇著枴杖擎歸半個月,gui53 gio24 uainn31 choo55 guai31 chong55 kia53 gui11 ban31 goo24 ngied43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_069.wav,阿弟在廳下䀴電視,a11 te11 da55 ten11 ha11 ngiang31 teen55 shi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_136.wav,坐捷運毋會用食物件,coo11 ciab43 bbin55 m11 bboi55 rhung55 shied43 mi55 kien55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_210.wav,阿太毋會曉用手機你想清楚正拁𠊎講,a11 tai31 m11 bboi55 hiau31 rhung55 shiu31 gi11 hen53 siong55 cin11 cu31 zhang31 ga11 ngai53 gong31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/67vcbgtqk9.wav,我盡好个斯係唱歌,ngai113 cin53 hau53 gai33 sii33 he33 chong53 go33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_102.wav,人和車即跌倒在路脣跋毋會起來,ngin53 ham55 cha11 cid43 deed24 doo31 da55 lu55 fin53 ba24 m11 bboi55 ki31 loi53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/z9l05l6jf7.wav,𠊎希望𠊎大漢大學畢業了後使得做一個先生𠊎使得醫好當多破病个人,ngai113 hi33 mong53 ngai113 tai53 hon53 tai53 hog54 bid21 ngiab54 liau31 heu53 sii31 ded21 zo53 rhid21 gai53 sin33 sen33 ngai113 sii31 ded21 rhi33 ho31 dong33 do33 po53 piang53 gai33 ngin113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_042.wav,嘴吐絲將自家吊起來厥圓身跔跔,zhoi53 tu31 sii33 ziong33 ci33 ga33 diau53 ki31 loi113 gia33 rhen113 shin33 giu33 giu33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_214.wav,到位苗栗大約猶有幾*多公里猶有兩公里,doo31 bbi55 mio53 lid43 tai55 rhio24 ia53 rhiu11 gi31* doo11 gio33 gung11 li31 ia53 rhiu11 liong31 gung11 li31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_023.wav,香茅油个香味真重會用做香精,hiong11 mau53 rhiu53 e55 hiong11 bbi55 zhin11 chung11 bbue55 rhung55 zoo31 hiong11 gin11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_017.wav,這兩家人見擺冤家斯愛請里長講和,lia31 liong31 ga33 ngin113 gien53 bai31 rhen33 ga33 sii33 oi33 ciang31 li33 zhong31 gong31 fo113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_087.wav,阿伯蹛个樓屋有電梯,a11 ba24 dai31 e55 lio53 bbu24 rhiu11 teen55 tui11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/27i8kh5is3.wav,實在好佳載做了真好 王國戰隊大家攏安全啊勞力無賈洛皮个鬥相共𠊎人嘛無法度佢講个著𠊎拁危險變安全啊,shid43 cai55 hoo31 ga11 zai31 zoo31 leeu31 zhin11 hoo31 ong53 gud24 zhen31 tui55 tai55 ga11 lung31 on11 cien53 a31 loo31 lad43 mo53 ga31 loo55 pi53 e55 deu31 siong11 kung55 ngai53 ngin53 ma11 mo53 fad24 tu55 gui53 gong31 e55 choo55 ngai53 ga11 ngui53 hiam31 bien31 on11 cien53 a11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_152.wav,你莫恁泥食人夠夠若無受著報應會孤盲絕代,hn113 mog54 an31 ne113 shid54 ngin113 gieu53 gieu53 na33 mo113 shiu53 do31 bo53 rhin53 voi33 go33 mo33 cied54 toi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_051.wav,阿依在灶下煮飯,a11 i55 da55 zoo31 ha11 zhi31 pon55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_186.wav,佢請假四日分頭家扣月給,gi113 ciang31 ga31 si53 ngid21 bun33 teu113 ga33 kieu53 ngied54 gib21
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/c6077fw0ew.wav,晒著當燒个石頭使得幫助厥等同衫褲晒燥毋過厥等對裝濕个書還有記事簿斯無法了當好運个係德維使得靠厥朋友,sai53 do31 dong33 sheu33 gai33 shag54 teu113 sii31 ded21 bong33 cu53 gia33 nen35 tung113 sam33 ku53 sai53 zau33 m113 go53 gia33 nen35 dui53 zong33 shib21 gai33 shu33 han113 rhiu33 gi53 sii53 pu35 sii33 mo113 fab21 le33 dong33 ho31 rhun53 gai33 he33 ded21 vui113 sii31 ded21 ko53 gia33 pen113 rhiu33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_198.wav,𠊎這嘛討拁你檢查一下,ngai53 li24 ma31 too31 ga11 hen53 giam31 za11 id24 ha55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_009.wav,隔壁个阿明頭大家都講佢當狡怪,gag21 biag21 gai33 a33 min113 teu113 tai53 ga33 do33 gong31 gi113 dong33 gau31 guai53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_171.wav,好跋起來啊較緊去洗面洗牙猶愛幾久擱五分鐘,hoo31 ba24 ki31 loi53 a11 ka31 gin31 kui31 se31 mien31 se31 nga53 ia53 oi31 gid24 giu31 goo24 m31 fun11 zhung11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/ep5zcr11zc.wav,提絜諾文𫣆人愛得石頭漿冷落來變轉丁石頭个樣這係得遐兜石頭柱毋會陷入去个方法得石頭漿冷落來討仰子做用湖底个水啊在湖和石頭漿中央開一條路,te55 gied24 no55 bbun53 een11 ngin53 oi31 dad24 sha55 teu53 ziong11 len11 loo55 loi53 bien31 zhen31 ding11 sha55 teu53 e55 rhiong55 lia24 he55 dad24 ga24 deu11 sha55 teu53 teeu11 m11 bboi55 ham55 ngib43 kui31 e55 fong11 fad24 dad24 sha55 teu53 ziong11 len11 loo55 loi53 too31 ngiong55 zu31 zoo31 rhung55 bbu53 de31 e55 fi31 a33 da55 bbu53 ham55 sha55 teu53 ziong11 dung11 ong11 koi11 rhid24 teeu53 lu55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_183.wav,桌當久無捽塵灰當賁喊兩個人過去該片𢯭手,zog21 dong33 giu31 mo113 cud54 chin113 foi33 dong33 pun33 hem33 liong31 gai53 ngin113 go53 ki33 gai53 pien31 ten53 shiu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_275.wav,請問落南个高鐵愛在哪個月臺上車,ciann31 mun31 loo55 nam53 e55 goo11 teed24 oi31 de55 ni55 gai31 ngied43 tai53 shiong11 cha11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_173.wav,這隻幾多錢這隻九千五百箍,lia31 zhag21 gid21 do33 cien113 lia31 zhag21 giu31 cien33 ng31 bag21 kieu33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_054.wav,緊行喉嗹還咕嚕咕嚕緊叫,gin31 hang113 heu113 len113 han113 gu33 lu33 gu33 lu53 gin31 giau53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_113.wav,會議地點在哪位會議地點在臺東縣臺東市,fue55 ngi55 ti55 deem31 da55 ni55 bbi55 fue55 ngi55 ti55 deem31 da55 tai53 dung11 bbien55 tai53 dung11 shi55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/mftacwgdpt.wav,古斯塔拁這和另外个紅色排作垺逐件物件攏有佢个位所𠊎干若想討有一兜仔變化嘛大貨,gu31 su11 tab24 ga11 lia24 ham55 lin55 nguai55 e55 fung53 sed24 pe53 zoo24 pu53 tu55 kien55 mi55 kien55 lung31 rhiu11 gui53 e55 bbi55 song53 ngai53 gan11 na31 siong55 too31 rhiu11 rhid24 deu11 a53 bien31 fa31 ma11 tai55 foo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_030.wav,你傷慢到位啊,hen53 shiong55 meen55 doo31 bbi55 a33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_176.wav,𠊎會用換別款寸尺無,ngai53 bbue55 rhung55 bban55 pe55 kuan31 cun53 cha24 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_095.wav,漕入碗擱囥在電鑊炊炊粄个時務,coo55 ngib43 bban31 goo24 kong31 da55 teen55 bboo55 che11 che11 ban31 e55 shi53 bbu55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/p0twx9kgbx.wav,因為這兜訓練場無關撇,rhin33 vui53 lia31 deu33 hiun53 lien53 chong113 mo113 guan33 ped21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_098.wav,𠊎尿急想討屙尿,ngai53 neeu55 gib24 siong55 too31 oo11 neeu55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_283.wav,附餐有哪兜个和甜點請拁𠊎紹介,fu55 con11 rhiu11 ni55 dio11 e11 ham55 teem53 deem31 ciang31 ga11 ngai53 shio31 goi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_052.wav,準備好等大風大雨來,zhin31 pi55 hoo31 den31 tai55 fung11 tai55 bbu31 loi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_193.wav,𠊎會用徙到脣頭遐桌無,ngai53 bbue55 rhung55 sai31 doo31 fin53 tio53 ga24 zoo24 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_195.wav,你愛尞幾久𠊎愛尞五日因為阿舅愛討餔娘,hn113 oi33 liau53 gid21 giu31 ngai113 oi33 liau53 ng31 ngid21 rhin33 vui53 a33 kiu33 oi53 to31 bu33 ngiong113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_060.wav,寒天北部不時在落雨,hon53 teen11 bed24 pu55 bud24 shi53 de55 loo55 bbu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_145.wav,𠊎想討喊客房服務,ngai53 siong55 too31 heem31 ka24 fong53 fu55 bbu55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_067.wav,驚大人知會罵𠊎人即拁捉著个六尾魚,giang11 tai55 ngin53 di11 bbue55 ma31 ngai53 ngin53 cid43 ga11 zoo24 choo55 e55 liu24 mui11 m53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_072.wav,𠊎人輒輒作垺合買美食,ngai53 ngin53 ciab43 ciab43 zoo24 pu53 hab43 mi11 mi31 shied43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_168.wav,較緊个討赴毋會著啊,ka31 gin31 e11 too31 fu31 m11 bboi55 choo55 a33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_116.wav,阿依佢人䀴著𠊎學做碗粄笑到喊毋敢,a11 i55 gui53 ngin53 ngiang31 choo55 ngai53 hoo55 zoo31 bban31 ban31 sio31 doo31 heem31 m55 gam31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_145.wav,超過七點還吂到斯算慢到咧,cheu33 go53 cid21 diam31 han113 mang113 do53 sii33 son53 man53 do53 le33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/bymk9xup9p.wav,厥觀點斯係佢相信細倈同細妹係平等个所以定著愛分細妹學習厥等在轉屋家个路項繼續講這話題,gia33 guan33 diam31 sii33 he33 gi113 siong33 sin53 se53 lai53 tung113 se53 moi53 he53 piang113 den31 gai33 so31 rhi113 tin53 chog54 oi33 bun33 se53 moi53 hog54 sib54 gia33 nen35 to33 zhon31 vug21 ka33 gai33 lu53 hong33 gi53 siug54 gong31 lia31 fa53 ti113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_010.wav,勞力你个照顧,loo31 lad43 hen53 e55 zhio31 gu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_244.wav,請問這就近个捷運站在哪位,cia31 mun31 lia24 ciu55 kun11 e55 ciab43 bbin55 cam55 de55 na55 bbi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_043.wav,臺灣不時有地動,tai53 bban53 bud24 shi53 rhiu11 ti55 tung11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_103.wav,阿姆在灶下煮飯𠊎逐朝晨掃地泥,a33 me33 to33 zo53 ha33 zhu31 pon53 ngai113 dag21 zheu33 shun113 so53 ti53 ne113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_079.wav,碗粄這站毋知起麼个癖晨早時起來即想討食碗粄,bban31 ban31 li24 cam55 m11 di11 ki31 bboo24 gai31 pia24 chin53 zoo31 shi53 ki31 loi53 cid43 siong55 too31 shied43 bban31 ban31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_121.wav,嘴項緊拐蹀蹀蹀蹀,zhoi53 hong53 gin31 guai31 dia113 dia53 dia113 dia53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_049.wav,𠢕早食飽吂,ngau53 zoo31 shied43 bau31 mang11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_026.wav,天光朝晨正聯絡,tien33 gong33 zheu33 shun113 zhang33 lien113 log54
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_037.wav,該件事𠊎自家會處理毋使你煩愁,gai53 kien53 sii53 ngai113 cid21 ga33 voi33 chu53 li33 m113 sii31 hn113 fan113 seu113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_027.wav,高不將舊衫脫撇換青衫,go33 bud21 ziong33 kiu53 sam33 tod21 ped21 van53 ciang33 sam33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_175.wav,佢自細在外國蹛所以毋會曉講家鄉个事,gui53 cu55 se31 da55 nguai55 gu24 dai31 su31 rhi31 m11 bboi55 hiau31 gong31 ga11 hiong11 e55 su55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_130.wav,平常時除撇照顧吾等三姊妹對吾爹吾奶也當有孝,pin113 shong113 shi113 chu113 ped21 zheu53 gu53 nga33 nen35 sam33 zi31 moi53 dui53 nga33 da33 nga33 ne31 rha33 dong33 rhiu33 hau53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/wpqyobgjjx.wav,都算在這恁熱个天時下正開始个幾公里總係像冒險共款有一種當暢過無愁無慮个感覺兄弟兩個使得共下行係一種當幸福个事情,do33 son53 to33 lia31 an31 ngied54 gai33 tien33 shi113 ha33 zhang33 koi33 chi31 gai33 gi31 gung33 li33 zung31 he33 ciong53 mo53 hiam31 kiung53 kuan31 rhiu33 rhid21 zhung31 dong33 tiong53 go53 mo113 seu113 mo113 li53 gai33 gam31 gog21 hiung33 ti53 liong31 gai53 sii31 ded21 kiung53 ha53 hang113 he33 rhid21 zhung31 dong33 hen53 fug21 gai33 sii53 cin113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/tp508cyti0.wav,䀴起來𠊎个輪若像無法度跋起來𠊎陷在泥底啊達里拉你會用用爪拁佢揪出來無無問題𠊎來救你諾文,ngiang31 ki31 loi53 ngai53 e55 lien31 na55 ciong55 mo53 fad24 tu55 ba24 ki31 loi53 ngai53 ham55 da55 ni53 de31 a11 tad43 li31 la11 hen53 bbue55 rhung55 rhung55 rhiau31 ga11 gui53 kiu31 chid24 loi53 mo53 mo53 bbun55 te53 ngai53 loi53 giu31 hen53 no55 bbun53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/tt8zyp87zm.wav,愛拁堵起來用麼个堵,oi31 ga11 du31 ki31 loi53 rhung55 bboo24 gai31 du31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_116.wav,𠊎討轉鳳林火車歇在第二月台愛較緊去正毋會赴毋會著,ngai53 too31 zhen31 fung55 lim53 foo31 cha11 hied24 da55 ti55 ngi55 ngied43 tai53 oi31 ka31 gin31 kui31 zhang31 m11 bboi55 fu31 m11 bboi55 choo55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/mmyo12y1cg.wav,在厥等腳跡个盡頭使得看著城市个郊區毋過厥等越來越接近目標斯越來越歪向前行老舊个鐵馬輒輒落鍊,to33 gia33 nen35 giog21 ziag21 gai33 cin53 teu113 sii31 ded21 kon53 do31 shang113 shi53 gai33 gau33 ki33 m113 go53 gia33 nen35 rhed54 loi113 rhed54 ziab21 kiun53 mug21 piau33 sii33 rhed54 loi113 rhed54 vai33 hiong53 cien113 hang113 lo31 kiu53 gai33 tied21 ma33 ziab54 ziab54 log54 lien53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_131.wav,請問𠊎討去到高雄愛仰子盤車,ciann31 mun31 ngai53 too31 kui31 doo31 goo11 hiung53 oi31 ngiong55 zu31 pan53 cha11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_072.wav,吾等輒輒共下鬥緊買美食,nga33 nen35 ziab54 ziab54 kiung53 ha53 deu53 gin31 mai33 mui33 shid54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_121.wav,請問你對哪位來𠊎對臺中來,ciang31 mun31 hen53 doi31 ni55 bbi55 loi53 ngai53 doi31 tai53 zhung11 loi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_184.wav,厥哥做水果大賣生理厥屋家食水果多多少少有好打幫,gia33 go33 zo53 shui31 go31 tai53 mai53 sen33 li33 gia33 vug21 ka33 shid54 shui31 go31 do33 do33 sheu31 sheu31 rhiu33 ho31 da31 bong33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/9ax1ucgvai.wav,敢有蜂走出來走啦莫過來,gam31 rhiu11 pung11 zeu31 chid24 loi53 zeu31 la11 mai31 goo31 lai53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_008.wav,在這段時間中部地區个觀光景點日日人尖人,to33 lia31 ton53 shi113 gien33 zhung33 pu53 ti53 ki33 gai33 guan33 gong33 gin31 diam31 ngid21 ngid21 ngin113 ziam33 ngin113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_070.wav,𠊎逐晨早掃泥下,ngai53 tu55 chin53 zoo31 soo31 ni53 ha11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_049.wav,這下愐起來實在愛阿腦阿姆个智慧,lia31 ha53 men31 ki31 loi113 shid54 cai53 oi33 o33 no31 a33 me33 gai33 zhi53 fui53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/yg61n7nf0q.wav,莫擘心 𠊎救著你啊𫣆人這滿即離開這,mai31 ba24 sim11 ngai53 giu31 choo55 hen53 a11 een11 ngin53 li24 man31 cid43 li53 koi11 lia24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_017.wav,香茅猶滿足耐洘旱利用春夏交接个時,hiong11 mau53 ia53 man31 ziu24 nai55 koo31 hon11 li55 rhung55 chin11 ha55 gau11 ziab24 e55 shi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203S2027/ZM203S2027_007.wav,遐時个路無打馬膠見堵著落雨,ga24 shi53 e55 lu55 mo53 diam55 a55 ga55 gien31 du31 choo55 loo55 bbu31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/jkuxjpbnk2.wav,你講了著而且𫣆人會送佢人去遐,hen53 gong31 leeu31 choo55 rhi53 cia31 een11 ngin53 bbue55 sung31 gui53 ngin53 kui31 ga24
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_183.wav,桌當久無捽塵灰當賁喊八個人過去該片𢯭手,zog21 dong33 giu31 mo113 cud54 chin113 foi33 dong33 pun33 hem33 bad21 gai53 ngin113 go53 ki53 gai53 pien31 ten53 shiu31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_050.wav,勞瀝毋使細義失禮,lo113 lad54 m113 sii31 se53 ngi53 shid21 li33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_157.wav,門診間在三樓你坐電扶梯上去門診間斯在若左手片,mun113 zhin31 gien33 to33 sam33 leu113 hn113 co33 tien53 fu113 toi33 shong33 ki53 mun113 zhin31 gien33 sii33 to33 ngia33 zo31 shiu31 pien31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_193.wav,𠊎會用徙到脣頭遐桌無,nga53 bbue55 rhung55 sai31 doo31 fin53 tio53 ga24 zoo24 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_010.wav,拁電火關莫,ga11 teen55 foo31 guan11 mai31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/3zgwiv1jc0.wav,毋知爬行者號仰子啊𠊎知𠊎無應該做事毋過䀴一下無要緊,m11 di11 pa53 hang53 zha31 hoo55 ngiong55 zi31 a11 ngai53 di11 ngai53 mo53 en11 goi11 zoo31 she55 m55 goo31 ngiang31 rhid24 ha55 mo53 rhio31 gin31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_032.wav,看著歸菜園做下係𥍉上𥍉下个火黏蟲,kon53 do31 gui33 coi53 rhen113 zo53 ha53 he53 ngiab21 shong33 ngiab21 ha33 gai33 fo31 ngiam113 chung113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/n3dlajtelj.wav,你毋知哦按𠊎臆這個所在真合,hen53 m11 di11 o11 an24 ngai53 rhio24 li24 gai31 su31 cai55 zhin11 hab43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_042.wav,炒做鹹擱香个豆腐乾炒肉絲嘛係真落飯,cau31 zoo31 heem53 goo24 hiong11 e55 tio55 fu55 gon11 cau31 ngiu24 si11 ma11 he55 zhin11 loo55 pon55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_111.wav,和阿怙即牽鐵馬去到屋前个路脣練習,ham55 a11 u24 cid43 ken11 teed24 ma11 kui31 doo31 bbu24 cien53 e55 lu55 fin53 leen11 sib43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_075.wav,共下來去公園運動啦,kung55 ha55 loi53 kui31 gung11 bbien53 bbin55 tung55 la11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/8mvikypihw.wav,團結起來 大家,ton53 gied24 ki31 loi53 tai55 ga11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/dptflzp367.wav,和𫣆人進前在叢林王國發現个共樣提絜你人獾係摟空專家會用拁磅空摟到恁大恁緊个係麼个啊會用做到按大概係機器定著一台真大台个機器,ham55 een11 ngin53 zin31 cien53 de55 cung53 lim53 ong53 gud24 fad24 hien55 e55 kung55 rhiong55 te55 gied24 hen53 ngin53 fuan11 he55 leu31 kung11 zhuan11 ga11 bbue55 rhung55 ga11 bong55 kung11 leu31 doo31 ngin31 tai55 ngin31 gin31 e55 he55 bboo24 gai31 a11 bbue55 rhung55 zoo31 doo31 an24 tai55 kai31 he55 ga11 ki31 ten55 choo55 rhid24 tai53 zhin11 tai55 tai53 e55 ga11 ki31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_172.wav,一兜仔煙攏無走出去,id24 dio11 a53 rhen11 lung31 mo53 zio55 chid24 kui31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_017.wav,這皮包係麼人个,lia31 pi113 bau33 he53 me31 ngin113 gai33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_131.wav,堅持落去成功一定係你个,gien11 chi53 loo55 kui31 shin53 gung11 id24 ding55 he55 hen53 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_092.wav,佢著新褲去外媽屋下,gui53 zhoo24 sin11 ku31 kui31 nguai55 ma53 bbu24 ha11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_096.wav,請問上姓𠊎姓黃安做大民,ciang31 mun53 shong53 siang53 ngai113 siang53 vong113 on33 zo53 tai53 min113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_040.wav,𠊎真愛食青菜,ngai53 zhin11 oi31 shied43 ciang11 coi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_022.wav,愛擔到香茅寮下請人代工,oi31 dam11 doo31 hiong11 mau53 leeu53 ha11 ciang31 ngin53 toi55 gung11
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/vliy9rn3r7.wav,厥姆堅持相信過知仰脣讀書過還有寫作會分一切變都無共款因致克緹卡厥姆無讀著書佢希望克緹卡使得受著教育將來使得獨立,gia33 me33 gien33 chi113 siong33 sin53 go53 di33 ngiong31 shun113 tug54 shu33 go53 han113 rhiu33 sia31 zog21 voi33 bun33 rhid21 cied21 bien53 do33 mo113 kiung53 kuan31 rhin33 zhi53 kied21 ti113 ka113 gia33 me33 mo113 tug54 do31 shu33 gi113 hi33 mong53 kied21 ti113 ka31 sii31 ded21 shiu53 do31 gau53 rhug21 ziong33 loi113 sii31 ded21 tug54 lib54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_032.wav,對家庭經濟有真大个幫助,doi31 ga11 ten53 gen11 ze31 rhiu11 zhin11 tai55 e55 bong11 zu55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/wuckb32seq.wav,佳載失禮𠊎無應該跳來跳去𠊎希望自由會拁遐站剪莫無定著𫣆人愛認真做任務愛記得無遐兜蜂遐兜稀罕个花即會無去啊,ga11 zai31 shid24 li31 ngai53 mo53 en31 goi11 tiau31 loi53 tiau31 kui31 ngai53 hi11 mong55 cu55 rhiu53 bbue55 ga11 ga24 cam55 zien31 mai31 mo53 ten55 choo55 een11 ngin53 oi31 ngin55 zhin11 zoo31 rhim55 bbu55 oi31 ki31 ded24 mo53 ga24 deu11 pung11 ga24 deu11 hi11 han31 e55 fa11 cid43 bbue55 mo53 kui31 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_153.wav,一百空七年度客語認證正式開始報名啊,rhid24 ba24 kung31 cid24 neen53 tu55 ka24 ngi31 ngin55 zhin31 zhin31 shid24 koi11 shi31 boo31 miang53 a11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/0e41h5gr9n.wav,請攔緊入廣告好無啦佳載佳載,ciang31 lan53 gin31 ngib43 gong31 goo31 hoo31 mo53 la11 ga11 zai31 ga11 zai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_039.wav,第二日輪著二嫂个伙頭,ti55 ngi55 ngid24 lun53 choo55 ngi55 soo31 e55 foo55 teu53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/vex4hbwoeg.wav,𠊎大漢了後希望𠊎會有細人,ngai113 tai53 hon53 liau31 heu53 hi33 mong53 ngai113 voi33 rhiu33 se53 ngin113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_139.wav,做生理愛秤頭足人客正會輒輒來交關,zo53 sen33 li33 oi33 chin53 teu113 ziug21 ngin113 kag21 zhang33 voi33 ziab54 ziab54 loi113 gau33 guan33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/hwivyzuyzg.wav,𫣆人係王國戰隊無麼个𫣆人處理毋會去个,een11 ngin53 he55 ong53 gud24 zhen31 tui55 mo53 bboo24 gai31 een11 ngin53 chi31 li31 m11 bboi55 kui31 e11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_137.wav,𠊎知這係外阿婆个辛苦錢對點菜仁起勢,ngai113 di33 lia31 he53 nguai53 a33 po113 gai33 sin33 ku31 cien113 dui53 diam53 coi53 rhin113 ki31 shi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_088.wav,這件事情分你講到恁輕可,lia31 kien53 sii53 cin113 bun33 hn113 gong31 do53 an31 kiang33 ko31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_246.wav,逐擺拜公媽攏跌無筊物件囥到壞去真打爽,tu55 bai31 bai31 gung11 ma31 lung31 deed24 mo53 gau31 mi55 kien55 kong31 doo31 fai55 kui31 zhin11 da31 song31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/fpxtrt3be9.wav,啊𠊎一直在拁*你講熊佮意冷个物件有人想討倒在雪面上無毋使 勞力希望大貨在佢个茶涼進前會用到位這麼个 你麼个意思,a31 ngai53 rhid24 chid43 da55 ga11 * hen53 gen24 gong31 him53 ga24 rhi31 len11 e55 mi55 kien55 rhiu11 ngin53 siong55 too31 doo31 da55 sied24 min31 shong55 mo53 m55 su31 loo31 lad43 hi11 mong55 tai55 foo31 da55 gui53 e55 ca53 liong53 zin31 cien53 bboo55 rhung55 doo31 bbi55 li24 bboo24 gai31 hen53 bboo24 gai31 rhi31 su31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_110.wav,寒天著膨線衫當燒暖熱天當熱著短袖斯使得咧,hon113 tien33 zhog21 pong53 sien53 sam33 dong33 sheu33 non33 ngied54 tien33 dong33 ngied54 zhog21 don31 ciu53 sii33 sii31 ded21 le33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/qskc2m6my1.wav,一台馬車在橋項貶車咧乜阻礙著交通這擺堵著个事情分計畫過一擺挷後因致到盡尾个目的地斯無時間畫圖咧,rhid21 toi113 ma33 cha33 to33 kiau113 hong33 bien31 cha33 le33 me33 zu31 ngoi53 do31 gau33 tung33 lia31 bai31 du113 do31 gai33 sii53 cin113 bun33 gie53 vag54 go53 rhid21 bai31 bang33 heu53 rhin33 zhi53 do53 cin53 mui33 gai33 mug21 did21 ti53 sii33 mo113 shi113 gien33 vag54 tu113 le33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/piwfid0slf.wav,可比富蘭克林繼續行奧利佛使得保證無麼幾久都有一頭大樹使得歇睏,ko31 bi31 fu53 lan113 kied21 lim113 gi53 siug54 hang113 o53 li53 fud54 sii31 ded21 bo31 zhin53 mo113 ma31 gid21 giu31 do33 rhiu33 rhid21 teu113 tai53 shu53 sii31 ded21 hied21 kun53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_051.wav,敗勢無關係拜託你,pai33 she53 mo113 guan33 he53 bai53 tog21 hn113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_028.wav,你想到真周到,hen53 siong55 doo31 zhin11 zhiu11 doo55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_157.wav,今日歇睏毋使去學校,gin11 ngid24 hied24 kun31 m55 su31 kui31 hoo55 hau55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_069.wav,恁早食飽吂恁久好無,an31 zo31 shid54 bau31 mang113 an31 giu31 ho31 mo113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_202.wav,這青菜和魚愛隔開食若係毋會即莫烏白舞,lia24 ciang11 coi31 ham55 m53 oi31 ga24 koi11 shied43 na31 he55 m11 bboi55 cid43 mai31 bbu11 pa55 bbu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_027.wav,阿妹背書包去學校,a11 moi31 ba53 shi11 bau11 kui31 hoo55 hau55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_051.wav,火雞咕嚕咕嚕咕嚕咕嚕園肚个火雞,fo31 gie33 gu33 lu33 gu33 lu53 gu33 lu33 gu33 lu53 rhen113 du31 gai33 fo31 gie33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/37h5p4ydvx.wav,佢想討講麼个,gui53 siong55 too31 gong31 bboo24 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_020.wav,這位个民宿真靚,li24 bbi55 e55 min53 siu24 zhin11 ziang11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_115.wav,後禮拜二愛考試你知無,heu55 le31 bai31 ngi55 oi31 koo31 chi31 hen53 di11 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_022.wav,有人在屋下無,rhiu11 ngin53 da55 bbu24 ha11 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_178.wav,你幾*多歲啊𠊎今年七歲,hen53 gi31*doo11 gio33 se31 a11 ngai53 gin11 neen53 cid24 se31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_029.wav,大部分得人開墾來種香茅種淨淨,tai55 pu55 fun55 ded24 ngin53 koi11 kun31 loi53 zhung31 hiong11 mau53 zhung31 ciang55 ciang55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_126.wav,過一禮拜外無日無夜个練習,goo31 id24 le31 bai31 nguai55 mo53 ngid24 mo53 rhia55 e55 leen11 sib43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_162.wav,一斤正五十七箍忒等價數當實在較便宜兜好無,rhid21 gin33 zhang33 ng31 shib54 cid21 kieu33 ted21 nen35 ga53 sii53 dong33 shid54 cai53 ka33 pien113 ngi113 deu33 ho31 mo113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_060.wav,有病愛較緊去得先生䀴,rhiu11 piang55 oi31 ka31 gin31 kui31 ded24 sien11 sen11 ngiang31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_120.wav,接送車會對本院駛到田中火車頭在本院大門口坐車,ziab24 sung31 cha11 bbue55 doi31 bun31 ngien55 su31 doo31 teen53 zhung11 foo31 cha11 tio53 da55 bun31 ngien11 tai55 mun53 kio31 coo11 cha11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/zx1kjm1ko1.wav,喊做王國戰隊毋過𠊎人攏有自家个王國愛照顧啊擱來毋係啊在這嘛開始你人个頭路係保護大家个安全毋使  勞力𠊎堅持討著自家个衫,heem31 zoo31 ong53 gud24 zhen31 tui55 m55 goo31 ngai53 ngin53 lung31 rhiu11 zi11 ga11 e55 ong53 gud24 oi31 zhio31 gu31 a33 goo24 loi53 m11 he55 a33 da55 li24 ma11 koi11 shi31 hen53 ngin53 e55 teu53 lu55 he55 boo31 fu55 tai55 ga11 e55 on11 cien53 m55 su31 loo31 lad43 ngai53 gien11 chi53 too31 zhoo24 zi11 ga11 e55 sam11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_079.wav,你這個症頭幾久啊,hen53 li24 gai31 zhin31 tio53 gi31 giu31 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_232.wav,天氣敢講又討轉冷啊事情頭好係像你講个恁,teen11 ki31 gam31 gong31 rhiu55 too31 zhen31 len11 a31 su55 cin53 tio53 hoo31 he55 ciong55 hen53 gong31 e55 in24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_184.wav,請問你屋下有幾*多個人𠊎屋下攏總有四個人,ciang31 mun31 hen53 bbu24 ha11 rhiu11 gi31*doo11 gio33 gai31 ngin53 ngai53 bbu24 ha11 lung31 zung31 rhiu11 si31 gai31 ngin53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_153.wav,𠊎即在灶空頭前顧灶空壁角个番薯,ngai53 cid43 da55 zoo31 kung11 tio53 cien53 gu31 zoo31 kung11 bia24 goo24 e55 han11 shi53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/vxlx53en0q.wav,好計畫 捷巴利你替團隊立大功啊𠊎仰子攏毋識想過這種救援計畫咧你䀴 逐儕攏有自家个想法你毋使驚 講出來,hoo31 ge31 fa55 ciab43 ba11 li55 hen53 te31 ton53 tui55 lib43 tai55 gung11 a11 ngai53 ngiong55 zu31 lung31 m11 shid24 siong55 goo31 li24 zhung31 giu31 bbien53 ge31 fa55 le11 hen53 ngiang31 tu55 sa53 lung31 rhiu11 zi11 ga11 e55 siong55 fad24 hen53 m55 su31 giang11 gong31 chid24 loi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_101.wav,上禮拜一歸日落雨,shiong55 le31 bai31 rhid24 gui11 ngid24 loo55 bbu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_060.wav,寒天北部不時落雨,hon53 teen11 bed24 pu55 bud24 shi53 loo55 bbu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_087.wav,上班个人堵著歇睏日有通睡,shong11 ban11 e55 ngin53 du31 choo55 hied24 kun31 ngid24 rhiu11 tung11 fe55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_029.wav,堵著熟事人愛相借問正有禮貌,du113 do31 shug54 sii53 ngin113 oi33 siong33 zia53 mun53 zhang33 rhiu33 li33 mau53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_019.wav,阿哥斯會帶緊𠊎同老弟捉火黏蟲搞,a33 go33 sii33 voi53 dai53 gin31 ngai113 tung113 lo31 te33 zog21 fo31 ngiam113 chung113 gau31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_048.wav,今日歇睏毋使去學校,gin11 ngid24 hied24 kun31 m55 su31 kui31 hoo55 hau55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_023.wav,今日天氣真好,gin11 ngid24 teen11 ki31 zhin11 hoo31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_121.wav,請問你對哪位來𠊎對臺北來,ciang31 mun53 hn113 dui53 ne53 vui53 loi113 ngai113 dui53 toi113 bed21 loi113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_130.wav,根據政府个公告十一月十九放尞毋過前一個禮拜六愛上班,gin33 ki31 zhin53 fu31 gai33 gung33 go53 shib54 rhid21 ngied54 shib54 giu31 biong53 liau53 m113 go53 cien113 rhid21 gai53 li33 bai53 liug21 oi33 shong53 ban33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/ccf5z9l34v.wav,等一下獾蹛在峽谷王國𠊎人个莊頭在泥下底遐台機器一定會造成損害个𫣆人毋會用得遐款事情發生著無著啊,den31 rhid24 ha55 huan11 dai31 de55 giab43 gu24 ong53 gud24 ngai53 ngin53 e55 zong11 teu53 de55 ni53 ha11 de31 ga24 tai53 ga11 ki31 rhid24 ten55 bbue55 coo55 shin53 sun31 hoi55 e55 een11 ngin53 m11 bboi55 rhung55 dad24 ga24 kuan31 su55 cin53 fad24 sing11 choo55 mo53 choo55 a33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_124.wav,食著自家做个粄想起成過,shied43 choo55 zi11 ga11 zoo31 e55 ban31 siong55 ki31 shang53 goo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_023.wav,阿怙無在屋下,a11 u24 mo53 de55 bbu24 ha11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_299.wav,公車站牌在市政府正門出去斡正手裡即會䀴著啊,gung11 cha11 cam55 pe53 de55 shi55 zhin31 fu31 zhin31 mun53 chid24 kui31 uad43 zhin31 shiu31 le31 cid43 bbe55 ngiang31 chio55 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_133.wav,客語認證个認證日期係二月二十七,ka24 ngi31 ngin55 zhin31 e55 ngin55 zhin31 ngid24 ki53 he55 ngi55 ngied43 ngi55 shib43 cid24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_255.wav,熱天真熱著短衫袖即會用啊,ngied43 teen11 zhin11 ngied43 zhoo24 don31 sam11 ciu55 cid43 bbe55 rhiung55 a31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_006.wav,𠊎會細義兜,ngai113 voi53 se53 ngi53 deu35
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_089.wav,無腦屎係無恁簡單个事你到今還看毋真,mo113 no31 shi31 he53 mo113 an31 gien31 dan33 gai33 sii53 hn113 do53 gim33 han113 kon53 m113 zhin33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/gjmpr3mj2q.wav,厥妹將來係毋係會成功這係決定在受教育个成果,gia33 moi53 ziong33 loi113 he53 m113 he53 voi33 shin113 gung33 lia31 he33 gied21 tin53 to33 shiu53 gau53 rhug21 gai33 shin113 go31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_124.wav,請問你識來過彰化無,ciang31 mun53 hn113 shid21 loi113 go53 zhong33 fa53 mo113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_125.wav,三十八路公車來啊較緊上車,sam11 shib43 beed24 lu55 gung11 cha11 loi53 a11 ka31 gin31 shong11 cha11
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/ktwue8w54j.wav,阿爾伯爾同厥爸个交通工具單淨係騎馬毋過唯一个好理由係吉爾吉斯位在中國同哈薩克个交界看啊過去總下係歸大片个山,a33 ni33 bag21 ni33 tung113 gia33 ba33 gai33 gau33 tung33 gung33 ki31 dan33 ciang53 he53 ki113 ma33 m113 go53 vui113 rhid21 gai33 ho31 li33 rhiu113 he53 gid21 ni33 gid21 sii33 vui53 to33 zhung33 guad21 tung113 ha33 sad21 kied21 gai33 gau33 gai53 kon53 a33 go53 ki53 zung31 ha53 he53 gui33 tai53 pien31 gai33 san33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_116.wav,高雄係佢个故鄉佢全然毋聽人講,goo11 hiung53 he55 gui53 e55 gu31 hiong11 gui53 cien53 rhen53 m55 ten11 ngin53 gong31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_012.wav,老虎血流血滴斡頭拚走啊,loo31 fu31 fied24 lau53 fied24 did24 uannd43 tio53 biang31 zeu31 a11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_171.wav,好䟘床咧遽遽去洗面鑪牙齒還愛幾久過五分鐘,ho31 hong53 cong113 le33 giag21 giag21 ki53 se31 mien53 lu53 nga113 chi31 han113 oi33 gid21 giu31 go53 ng31 fun33 zhung33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/y34jlu0gjw.wav,所以 這攏係佢害个𠊎想係啦毋過佢嘛有留落來鬥相共啊著 鬥相共處理佢做个麻煩若無 𫣆人干若愛同意鬥相共人係王國戰隊个責任按即好啊,su31 rhi31 lia24 lung31 he55 gui53 hoi55 e55 ngai53 siong55 he55 la11 m55 goo31 gui53 ma11 rhiu11 liu53 loo55 loi53 deu31 siong11 kung55 a31 choo55 deu31 siong11 kung55 chi31 li31 gui53 zoo31 e55 ma53 fan53 na31 mo53 een11 ngin53 gan31 na31 oi31 tung53 rhi31 deu31 siong11 kung55 ngin53 he55 ong53 gud24 zhen31 tui55 e55 zid24 rhim55 an24 cid43 hoo31 a33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_054.wav,著雨鞋蠻皮个細子即開始蹬水賞,zhoo24 bbu31 he53 men53 pi53 e55 se31 zu31 cid43 koi11 shi31 den55 fi31 song31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/u0byv346sk.wav,煞煞去相信𠊎个觀眾人會理解个,sad24 sad24 kui31 siong11 sin31 ngai53 e55 guan11 zhung31 ngin53 bbue55 li31 goi31 e11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_054.wav,阿爸逐朝晨都愛食咖啡,a33 ba33 dag21 zheu33 shun113 do33 oi33 shid54 ga33 bi33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/g7uhhp6f8p.wav,毋過德維佢係細妹嗄激發著厥个雄心壯志好比佢在學習上表現著當好厥爺哀斯會試著當沙鼻 當驕傲,m113 go53 ded21 vui113 gi113 he53 se53 moi53 sa53 gid21 fad21 do31 gia33 gai33 hiung113 sim33 zong53 zhi53 ho31 bi31 gi113 to33 hog54 sib54 shong33 biau31 hien53 do31 dong33 ho31 gia33 rha113 oi33 sii33 voi53 chi53 do31 dong33 sa33 pi53 dong33 giau33 ngau53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_244.wav,請問這就近个捷運站在哪位,ciang31 mun31 lia24 ciu55 kung11 e55 cieb43 bbin55 cam55 da55 ni55 bbi55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/m3wxkbnrvo.wav,𠊎係自由長尾在安納波利斯為你做現場直播這跡位出現一個滿足大个天坑,ngai53 he55 cu55 rhiu53 chong53 mui11 da55 on11 nab43 poo11 li55 su11 bbui55 hen53 zoo31 hien55 chong53 chid43 boo31 li24 zia24 bbi55 chid24 hien55 rhid24 gai31 man31 ziu24 tai55 e55 teen11 kang11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_007.wav,當歡喜認識你,dong33 fan33 hi31 ngin53 shid21 hn113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_233.wav,請問你貴姓喊做麼个名,ciang31 mun31 hen53 gui31 sang31 heem31 zoo31 bboo24 gai31 miang53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_195.wav,𠊎用額溫槍拁你量體溫,ngai53 rhng55 ngia24 bbun11 ciong11 ga11 hen53 liong53 te31 bbun11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_105.wav,坐火車愛先打車票請問高鐵車頭仰子行,coo11 foo31 cha11 oi31 sien11 da31 cha11 pio31 ciang31 mun31 goo11 teed24 cha11 tio53 ngiong55 zu31 hang53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/03qw9gfad7.wav,食著幾隻草蜢乜好啊,shid54 do31 gi31 zhag21 co31 mag21 me33 ho31 a33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/5c59bf9ep6.wav,按足好个這當然啊你人愛拁*𠊎鬥相共哦,an24 ziu24 hoo31 e11 lia24 dong11 rhen53 a33 hen53 ngin53 oi31 ga11*ngai53 gai24 deu31 siong11 kung55 o24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_168.wav,真惜孫个阿媽擇過一莖莖平大平大靚靚个番薯,zhin11 sia24 sun11 e55 a11 ma53 too55 goo31 id24 hang53 hang53 piang53 tai55 piang53 tai55 ziang11 ziang11 e55 han11 shi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_058.wav,老弟走去間項囥緊又毋出聲害人尋上尋落,lo31 te33 zeu31 ki33 gien33 hong33 kong53 gin31 rhiu53 m113 chud21 shang33 hoi53 ngin113 cim113 shong33 cim113 log54
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206L2062/DF206L2062_022.wav,若係生活過得去麼人還會去做乞食,na33 he53 sen33 fad54 go53 ded21 ki53 ma31 ngin113 han113 voi33 ki53 zo53 kied21 shid54
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206L2062/DF206L2062_018.wav,阿哥一聽著搞水斯好擳擳逐緊愛去,a33 go33 rhid21 ten33 do31 gau31 shui31 sii33 hau53 zied54 zied54 giug21 gin31 oi53 ki53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_023.wav,佢即走去捉真多火焰蟲裝在細麻紗布袋內,gui53 cid43 zio55 kui31 zoo24 zhin11 doo11 foo31 rhiam55 chung53 zong11 da55 si11 ma11 sa11 bu31 toi55 nui55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_182.wav,你好𠊎有預約挷牙,hen53 hoo31 ngai53 rhiu11 rhi31 rhio24 bang11 nga53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_062.wav,外阿婆無尋著嗄來惹著屋角歇睏个兩隻大火雞,nguai53 a33 po113 mo113 cim113 do31 sa53 loi113 ngia33 do31 vug21 gog21 hied21 kun53 gai33 liong31 zhag21 tai53 fo31 gie33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_128.wav,有一雙當圓又當金个目珠看著人斯笑咪咪,rhiu33 rhid21 sung33 dong33 rhen113 rhiu53 dong33 gim33 gai33 mug21 zhu33 kon53 do31 ngin113 sii33 siau53 mi33 mi33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/17mrfu6lu3.wav,厥等尋著狼群个腳跡斯在厥等屋家附近,gia33 nen35 cim113 do31 long113 kiun113 gai33 giog21 ziag21 sii33 to33 gia33 nen35 vug21 ka33 fu53 kiun53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_146.wav,番薯个糖膏對番薯皮个必縫沮出來,han11 shi53 e55 tong53 goo11 doi31 han11 shi53 pi53 e55 bid24 pung55 zu53 chid24 loi53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/5yavs0paj3.wav,大家好𠊎即係煞不理博士在貓咪株式會社這裡𠊎人為你現時个利便發明未來个科技像講係對空氣動力學到收割農作物,tai55 ga11 hoo31 ngai53 cid43 he55 sad24 bud24 li31 boo24 su55 da55 ngiau31 mi11 zhi11 shid24 fui55 sha55 li24 le31 ngai53 ngin53 bbui55 hen53 hien55 shi53 e55 li55 pen55 fad24 men53 bbi55 loi53 e55 koo11 gi11 ciong55 gong31 he55 doi31 kung11 ki31 tung55 lid43 hoo55 doo31 shiu11 god24 nung53 zoo24 bbud43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_017.wav,香茅猶滿足耐旱利用春夏之交,hiong11 mau53 ia53 man31 ziu24 nai55 hon11 li55 rhung55 chin11 ha55 zhi11 gau11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/za0gase5t4.wav,即係這滿王國戰隊變身,cid43 he55 li24 man31 ong53 gud24 zhen31 tui55 bien31 shin11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_166.wav,請問會用尋麼儕鬥相共,ciann31 mun31 bbue55 rhng55 cim53 bboo24 sa53 deu31 siong11 kng55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/lxtktct8z7.wav,逐日朝脣在世界各地幾下萬個个細人踏上去學校个路厥等个夢想將會設計出世界个未來,dag21 ngid21 zheu33 shun113 to33 shi53 gai53 gog21 ti53 gi31 ha53 van53 gai53 gai33 se53 ngin113 tab54 shong33 ki53 hog54 gau31 gai33 lu53 gia33 nen35 gai33 mung53 siong31 ziong33 fui53 shed21 gie53 chud21 shi53 gai53 gai33 vui53 loi113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_096.wav,請問上姓𠊎姓黃安做大民,ciang31 mun53 shong53 siang53 ngai113 siang53 vong113 on33 zo53 tai53 min113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_121.wav,𠊎逐日四點愛䀴電視新聞,nga53 tu55 ngid24 si31 deem31 oi31 ngiang31 teen55 shi55 sin11 bbun53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_073.wav,當晝个飯包放在電鑊肚到今還溫燒溫燒,dong33 zhiu53 gai33 pon53 bau33 biong53 to33 tien53 vog54 du31 do53 gim33 han113 vun33 sheu33 vun33 sheu33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_040.wav,䀴著頭日食伸个三層肉即拁佢切較幼兜,ngiang31 choo55 tio53 ngid24 shied43 chin55 e55 sam11 cen53 ngiu24 cid43 ga11 gui53 cied24 ka31 rhiu31 dio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_139.wav,上禮拜一歸日落雨,shong55 le31 bai31 rhid24 gui11 ngid24 loo55 bbu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_005.wav,餳來臺灣各地个人客,siann53 loi53 tai53 bban53 goo11 ti55 e55 ngin53 ka24
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/4nhfd9tn5c.wav,各位觀眾你人知無這擺任務即和嚎吠哈利个狼村救援行動共款厲害佳載王國戰隊這兜蜂真認真做事來得這種特別个花會用好好活落來,goo24 bbi55 guan11 zhung31 hen53 ngin53 di11 mo53 li24 bai31 rhim55 bbu55 cid43 ham55 hoo53 pui55 ha11 li55 e55 long53 chen11 giu31 bbien53 hang53 tung11 kung55 kuan31 li55 hoi55 ga11 zai31 ong53 gud24 zhen31 tui55 li24 deu11 pung11 zhin11 ngin55 zhin11 zoo31 she55 loi53 ded24 li24 zhung31 ted43 pied43 e55 fa11 bbue55 rhung55 hoo31 hoo31 ua55 loo55 loi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_201.wav,𠊎討註文三月初一一暗个三人房,ngai53 too31 zhi31 bbun53 sam11 ngied43 cu11 rhid24 id24 am31 e55 sam11 ngin53 fong53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_075.wav,一𥍉目阿奶手項斯揢有銀角同幾張銀票了,rhid21 ngiab21 mug21 a33 ne31 shiu31 hong33 sii33 kag54 rhiu33 ngiun113 gog21 tung113 gi31 zhong33 ngiun113 piau53 le33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/ozv42kon6s.wav,莫擘心你兩儕頭厲害个賈洛皮戰隊討來救出遐跡位个熊啊哈哈哈有意思哦在遐下腳有兩隻細隻熊定著無問題,mai31 ba24 sim11 hen53 liong31 sa53 teu53 li55 hoi55 e55 ga31 loo11 pi53 zhen31 tui55 too31 loi53 giu31 chid24 ga24 zia24 bbi55 e55 him53 a11 ha11 ha11 ha11 rhiu11 rhi31 su31 o11 da55 ga24 ha55 gio24 rhiu11 liong31 zha24 se31 zha24 him53 ten55 choo55 mo53 mun55 te53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_177.wav,這本書總共有七百頁𠊎算一下總共愛兩百箍,lia31 bun31 shu33 zung31 kiung53 rhiu33 cid21 bag21 rhab54 ngai113 son53 rhid21 ha53 zung31 kiung53 oi33 liong31 bag21 kieu33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_059.wav,學校運動坪變魚塘蹛在山崠个人愛疏散開,hoo55 hau55 bbin55 tung55 piang53 bien31 m53 tong53 dai31 da55 san11 dung31 e55 ngin53 oi31 su11 san31 koi11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_169.wav,有人客來毋好打赤膊,rhiu11 ngin53 ka24 loi53 m55 hoo31 da31 cha24 boo24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_040.wav,遠遠行過來个係一個妹子,bbien31 bbien31 hang53 goo31 loi53 e55 he55 rhid24 gai31 moi31 zu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_109.wav,請問中壢火車頭仰子去,ciang31 mun31 zhun11 lid43 foo31 cha11 teu53 ngiong55 zu31 kui31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_155.wav,顧蹛等佢毋好得火燒著外媽洗好膴身,gu31 dai31 den31 gui53 m55 hoo31 da24 foo31 shio11 choo55 nguai55 ma53 se31 hoo31 bbu11 shin11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_141.wav,請在下一個路口歇車,ciang31 de55 ha55 rhid24 gai31 lu55 keu31 hied24 cha11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/njv7vrq4r8.wav,做了好大家這滿𫣆人來*去䀴遐兜熊和獾作垺了仰子,zoo31 leeu31 hoo31 tai55 ga11 li24 man31 een11 ngin53 loi53*kui31 lui33 ngiang31 ga24 deu11 him53 ham55 fan11 zoo24 pu53 leeu31 ngiong55 zi31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/2vm7ot06tv.wav,跳到遐纜車面上達里拉雪係粉和冰濫作垺有一兜仔無穩定毋過細義兜無定著即毋會雪崩啊無定著按𫣆人即按做啦好大家𫣆人行啦,teeu31 doo31 ga24 lam31 cha11 min31 shong55 tad43 li31 la11 sied24 he55 fun31 ham55 bin11 lam55 zoo24 pu53 rhiu11 rhid24 deu11 a53 mo53 bbun31 ten55 m55 goo31 se31 ngi55 dio11 mo53 ten55 choo55 cid43 m11 bboi55 sied24 ben11 a11 mo53 ten55 choo55 an24 een11 ngin53 cid43 an24 zoo31 la11 hoo31 tai55 ga11 een11 ngin53 hang53 la11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_123.wav,這牛乳粉愛摝勻正使得毋好分佢結矻,lia31 ngiu113 nen53 fun31 oi33 lug21 rhun113 zhang33 sii31 ded21 m113 ho31 bun33 gi113 gied21 kid54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_095.wav,較緊个討赴毋會著啊駛車愛細義,ka31 gin31 e55 too31 fu31 m11 bboi55 choo55 a31 su31 cha11 oi31 se31 ngi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_009.wav,你夫娘真靚,hen53 bu11 ngiong53 zhin11 ziang11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/u6jb1e3yo3.wav,嚎吠哈利嚎吠哈利係傳奇猶記得佢識一個人對爆發个火山救出狼个莊頭無抑係佢打敗過狐狸海賊,hoo53 pui55 ha11 li55 hoo53 pui55 ha11 li55 he55 chen53 ki53 ia53 ki31 ded24 gui53 shid24 rhid24 gai31 ngin53 doi31 bau31 fad24 e55 foo31 san11 giu31 chid24 long53 e55 zong11 teu53 mo53 ia31 he55 gui53 da31 pai55 goo31 fui53 li53 hoi31 ced43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_074.wav,屋背做事个外阿婆聽著𠊎放命个噭聲,vug21 boi53 zo53 she53 gai33 nguai53 a33 po113 ten33 do31 ngai113 biong53 miang53 gai33 gieu53 shang33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_181.wav,佢打官司眼時看著還暢暢盡尾會仰脣還吂知,gi113 da31 guan33 sii33 ngien31 shi113 kon53 do31 han113 tiong53 tiong53 cin53 mui33 voi33 ngiong31 shun113 han113 mang113 di33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_165.wav,這下係工業社會一般人家半晝上下大半無人在,lia31 ha53 he53 gung33 ngiab54 sha33 fui53 rhid21 ban33 ngin113 ga33 ban53 zhiu53 shong33 ha33 tai53 ban53 mo113 ngin113 coi33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_202.wav,頭前斡正手裡即到位屏東縣政府啊,tio53 cen53 uad43 zhin31 shiu31 le31 cid43 doo31 bbi55 pin53 dung11 bbien55 zhin31 fu31 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_235.wav,天氣輒變愛著較燒暖一兜,teen11 ki31 ciab43 bien31 oi31 zhoo24 ka31 shio11 non11 id24 dio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_163.wav,有病愛較緊去得先生䀴,rhiu11 piang55 oi31 ka31 gin31 kui31 ded24 sien11 sen11 ngiang31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_221.wav,滷卵毋單淨使得傍飯傍麵還使得做飯包菜實在當好用,lo53 lon31 m113 dan33 ciang53 sii31 ded21 bong31 pon53 bong31 mien53 han113 sii31 ded21 zo53 pon53 bau33 coi53 shid54 cai53 dong33 ho31 rhung53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_228.wav,拜一佢請假你代理一下好無,bai31 rhid24 gui53 cin31 ga31 hen53 toi55 li31 id24 ha55 hoo31 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_113.wav,這下正式成功啊,li24 ha55 zhin31 shid24 shin53 gung11 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_135.wav,今年客家桐花祭對四月初五開始到五月三十為止,gin11 neen53 ka24 ga11 tung53 fa11 ze31 doi31 si31 ngied43 cu11 m31 koi11 shi31 doo31 m31 ngied43 sam11 shib43 bbui53 zhi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_133.wav,對這行路去火車頭愛行八分鐘,doi31 li24 hang53 lu55 kui31 foo31 cha11 teu53 oi31 hang53 beed24 fun11 zhung11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_071.wav,入來屋下底愛脫鞋,ngib43 loi53 bbu24 ha11 de31 oi31 tod24 he53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_123.wav,佢一個人去南投打拚厥姆當愁,gi113 rhid21 gai53 ngin113 ki33 nam113 teu113 da31 biang53 gia33 me33 dong33 seu113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_144.wav,請問這有免稅服務無,ciann31 mun31 lia24 rhiu11 mien31 fe31 fu55 bbu55 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_115.wav,望佢成人望佢出眾企都在在在企都穩的的,mong53 gi113 shin113 ngin113 mong53 gi113 chud21 zhung53 ki33 do33 cai53 cai53 cai53 ki33 do33 vun31 dag54 dag54
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_033.wav,係麼人打來个電話,he33 me31 ngin113 da31 loi113 gai33 tien53 fa53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_018.wav,今日天氣真好,gin11 ngid24 teen11 ki31 zhin11 hoo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_068.wav,𠊎種个麥即毋使沃水,ngai53 zhung31 e55 ma55 cid43 m55 su31 bbu24 fi31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_209.wav,田項泥濫濫若係漯落去無人拉起來斯麻煩咧,tien113 hong33 ne113 lam53 lam53 na33 he33 lab21 log54 ki33 mo113 ngin113 lai33 ki31 loi113 sii33 ma113 fan113 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_109.wav,請問中壢火車頭仰子去,ciann31 mun31 zhng11 led43 foo31 cha11 teu53 ngiong55 zu31 kui31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/yvnfew3e7m.wav,火燒到傷緊𠊎和諾文無法度控制這場火一定會燒到橋个另外一頭熊个莊頭𠊎建議搉一兜石頭落來做一面壁諾文歇落來閃開啦達里拉,foo31 shio11 doo31 shiong55 gin31 ngai53 ham55 no55 bbun53 mo53 fad24 tu55 kung31 zhi31 li24 chong53 foo31 rhid24 ten55 bbue55 shio11 doo31 kio53 e55 lin55 nguai55 rhid24 teu53 him53 e55 zong11 teu53 ngai53 gien31 ngi55 koo24 rhid24 deu11 sha55 teu53 loo55 loi53 zoo31 rhid24 mien31 bia24 no55 bbun53 hied24 loo55 loi53 shiam31 koi11 la11 tad43 li31 la11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_020.wav,歹勢無要緊,painn31 she31 mo53 rhio31 gin31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_209.wav,著衫褲鈕子愛鈕好來即照佢講个做會用無,zhoo24 sam11 ku31 neu31 zi31 oi31 nio31 hoo31 loi53 cid43 zhio31 gui53 gong31 e11 zoo31 bbue55 rhung55 mo53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/nsm1cznand.wav,逐日朝脣在世界各地幾下萬個个細人踏上去學校个路厥等个夢想將會設計出世界个未來,dag21 ngid21 zheu33 shun113 to33 shi53 gai53 gog21 ti53 gi31 ha53 van53 gai53 gai33 se53 ngin113 tab54 shong33 ki33 hog54 gau31 gai33 lu53 gia33 nen35 gai33 mung53 siong31 ziong33 voi33 shed21 gie53 chud21 shi53 gai53 gai33 vui53 loi113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_055.wav,颱風行過个所在帶來大雨,tai53 fung11 hang53 goo31 e55 su31 cai55 dai31 loi53 tai55 bbu31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_022.wav,阿哥个先生識講古分厥等聽,a33 go33 gai33 sin33 sen33 shid21 gong31 gu31 bun33 gia33 nen35 ten33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_002.wav,寒著愛戴嘴揞,hon53 choo55 oi31 doi31 zhe31 em11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_145.wav,超過一點猶吂到即算慢到啊,chio11 goo31 rhid24 deem31 ia53 mang11 doo31 cid43 son31 meen55 doo31 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_088.wav,這位無人賣牛肉去別位䀴有無,li24 bbi55 mo53 ngin53 mi11 ngiu53 ngiu24 kui31 pe55 bbi55 ngiang31 rhiu11 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_029.wav,屋背暗摸胥疏還有真多吱吱嘎嘎个蟲𧊅噭聲,vug21 boi53 am53 mo33 si33 so33 han113 rhiu33 zhin33 do33 gi53 gi53 ga53 ga53 gai33 chung113 guai31 gieu53 shang33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_250.wav,後次擺正擱約時間共下坐坐个,hio55 ci31 bai31 zhang31 goo24 rhio24 shi53 geen11 kung55 ha55 coo11 coo11 e55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/ybkcv21de6.wav,逐日朝脣在世界各地幾下萬個个細人踏上去學校个路厥等个夢想將會設計出世界个未來,dag21 ngid21 zheu33 shun113 to33 shi53 gai53 gog21 ti53 gi31 ha53 van53 gai53 gai33 se53 ngin113 tab54 shong33 ki33 hog54 gau31 gai33 lu53 gia33 nen35 gai33 mung53 siong31 ziong33 voi33 shed21 gie53 chud21 shi53 gai53 gai33 vui53 loi113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_030.wav,定定行毋使趕緊,tin53 tin53 hang113 m113 sii31 guan31 gin31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/tlsnwnaq6j.wav,這滿會用講出你个好主意啊達里拉𠊎 毋過 𠊎一直在做毋著啊莫著急 用一兜仔時間想提絜講了著若你好好去想即會用想著好辦法啊,li24 man31 bbue55 rhung55 gong31 chid24 hen53 e55 hoo31 zhi31 rhi31 a31 tad43 li31 la11 ngai53 m55 goo31 ngai53 rhid24 chid43 de55 zoo31 m55 chioo55 a33 mai31 choo55 gib24 rhung55 rhid24 deu11 a53 shi53 geen11 siong55 te55 gied24 gong31 leeu31 choo55 na31 hen53 hoo31 hoo31 kui31 siong55 cid43 bbue55 rhung55 siong55 choo55 hoo31 peen55 fad24 a33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_007.wav,阿依猶吂轉,a11 i55 ia53 mang11 zhen31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205K2001/DF205K2001_019.wav,阿哥斯會帶緊𠊎同老弟捉火黏蟲搞,a33 go33 sii33 voi53 dai53 gin31 ngai113 tung113 lo31 te33 zog21 fo31 ngiam113 chung113 gau31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_124.wav,食著自家做个粄想起成過,shied43 choo55 zi11 ga11 zoo31 e55 ban31 siong55 ki31 shang53 goo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_060.wav,冰箱底个葡萄係毋係你買个,bin11 siong11 de31 e55 pu53 too53 he55 m11 he55 hen53 mi11 e11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_254.wav,請問貴姓𠊎姓黃名大民,cia31 mun31 gui31 siang31 ngai53 siang31 bbong53 miang53 tai55 min53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_151.wav,普通時有食麼个藥無,pu31 tung11 shi53 rhiu11 shed43 bboo24 gai31 rhio55 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_184.wav,請問若屋家有幾多人吾屋家總共有五個人,ciang31 mun53 ngia33 vug21 ka33 rhiu33 gid21 do33 ngin113 nga33 vug21 ka33 zung31 kiung53 rhiu33 ng31 gai53 ngin113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_017.wav,熱天食飽夜阿姆還在灶下撿揫,ngied54 tien33 shid54 bau31 rha53 a33 me33 han113 coi33 zo53 ha33 giam31 ciu33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/joxhr9rtle.wav,都算這係當簡單時尚个配飾賓迪乜係積極快樂个象徵,do33 son53 lia31 he33 dong33 gien31 dan33 shi113 shong53 gai33 pui53 shid21 bin33 tid54 me33 he33 zid21 kid54 kuai53 log54 gai33 siong53 zhin33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/20z70il70h.wav,毋係正經當危險毋過瑪莉亞當失志,m113 he53 zhin53 gin33 dong33 ngui113 hiam31 m113 go53 ma33 li53 a31 dong33 shid21 zhi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_008.wav,有閒正來尞,rhiu11 heen53 zhang31 loi53 liau55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_102.wav,下晝頭正做事个人較少車枋斯放冗咧,ha33 zhiu53 teu113 zhang33 zo53 she53 gai33 ngin113 ka33 sheu31 cha33 biong33 sii33 biong53 ngiung53 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_152.wav,請問愛幾久換一擺藥,ca31 mun31 oi31 gi31 giu31 bban55 id24 bai31 rhio55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_065.wav,心臟係人體維持生命个重要器官,sim11 cong55 he55 ngin53 te31 bbi53 chi53 sang11 miang55 e55 zung31 rhio31 ki31 guan11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/fe6t5d5x6a.wav,䀴起來冰上个裂縫係賈洛皮造成个,ngiang31 ki31 loi53 bin11 shong55 e55 lied43 pung55 he55 ga31 loo55 pi53 coo55 shin53 e11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_104.wav,有人客來毋好打赤膊入屋請脫鞋,rhiu33 ngin113 kag21 loi113 m113 ho31 da31 chag21 bog21 ngib54 vug21 ciang31 tod21 he113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_085.wav,坐在門碫下緊食緊打嘴鼓,co33 to33 mun113 don53 ha33 gin31 shid54 gin31 da31 zhoi53 gu31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/ythacqbx5r.wav,所以輪著你擇啊 捷巴利𫣆人來賞跈隊長行,su31 rhi31 lun53 choo55 hen53 too55 a33 ciab43 ba11 li55 een11 ngin53 loi53 song31 ten53 tui55 zhong31 hang53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/ca01ks5uke.wav,乜想愛共下來同佢𢯭手,me33 siong31 oi33 kiung53 ha53 loi113 tung113 gi113 ten53 shiu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_222.wav,你掛个號八十六號愛先拁你收掛號費兩百箍,hen53 gua31 e55 hoo55 beed24 shib43 liu24 hoo55 oi31 sien11 ga11 hen53 shiu11 gua31 hoo55 fui31 liong31 ba24 kio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_117.wav,這西瓜幾多錢七十四箍,lia24 si11 gua11 gi31 doo11 cien53 cid24 shib43 si31 kio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_031.wav,翕相遐下愛䀴背景有相配無,hib24 siong31 ga24 ha55 oi31 ngiang31 pue55 gin31 rhiu11 siong11 pue31 mo53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/qpfuz90w1x.wav,你人感覺呢係啊 𠊎實在真驚熱𠊎毋知無定著哦知啊火山高空跳毋係真好个遊戲係真壞个主意𠊎干若想討食爆番麥,hen53 ngin53 gam31 goo24 ne31 he55 a31 ngai53 shid43 cai55 zhin11 giang11 ngied43 ngai53 m11 di11 mo53 ten55 choo55 o24 di11 a31 foo31 san11 goo11 kung11 teeu31 m11 he55 zhin11 hoo31 e55 rhiu53 hi31 he55 zhin11 fai55 e55 zhi31 rhi31 ngai53 gan31 na31 siong55 too31 shied43 bong55 fan11 ma55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_196.wav,吾等有九個人吾等想愛坐偎窗門个位,nga33 nen35 rhiu33 giu31 gai53 ngin113 nga33 nen35 siong31 oi33 co33 va31 cung33 mun113 gai33 vui53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_067.wav,第一個講伯公伯婆求你保護韶日晨早落雨,ti55 rhid24 gai31 gong31 ba24 gung11 ba24 poo53 kiu53 hen53 boo31 fu55 shio53 ngid24 chin53 zoo31 loo55 bbu31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/m669o42h7r.wav,這正經足好个,lia24 zhin31 gen11 ziu24 hoo31 e11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_122.wav,吾爸準備愛去屏東出差個半月,nga33 ba33 zhun31 pi53 oi33 ki53 pin113 dung33 chud21 cai33 gai53 ban53 ngied54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_115.wav,請問高雄市林園區公所在幾*多樓在七樓,ciang31 mun31 goo11 hiung53 shi55 lim53 bbien53 ki11 gung11 su31 da55 gi31*doo11 gio33 lio53 da55 cid24 lio53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_034.wav,傱轉屋下討拁阿依展寶,zong53 zhen31 bbu24 ha11 too31 ga11 a11 i55 den31 boo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_155.wav,大家作垺來去打鬥四,tai55 ga11 zoo24 pu53 loi53 kui31 da31 dio31 si31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_158.wav,你識佢無𠊎毋識佢,hen53 shid24 gui53 mo53 ngai53 m11 shid24 gui53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/dgo97ua0sw.wav,盡細漢个細倈,cin53 se53 hon53 gai33 se53 lai53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_129.wav,十月二十四學校放假遐日來去䀴電影好無,shib43 ngied43 ngi55 shib43 si31 hoo55 hau55 biong31 ga31 ga24 ngid24 loi53 kui31 ngiang31 teen55 rhiang31 hoo31 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_019.wav,毋使去䀴佢過成半個月即會生到真靚,m55 su31 kui31 ngiang31 gui53 goo31 shang53 ban31 goo24 ngied43 cid43 bbue55 sang11 doo31 zhin11 ziang11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/vhmf0thuuz.wav,爬行者號會乖乖等你轉來个麼个事情攏毋會發生个,pa53 hang53 zhoo31 hoo55 bbue55 guai11 guai11 den31 hen53 zhen31 loi53 e11 bboo24 gai31 su55 cin53 lung31 m11 bboi55 fad24 sin11 e11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_038.wav,落恁大雨恁好彩堵著阿叔載你轉,log54 an31 tai53 rhi31 an31 ho31 cai31 du113 do31 a33 shug21 zai53 hn113 zhon31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_161.wav,佢人逐暗夜攏愛補習,gui53 ngin53 tu55 am31 rhia55 long31 oi31 bu31 sib43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_027.wav,老妹揹書包去學校,lo31 moi53 ba113 shu33 bau33 ki53 hog54 gau31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_086.wav,學生愛著制服去學校,hoo55 sien11 oi31 zhoo24 zhi31 fu55 kui31 hoo55 hau55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/151obrj8uu.wav,好大家𫣆人行動王國戰隊變身,hoo31 tai55 ga11 een11 ngin53 hang53 tung11 ong53 gud24 zhen31 tui55 bien31 shin11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_028.wav,成半下賤手个倈係無事尋事做用手去撩佢,shang113 ban53 ha53 cien53 shiu31 gai33 lai53 he33 mo113 she53 cim113 she53 zo53 rhung53 shiu31 ki53 liau113 gi113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_070.wav,禾埕項晒穀係有看著細石頭斯順續拈撇去,vo113 chang113 hong33 sai53 gug21 he53 rhiu33 kon53 do31 se53 shag54 teu113 sii33 sun53 sua53 ngiam33 ped21 ki33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_144.wav,請問這有免稅服務無,cia31 mun31 lia24 rhiu11 mien31 fe31 fu55 bbu55 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203S2027/ZM203S2027_018.wav,人生份路無熟天色越來越暗愛仰子正好,ngin53 sang11 fun55 lu55 mo53 shu55 teen11 sied24 bbad43 loi53 bbad43 am31 oi31 ngiong55 zu31 zhang31 hoo31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_100.wav,你慢到咧請等一下𠊎黏時來,hn113 man53 do53 le33 ciang31 den31 rhid21 ha53 ngai113 ngiam113 shi113 loi113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_122.wav,𠊎算一下攏總愛九百箍,nga53 song31 id24 ha55 lung31 zung31 oi31 giu31 ba24 kio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_075.wav,愛仰子辦正好咧,oi31 ngiong55 zu31 peen55 zhang31 hoo31 le11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_024.wav,昨晡日無閒歸日,ca113 bi33 ngid21 mo113 han113 gui33 ngid21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_123.wav,毋過猶有人來惜這滿自家會用照顧自家,m55 goo31 ia53 rhiu11 ngin53 loi53 sia24 li24 man31 zi11 ga11 bbue55 rhung55 zhio31 gu31 zi11 ga11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_083.wav,天吂光灶下即𠊎人兩個,teen11 mang11 gong11 zoo31 ha11 cid43 ngai53 ngin53 liong31 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_083.wav,天吂光灶下即𠊎人兩個,teen11 mang11 gong11 zoo31 ha11 cid43 ngai53 ngin53 liong31 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_179.wav,落恁大个雨真好佳載堵著阿叔載你轉來,loo55 ngin31 tai55 e55 bbu31 zhin11 hoo31 ga11 zai31 du31 choo55 a11 shu24 zai31 hen53 zhen31 loi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_129.wav,七月初五學校放尞該日來去看電影好無,cid21 ngied54 cu33 ng31 hog54 gau31 biong53 liau53 gai53 ngid21 loi113 ki53 kon53 tien53 rhang31 ho31 mo113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_228.wav,頭擺還有補鑊頭个人這下連補衫補皮鞋个人都罕得看著咧,teu113 bai31 han113 rhiu33 bu31 vog54 teu113 gai33 ngin113 lia31 ha53 lien113 bu31 sam33 bu31 pi113 he113 gai33 ngin113 do33 han31 ded21 kon53 do31 le33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_053.wav,𠊎當𤸁𠊎當暢,ngai113 dong33 kioi53 ngai113 dong33 tiong53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_101.wav,暢都硬硬愛飛起來哩喲,tiong53 do33 ngang53 ngang53 oi53 bui33 ki31 loi113 li33 *o31 lio31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/ojn0z05es8.wav,山肚後生个騎士一下斯變做學生,san33 du31 heu53 sang33 gai33 ki113 sii53 rhid21 ha53 sii33 bien53 zo53 hog54 sang33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_137.wav,你同𠊎看下今晡係拜幾今晡係拜六,hn113 tung113 ngai113 kon53 ha53 gim33 bi35 he33 bai53 gi31 gim33 bi35 he33 bai53 liug21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_134.wav,伸這兜仔歸下賣得你三百箍即好,chin55 li24 dio11 a53 gui11 ha11 mi11 ded24 hen53 sam11 ba24 kio11 cid43 hoo31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_004.wav,若手機幾多號,ngia33 shiu31 gi33 gid21 do33 ho53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_052.wav,請問哪位有便所,cia31 mun31 na55 bbi55 rhiu11 pen55 su31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_012.wav,火焰蟲對𠊎人這兜莊下細子來講實在無麼个,foo31 rhiam55 chung53 doi31 ngai53 ngin53 li24 dio11 zong11 ha11 se31 zu31 loi53 gong31 shid43 cai55 mo53 bboo24 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_125.wav,三十八路公車來啊較緊上車,sam11 shib43 beed24 lu55 gng11 cha11 loi53 a11 ka31 gin31 shiong11 cha11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_031.wav,這個人單淨賣嘴花會倚恃毋得,lia31 gai53 ngin113 dan33 ciang53 mai53 zhoi53 fa33 voi53 rhi31 shi53 m113 ded21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_030.wav,你傷慢到位啊,hen53 shiong55 meen55 doo31 bbi55 a31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/xp7351jtnd.wav,毋過先莫講這個偉大个英雄啊拁𠊎人講今日个任務係麼个樹林王國有一款用來治病个花蕾毋過蜂傷少無法度拁佢人來引粉,m55 goo31 sien11 mai31 gong31 li24 gai31 bbui31 tai55 e55 en11 hiung53 a11 ga11 ngai53 ngin53 gong31 gin11 ngid24 e55 rhim55 bbu55 he55 bboo24 gai31 shi55 na53 ong53 gud24 rhiu11 rhid24 kuan31 rhung55 loi53 chi55 piang55 e55 fa11 lui31 m55 goo31 pung11 shiong55 shio31 mo53 fad24 tu55 ga11 gui53 ngin53 loi53 rhin31 fun31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_029.wav,這站無閒麼个,li24 cam55 mo53 heen53 bboo24 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_244.wav,請問這就近个捷運站在哪位,ciann31 mun31 lia24 ciu55 kun11 e55 ciab43 bbin55 cam55 de55 ni55 bbi55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_030.wav,今這下个人大半用手機看新聞較多,gim33 lia31 ha53 gai33 ngin113 tai53 ban53 rhung53 shiu31 gi33 kon53 sin33 vun113 ka33 do33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/4zdr2ruxvl.wav,這即像航空展呢,lia24 cid43 ciong55 hong53 kung11 deen31 ne11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_224.wav,若係討掛號麻煩健保卡得𠊎擱納一百箍,na31 he55 too31 gua31 hoo55 ma53 fan53 ken55 boo31 ka31 ded24 ngai53 goo24 nab43 id24 ba24 kio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_151.wav,佢寒著身體無堵好這滿會用毋使錢參觀,gui53 hon53 choo55 shin11 te31 mo53 du31 hoo31 li24 man31 bbue55 rhung55 m55 su31 cien53 cam11 guan11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_044.wav,佢這擺用信用卡納錢,gui53 li24 bai31 rhung55 sin31 rhung55 ka31 nab43 cien53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/s46xu8mooi.wav,賞到歡喜史帕琪好好享受哦𠊎會盡量个,shong31 doo31 fan11 hi31 su31 pa31 ki53 hoo31 hoo31 hiong31 shiu55 o33 ngai53 bbue55 cin55 liong55 e55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/b5vcwr69wo.wav,遐聽起來真驚人細義哦 大家遐粒火山準備討爆發啊這兜石頭漿會直接流入去烏岩村討仰子這攏愛怪𠊎啦,ga24 ten11 ki31 loi53 zhin11 giang11 ngin53 se31 ngi55 o24 tai55 ga11 ga24 liab43 foo31 san11 zhin31 pi55 too31 bau31 fad24 a31 li24 deu11 sha55 teu53 ziong11 bbue55 chid43 ziab24 lau53 ngib43 kui31 bbu11 ngam53 chen11 too31 ngiong55 zu31 lia24 lung31 oi31 guai31 ngai53 la11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_240.wav,喊計程車毋使擘心歇車問題,heem31 ge31 chin53 chia11 m55 su31 ba24 sim11 hied24 chia11 mun55 te53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/a3e20b4d1j.wav,莫傷想𠊎人哦史帕琪莫擘心𠊎這猶擱有真多个事頭要做,mai31 shiong55 siong55 ngai53 ngin53 o24 su31 pa31 ki53 mai31 ba24 sim11 ngai53 lia24 ia53 goo24 rhiu11 zhin11 doo11 e55 she55 teu53 rhio31 zoo31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_059.wav,熱天大家較好去海脣尞,ngied54 tien33 tai53 ga33 ka33 hau53 ki53 hoi31 shun113 liau53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_153.wav,笑聲咄聲罵聲鬧借借襯核轉好天个天時,siau53 shang33 dod21 shang33 ma53 shang33 nau53 zia53 zia53 cen53 hed54 zhon31 ho31 tien33 gai33 tien33 shi113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/2l38cucdi6.wav,䀴起來係時務啊,ngiang31 ki31 loi53 he55 shi53 bbu55 a33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_016.wav,勞力你个照顧,loo31 lad43 hen53 e55 zhio31 gu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_043.wav,第三日輪著三嫂个伙頭,ti55 sam11 ngid24 lun53 choo55 sam11 soo31 e55 foo55 tio53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/1o9he34hgf.wav,這擺厥等單淨使得買兜燈盞油還有麵粉厥等使毋得買肉因致肉忒貴咧厥等無恁多錢來買,lia31 bai31 gia33 nen35 dan33 ciang53 sii31 ded21 mai33 deu33 den33 zan31 rhiu113 han113 rhiu33 mien53 fun31 gia33 nen35 sii31 m113 ded21 mai33 ngiug21 rhin33 zhi53 ngiug21 ted21 gui53 le33 gia33 nen35 mo113 an31 do33 cien113 loi113 mai33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_125.wav,請問𠊎討去臺北愛仰子盤車,ciang31 mun31 ngai53 too31 kui31 tai53 bed24 oi31 ngiong55 zu31 pan53 cha11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_054.wav,阿怙逐晨早攏愛啉咖啡,a11 u24 tu55 chin53 zoo31 lung31 oi31 lim11 ga11 bi11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_232.wav,請問𠊎愛去哪位做體檢,ciang31 mun31 ngai53 oi31 kui31 ni55 bbi55 zoo31 te31 gem31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_042.wav,這雙鞋無合腳,li24 siong55 he53 mo53 hab43 gio24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_052.wav,這毋係你个專長換別儕做啦,lia24 m11 he55 hen53 e55 zhuan11 chong53 bban55 pe55 sa53 zoo31 la11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_136.wav,今日係拜幾今日係拜三店內底有買一送一个活動,gin11 ngid24 he55 bai31 gui31 gin11 ngid24 he55 bai31 sam11 deem31 nui55 de31 rhiu11 mi11 rhid24 sung31 rhid24 e55 ua55 tung55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/6385xy4q6s.wav,進前送細人去學校讀書係阿尼厥爺哀負擔不起个價數,zin53 cien113 sung53 se53 ngin113 ki33 hog54 gau31 tug54 shu33 he33 a33 ni113 gia33 rha113 oi33 fu53 dam33 bud21 ki31 gai33 ga53 sii53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_204.wav,今日十點愛開會哦請鬥準備資料,gin11 ngid24 shib43 deem31 oi31 koi11 fui55 o11 ciang31 dio31 chin55 pi55 zu11 liau55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_216.wav,歹勢啦請你韶日兩點正擱敲電話來掛號,painn31 she31 la11 ciang31 hen53 shio53 ngid24 liong31 deem31 zhang31 goo24 kau31 teen55 bba55 loi53 goi31 hoo55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_088.wav,讀書愛趕後生若無記才會越來越退步,tug54 shu33 oi33 guan31 heu53 sang33 na33 mo113 gi53 cai113 voi33 rhed54 loi113 rhed54 tui53 pu53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_101.wav,上禮拜一歸日落雨,shiong55 le31 bai31 rhid24 gui11 ngid24 loo55 bbu31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_129.wav,一月二十九學校放尞該日來去看電影好無,rhid21 ngied54 ngi53 shib54 giu31 hog54 gau31 biong53 liau53 gai53 ngid21 loi113 ki53 kon53 tien53 rhang31 ho31 mo113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/047cd1hgo9.wav,𠊎來啊較緊个大家起來啦𠊎救你人落去,ngai53 loi53 a11 ka31 gin31 e11 tai55 ga11 ki31 loi53 la11 ngai53 giu31 hen53 ngin53 loo55 kui31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_086.wav,論起來嘛係福氣个生活這嘛自家成家,lun55 ki31 loi53 ma11 he55 fu24 ki31 e55 sen11 ua55 li24 ma31 zi11 ga11 shin53 ga11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_210.wav,王先生你掛个係八月二十五晨早个門診,ong53 sien11 sen11 hen53 gua31 e55 he55 beed24 ngied43 ngi55 shib43 m31 chin53 zoo31 e55 mun53 zhin53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/r9tlogxebq.wav,壞啊𫣆人碰著蜂箱啊現時蜂箱滿哪位輪啊提絜捷巴利發動火箭,fai55 a33 een11 ngin53 bong55 choo55 pung11 siong11 a11 hien55 shi53 pung11 siong11 man31 na55 bbi55 lien31 a11 te55 gied24 ciab43 ba11 li55 fad24 tung11 foo31 zien31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_075.wav,愛仰子辦正好咧,oi31 ngiong55 zu31 peen55 zhang31 hoo31 le55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_231.wav,騎引擎愛戴安全帽,ki53 en24 rhin53 oi31 doi31 on11 cien53 hm55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_102.wav,造成矮下丁丁面上水水个情形,zoo31 shin53 e31 ha11 ding11 ding11 min31 shong55 fi31 fi31 e55 cin53 hin53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_276.wav,飯店个房間內底有提供免費網路無,pon55 deem31 e55 fong53 geen11 nui55 de31 rhiu11 te55 giung11 mien31 fui31 miong31 lu55 mo53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/ikz5tafvaa.wav,佢盡驚个斯係同其中一個人面對面接觸,gi113 cin53 giang33 gai33 sii33 he53 tung113 ki113 zhung33 rhid21 gai53 ngin113 mien53 dui53 mien53 ziab21 ciug21
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_144.wav,一點好食飯咧食飯前愛先洗手食飯後愛湯嘴,rhid21 diam31 ho31 shid54 pon53 le33 shid54 pon53 cien113 oi33 sien33 se31 shiu31 shid54 pon53 heu53 oi33 tong33 zhoi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_076.wav,這條路較近遐條路較遠,li24 tiau53 lu55 ka31 kun11 ga24 tiau53 lu55 ka31 bbien31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/56vm59ft31.wav,勞力 王國戰隊毋使勞力𠊎人王國戰隊係來鬥相共个佳載王國戰隊佢人又順利完成一擺大膽个救援行動你人係仰子做著个,loo31 lad43 ong53 gud24 zhen31 tui55 m55 su31 loo31 lad43 ngai53 ngin53 ong53 gud24 zhen31 tui55 he55 loi53 deu31 siong11 kung55 e55 ga11 zai31 ong53 gud24 zhen31 tui55 gui53 ngin53 rhiu55 shin55 li55 bbien53 shin53 rhid24 bai31 tai55 dam31 e55 giu31 bbien53 hang53 tung11 hen53 ngin53 he55 ngiong55 zu31 zoo31 choo55 e55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_205.wav,這藥品產生真多問題佢兩儕真愛去湖脣散步,lia24 rhio55 pin31 can31 sing11 zhin11 doo11 mun55 te53 gui53 liong31 sa53 zhin11 oi31 kui31 fu53 fin53 san31 pu55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_151.wav,普通時有食麼个藥無,pu31 tng11 shi53 rhiu11 shied43 bboo24 gai31 rhio55 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_015.wav,講來也奇怪有一日正經有一隻蝶,gong31 loi113 rha33 ki113 guai53 rhiu33 rhid21 ngid21 zhin53 gin33 rhiu33 rhid21 zhag21 rhag54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_127.wav,請問你幾多號𠊎係八十號,ciang31 mun31 hen53 gid24 doo11 hoo55 ngai53 he55 beed24 shib43 hoo55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_130.wav,拁這倒到汁桶𠊎在臺北稅屋蹛,ga11 lia24 doo31 doo31 zhib24 tung31 ngai53 da55 tai53 bed24 sue31 bbu24 dai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_084.wav,恭喜發財新年快樂,giung11 si11 fad24 cai53 sin11 neen53 kuai31 loo55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_144.wav,十一點好食飯啊食飯前愛先洗手食飯後愛湯嘴,shib43 rhid24 deem31 hoo31 shied43 pon55 a33 shied43 pon55 cien53 oi31 sien11 se31 shiu31 shied43 pon55 hio55 oi31 tong11 zhe31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/vu4ud7uf9f.wav,過去恁多年來厥爺哀个生活當困難靠緊厥等無多个山羊過還有綿羊絡食,go53 ki53 an31 do33 ngien113 loi113 gia33 rha113 oi33 gai33 sen33 fad54 dong33 kun53 nan113 ko53 gin31 gia33 nen35 mo113 do33 gai33 san33 rhong113 go53 han113 rhiu33 mien113 rhong113 log21 shid54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_098.wav,客家文化園區輒輒舉辦展覽活動,ka24 ga11 bbun53 fa31 bbien53 ki11 ciab43 ciab43 gi31 peen55 deen31 lam31 ua55 tung55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_030.wav,你傷慢到位啊,hen53 shiong55 meen55 doo31 bbi55 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_279.wav,請問你有來過𠊎人病院䀴診過無,ciann31 mun31 hen53 rhiu11 loi53 goo31 ngai53 ngin53 piang55 inn11 ngiang31 zhin31 goo31 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_078.wav,𠊎無閒去會轉鉸毋得了,ngai113 mo113 han113 ki53 voi33 zhon31 gau53 m113 ded21 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_055.wav,颱風行過个所在抸大雨入來,tai53 fung11 hang53 goo31 e55 su31 cai55 za24 tai55 bbu31 ngib43 loi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_166.wav,請你去藥局領藥若个號碼係四十四號勞瀝請慢行,ciang31 hn113 ki53 rhog54 kiug54 liang33 rhog54 ngia33 gai33 ho53 ma33 he53 si53 shib54 si53 ho53 lo113 lad54 ciang31 man53 hang113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_148.wav,這下幾多點咧八點大家共下來去打鬥四,lia31 ha53 gid21 do33 diam31 le33 bad21 diam31 tai53 ga33 kiung53 ha53 loi113 ki33 da31 deu53 si53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_014.wav,你哪位毋堵好,hen53 le55 bbi55 m55 du31 hoo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_234.wav,請問討仰子加入公所健保,ciann31 mun31 too31 ngiong55 zu31 ga11 ngib43 gng11 su31 kien55 boo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_024.wav,用火焰蟲个光來讀書落尾佢大漢即真有成就,rhung55 foo31 rhiam55 chung53 e55 gong11 loi53 tu55 shi11 loo55 mui11 gui53 tai55 hon31 cid43 zhin11 rhiu11 shin53 ciu55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_037.wav,𠊎愛你佢起譴咧,ngai113 oi53 hn113 gi113 ki31 kien31 le33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_135.wav,這係𠊎盡思念个客家味,lia31 he53 ngai113 cin53 sii33 ngiam53 gai33 kag21 ga33 mui53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_214.wav,到位苗栗大大約猶有幾*多公里猶有兩公里,doo31 bbi55 mio53 led43 tai55 tai55 rhio24 ia53 rhiu11 gi31*doo11 gio33 gng11 li31 ia53 rhiu11 liong31 gng11 li31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/jk0o7pogaw.wav,𠊎猶愛去剷雪呢,ngai53 ia53 oi31 kui31 can31 sied24 ne31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_102.wav,因致避暑𠊎斯愛轉莊下外阿公屋家,rhin33 zhi53 pid21 chu31 ngai113 sii33 oi33 zhon31 zong33 ha33 nguai53 a33 gung33 vug21 ka33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_059.wav,阿姊真愛食菜頭粄,a11 zi31 zhin11 oi31 shed43 coi31 tio53 ban31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206L2062/DF206L2062_016.wav,該細人賤手賤腳當好這摸該摸,gai53 se53 ngin113 cien53 shiu31 cien53 giog21 dong33 hau53 lia31 mia33 gai53 mia33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_014.wav,𠊎想討學做麵包,ngai53 siong55 too31 hoo55 zoo31 mien55 bau11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203M2056/DM203M2056_025.wav,同正整好个門新安个鎖做下撬壞,tung113 zhang53 zhang31 ho31 gai33 mun113 sin33 on33 gai33 so31 zo53 ha53 kiau53 fai53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_029.wav,佢早都收山無做咧毋使過湊佢入股,gi113 zo31 do33 shiu33 san33 mo113 zo53 le33 m113 sii31 go53 ceu53 gi113 ngib54 gu31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_126.wav,請問到金門愛駛幾久愛駛八點鐘久,ciang31 mun53 do53 gim33 mun113 oi33 sii31 gid21 giu31 oi33 sii31 bad21 diam31 zhung33 giu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_045.wav,天氣變到真涼爽,teen11 ki31 bien31 doo31 zhin11 liong53 song31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_008.wav,老虎講𠊎想討先食細子佢人个肉較嫩較甜等下正來食你,loo31 fu31 gong31 ngai53 siong55 too31 sien11 shied43 se31 zu31 gui53 ngin53 e55 ngiu24 ka31 nun55 ka31 teem53 den31 ha55 zhang31 loi53 shied43 hen53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/1x5dgv26ax.wav,這滿係馬來半島北海岸个朝脣七點鐘,lia31 man35 he33 ma33 loi113 ban53 do31 bed21 hoi31 ngan53 gai33 zheu33 shun113 cid21 diam31 zhung33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_172.wav,大家尞核好好講兩句佢毋中意聽个話佢斯掣緊走,tai53 ga33 liau53 hed54 ho31 ho31 gong31 liong31 gi53 gi113 m113 zhung53 rhi53 ten33 gai33 fa53 gi113 sii33 ched21 gin31 zeu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_009.wav,你夫娘真靚,hen53 bu11 ngiong53 zhin11 ziang11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_101.wav,久久愛攪幾*下米漿水遐米漿正毋會滯底,giu31 giu31 oi31 gio55 gi31*ha55 gia33 mi31 ziong11 fi31 ga24 mi31 ziong11 zhang31 m11 bboi55 che11 de31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_044.wav,這位毋會用食薰,li24 bbi55 m11 moi55 rhung55 shed43 fun11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_081.wav,仰子恁好空一轉來即有點心食,ngiong55 zu31 ngin31 hoo31 kung31 rhid24 zhen31 loi53 cid43 rhiu11 deem31 sim11 shied43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_003.wav,過年過節共葩人會共下來拜祖公,go53 ngien113 go53 zied21 kiung53 pa31 ngin113 voi33 kiung53 ha53 loi113 bai53 zu31 gung33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_178.wav,請坐𠊎拁你磅血壓,ciang31 coo11 ngai53 ga11 hen53 bong55 fied24 ab24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_087.wav,𠊎準備好啊會用開始啊,ngai53 zhin31 pi55 hoo31 a31 bbue55 rhung55 koi11 shi31 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_016.wav,阿叔毋會慣勢著西裝,a11 shu24 m11 bboi55 guan31 she31 zhoo24 se11 zong11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_064.wav,遽遽啦等下頭家斯會走撇了,giag21 giag21 la31 den31 ha53 teu113 ga33 sii33 voi33 zeu31 ped21 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_080.wav,去自助餐廳食飯有真多菜好挾,kui31 cu55 cu55 con11 ten11 shied43 pon55 rhiu11 zhin11 doo11 coi31 hoo31 giab24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_091.wav,仰子正好想啊想即自家來學做正著,ngiong55 zu31 zhang31 hoo31 siong55 a11 siong55 cid43 zi11 ga11 loi53 hoo55 zoo31 zhang31 choo55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_153.wav,一百空三年度客語認證正式開始報名了,rhid21 bag21 kung53 sam33 ngien113 tu53 kag21 ngi33 ngin53 zhin53 zhin53 shid21 koi33 chi31 bo53 miang113  lio33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_251.wav,當晝頭恁誠熱毋好出去運動,dong11 zhiu31 teu53 ngin31 shang53 ngied43 m55 hoo31 chid24 kui31 bbin55 tung55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_083.wav,學校歇熱啊阿依和過去幾下年共款,hoo55 hau55 hed24 ngied43 a31 a11 i55 ham55 goo31 kui31 gi31 ha55 neen53 kung55 kuan31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_171.wav,請問就近哪位有加油站,ciang31 mun31 kiu55 kung11 ni55 bbi55 rhiu11 ga11 rhiu53 cam55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_165.wav,你掛个係七十八號愛先同你收掛號費兩百箍,hn113 gua53 gai33 he53 cid21 shib54 bad21 ho53 oi53 sien33 tung113 hn113 shiu33 gua53 ho53 fui53 liong31 bag21 kieu33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_187.wav,即毋會用食啊生菇个物件即毋會用个食啊,cid43 m11 bboi55 rhung55 shied43 a11 sang11 gu11 e55 mi55 kien55 cid43 m11 bboi55 rhung55 e55 shied43 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_245.wav,這頭得人歡迎个餐點係麼个,lia24 tio53 ded24 ngin53 fan11 ngiang53 e55 con11 deem31 he55 bboo24 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_126.wav,佢正考著十六分爺哀真失望,gui53 zhang31 koo31 choo55 shib43 liu24 fung11 rhia53 ai11 zhin11 shid24 mong55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_222.wav,𠊎真愛聽阿公講古你擱翕幾*下張相片來䀴,ngai53 zhin11 oi31 ten11 a11 gung11 gong31 gu31 hen53 goo24 hib24 gi31* ha55 gia55 zhong11 siong31 peen31 loi53 ngiang31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/vjrcqhntv2.wav,厥姆當堅持逐日朝脣德維出門个時會提醒佢路項愛細義,gia33 me33 dong33 gien33 chi113 dag21 ngid21 zheu33 shun113 ded21 vui113 chud21 mun113 gai33 shi113 voi33 ti113 ciang31 gi113 lu53 hong33 oi33 se53 ngi53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/qn0t3plutf.wav,等下小朋友𠊎人猶有事要做个路卡𠊎拁溝做好啊真好達里拉諾文你人遐裡个山坑情形仰子啊無幾好哦大火已經對山崎燒起去,den31 ha55 sio31 pen53 rhiu31 ngai53 ngin53 ia53 rhiu11 she55 rhio31 zoo31 e11 lu55 ka31 ngai53 ga11 geu11 zoo31 hoo31 a11 zhin11 hoo31 tad43 li31 la11 no55 bbun53 hen53 ngin53 ga24 le31 e55 san11 kang11 cin53 hin53 ngiong55 zi31 a11 mo53 gid24 hoo31 o24 tai55 foo31 rhi31 gen11 doi31 san11 kia11 shio11 ki31 kui31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_083.wav,慢慢子行毋使攔緊,meen55 meen55 zu31 hang53 m55 su31 lan53 gin31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_183.wav,𠊎拁你安排回診時間,ngai53 ga11 hen53 on11 pe53 fue53 zhin31 shi53 geen11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_089.wav,歹勢攪吵啊你愛攔時間無,painn31 she31 gio55 cau31 a11 hen53 oi31 lan53 shi53 geen11 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_068.wav,𠊎跈阿奶一路行到間肚阿奶打開鏡櫥,ngai113 ten113 a33 ne31 rhid21 lu53 hang113 do53 gien33 du31 a33 ne31 da31 koi33 giang53 chu113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_078.wav,請問你哪位無快活,ciang31 mun31 hen53 na55 bbi55 mo53 kuai31 bbad43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_017.wav,上課毋好啄睡,shong11 koo31 m55 hoo31 du24 fe55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_169.wav,檢查報告大約愛等三十七分鐘請你先坐一下,giam31 ca113 bo53 go53 tai53 rhog21 oi33 den31 sam33 shib54 cid21 fun33 zhung33 ciang31 hn113 sien33 co33 rhid21 ha53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/2gqcb5mgxv.wav,𫣆人即會用有燒氣得歸村頭个人啊攏愛佳載有這稀罕个石頭漿水晶哪儕愛燒氣啊較虛个人正愛燒氣 猶有無毛个等下 石頭漿水晶,een11 ngin53 cid43 bbue55 rhung55 rhiu11 shio11 ki31 ded24 gui11 chen11 teu53 e55 ngin53 a31 lung31 oi31 ga11 zai31 rhiu11 lia24 hi11 han31 e55 shia55 teu53 ziong11 fi31 zin11 ni55 sa53 oi31 shio11 ki31 a11 ka31 hi11 e55 ngin53 zhang31 oi31 shio11 ki31 ia53 rhiu11 mo53 hm11 e11 den31 ha55 sha55 teu53 ziong11 fi31 zin11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/05x3larj63.wav,真驚人嗬著啊真驚人毋過這係𠊎人个事頭只要𠊎人團結合作个時即麼个事攏做會好䀴起來佢毋會驚和大家講事啊這滿干若一個問題,zhin11 giang11 ngin53 honn31 choo55 a33 zhin11 giang11 ngin53 m55 goo31 lia24 he55 ngai53 ngin53 e55 she55 teu53 zhi31 rhio31 ngai53 ngin53 tuan53 gied24 hab43 zoo24 e55 shi53 cid43 bboo24 gai31 she55 lung31 zoo31 bbue55 hoo31 ngiang31 ki31 loi53 gui53 m11 bboi55 giang11 ham55 tai55 ga11 gong31 su55 a33 li24 man31 gan11 na31 rhid24 gai31 bbun55 te53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_031.wav,毋過若係正經堵著鳥油籮蜂厥等斯插都毋插,m113 go53 na33 he53 zhin53 gin33 du113 do31 diau35 rhiu113 lo113 pung33 gia33 nen35 sii33 cab21 do33 m113 cab21
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_065.wav,請問使得尋麼人𢯭手,ciang31 mun53 sii31 ded21 cim113 ma31 ngin113 ten53 shiu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_078.wav,請問你哪位無快活,ciann31 mun31 hen53 ni55 bbi55 mo53 kuai31 bbad43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_106.wav,𠊎尿出想愛屙尿老妹在洗身間洗身,ngai113 ngiau53 chud21 siong31 oi33 o33 ngiau53 lo31 moi53 to33 se31 shin33 gien33 se31 shin33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_260.wav,新親戚和媒人共桌坐想討害人顛倒害著自家,sin11 cin11 cid24 ham55 mui53 ngin53 kung55 zoo24 coo11 siong55 too31 hoi55 ngin53 deen11 doo31 hoi55 choo55 zi11 ga11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_139.wav,上禮拜二歸日落雨,shong53 li33 bai53 ngi53 gui33 ngid21 log54 rhi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_131.wav,請問𠊎討去高雄愛仰子盤車,ciang31 mun31 ngai53 too31 kui31 goo11 hiung53 oi31 ngiong55 zu31 pan53 cha11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_141.wav,請在下一個路口歇車,ciang31 da55 ha55 rhid24 gai31 lu55 keu31 hied24 cha11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_295.wav,𠊎屋下就近个路燈故障啊請派專人來修理,ngai53 bbu24 ha11 ciu55 kung55 e55 lu55 den11 gu31 chong53 a11 ciang31 pai31 zhuan11 ngin53 loi53 siu11 li31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/7a6ipmmaft.wav,就你知个啊𫣆逐個王國攏堵著神祕地動个傷害而且情況愈來愈嚴重哦所以議會拁歸下五王國个英雄攏喊過來啊路卡森林王國个英雄,ciu55 hen53 di11 e11 a11 een11 tu55 gai31 ong53 gud24 lung31 du31 choo55 shin53 bi31 ti55 tung11 e55 shong11 hoi55 rhi53 cia31 cin53 kong31 lu31 loi53 lu31 ngiam53 chung11 o24 su31 rhi31 ngi55 fui55 ga11 gui11 ha55 m31 ong53 gud24 e55 en11 hiung53 lung31 heem31 goo31 loi53 a11 lu55 ka31 sem11 na53 ong53 gud24 e55 en11 hiung53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_106.wav,𠊎尿出想愛屙尿老妹在洗身間洗身,ngai113 ngiau53 chud21 siong31 oi33 o33 ngiau53 lo31 moi53 to33 se31 shin33 gien33 se31 shin33
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/7zzn1pc55q.wav,像佢恁泥个年歲這係一個生存个問題可比狼群其中一隻个狼著著綹其他个狼斯會走撇會遠離這位在阿爾伯爾上學个前一日,ciong53 gi113 an31 ne113 gai33 ngien113 se53 lia31 he53 rhid21 gai53 sen33 sun113 gai33 mun53 ti113 ko31 bi31 long113 kiun113 ki113 zhung33 rhid21 zhag21 gai33 long113 chog54 do31 liu53 ki113 ta33 gai33 long113 sii33 voi33 zeu31 ped21 voi33 rhen31 li113 lia31 vui53 to33 a33 ni33 bag21 ni33 shong53 hog54 gai33 cien113 rhid21 ngid21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_128.wav,阿松哥八月三十一討渡夫娘,a11 ciung53 goo11 beed24 ngied43 sam11 shib43 rhid24 too31 tu31 bu11 ngiong53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_129.wav,十一月初七學校放假遐日來去䀴電影好無,shib43 rhid24 ngied43 cu11 cid24 hoo55 hau55 biong31 ga31 ga24 ngid24 loi53 kui31 ngiang31 teen55 rhiang31 hoo31 mo53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/aoodpfzktd.wav,好 輪著哪儕擇𫣆人這滿討賞个遊戲𫣆人已經尞過鬼捉人啊換你做鬼,hoo31 lun53 choo55 ni55 sa53 too55 een11 ngin53 li24 man31 too31 song31 e55 rhiu53 hi31 een11 ngin53 rhi31 gen11 liau55 goo31 gui31 zoo24 ngin53 a11 bban55 hen53 zoo31 gui31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_043.wav,囥入蠶包肚包緊像睡撇个樣,kong53 ngib54 cam113 bau33 du31 bau33 gin31 ciong53 shoi53 ped21 gai33 rhong53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_019.wav,愛去你自家去麼人有閒手腳好去,oi33 ki53 hn113 cid21 ga33 ki53 me31 ngin113 rhiu33 han113 shiu31 giog21 ho31 ki53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_107.wav,喊計程車毋使愁停車問題坐飛行機較遽,hem33 gie53 chang113 cha33 m113 sii31 seu113 tin113 cha33 mun53 ti113 co33 bui33 hang113 gi33 ka33 giag21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_130.wav,𠊎爸準備去花蓮出差個半月,ngai53 ba55 zhin31 pi55 kui31 fa11 lien53 chid24 cai11 goo24 ban31 ngied43
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/drwg1d2hjq.wav,毋過無法度保證使得尋著厥等个銀角,m113 go53 mo113 fab21 tu53 bo31 zhin53 sii31 ded21 cim113 do31 gia33 nen35 gai33 ngiun113 gog21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_072.wav,靠退休金過日阿哥係真老實个人,koo31 toi31 hiu11 gin11 goo31 ngid24 a11 goo11 he55 zhin11 loo31 shid43 e55 ngin53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_148.wav,今日有哪位無快活無,gin11 ngid24 rhiu11 na55 bbi55 mo53 kuai31 bbad43 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_168.wav,較緊个值討赴毋會著啊,ka31 gin31 e11 da53 too31 fu31 m11 bboi55 chio55 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_083.wav,慢慢子行毋使攔緊,meen55 meen55 zu31 hang53 m55 su31 lan53 gin31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/zuc32oioio.wav,變到比原本擱較困難𠊎希望隊友原諒𠊎路卡你係𠊎人个隊長啊𠊎人當然會原諒你沒麼个啦你學著教訓這正係頭要緊个,bien31 doo31 bi31 ngien53 bun31 goo24 ka31 kun31 nan53 ngai53 hi11 mong55 tui55 rhiu31 ngien53 liong55 ngai53 lu55 ka31 hen53 he55 ngai53 ngin53 e55 tui55 zhong31 a33 ngai53 ngin53 dong11 rhen53 bbue55 ngien53 liong55 hen53 mud43 bboo24 gai31 la11 hen53 hoo55 choo55 gau31 fun31 lia24 zhang31 he55 teu53 rhio31 gin31 e11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/38dunzprhi.wav,神奇神奇真神奇个你拁𠊎个事講去啊捷巴利好𫣆人開始,shin53 ki53 shin53 ki53 zhin11 shin53 ki53 e11 hen53 ga11 ngai53 e55 su55 gong31 kui31 a11 ciab43 ba11 li55 hoo31 een11 ngin53 koi11 shi31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_107.wav,這兜渡細人个事頭已多微毛末節,lia31 deu33 tu53 se53 ngin113 gai33 she53 teu113 i53 do33 mi113 mo33 mad54 zied21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_121.wav,請問你對哪位來𠊎對臺北來,ciang31 mun31 hen53 doi31 ni55 bbi55 loi53 ngai53 doi31 tai53 bed24 loi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_003.wav,𠊎轉來啊,ngai53 zhen31 loi53 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_179.wav,這領衫𠊎開三百箍,li24 liang11 sam11 ngai53 koi11 sam11 ba24 kio11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_100.wav,下班來𠊎个屋下打鬥四討無,ha11 ban11 loi53 ngai53 e55 bbu24 ha11 da31 deu31 si31 too31 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_130.wav,根據政府个公告十月初六放尞毋過前一個禮拜六愛上班,gin33 ki31 zhin53 fu31 gai33 gung33 go53 shib54 ngied54 cu33 liug21 biong53 liau53 m113 go53 cien113 rhid21 gai53 li33 bai53 liug21 oi33 shong53 ban33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_036.wav,無想著阿姆一下斯喊吾等同火黏蟲放撇,mo113 siong31 do31 a33 me33 rhid21 ha53 sii33 hem33 nga33 nen35 tung113 fo31 ngiam113 chung113 biong53 ped21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_137.wav,寒天著膨線衫真燒暖,hon53 teen11 zhoo24 pong31 se31 sam11 zhin11 shio11 non11
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/3ve9aipn02.wav,奧利佛還係無放心,o53 li53 fud54 han113 he33 mo113 fong53 sim33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_066.wav,得𠊎想一下,ded24 ngai53 siong55 rhid24 ha55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_104.wav,大聲唩足疾个足疾个阿怙阿依聽著,tai55 shang11 bboo31 ziu24 cid43 e11 ziu24 cid43 e11 a11 u24 a11 i55 ten11 choo55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_017.wav,搣歸日還搣毋得好愛仰結煞正好,med21 gui33 ngid21 han113 med21 m113 ded21 ho31 oi33 ngiong53 gad21 sad21 zhang33 ho31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/g999zo8zjo.wav,𠊎真緊即會拁佢救出來,ngai53 zhin11 gin31 cid43 bbue55 ga11 gui53 giu31 chid24 loi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_001.wav,成過成過有兩個阿母,shang53 goo31 shang53 goo31 rhiu11 liong31 gai31 a11 bbu11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_290.wav,𠊎房間  𠊎房間个冷氣毋會涼會用來䀴望下無,ngai53 fong53 geen11 ngai53 fong53 geen11 e55 len11 ki31 m53 bboi55 liong53 bbue55 rhng55 loi53 ngiang31 mong55 ha55 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_274.wav,你會用先上臺鐵網站查詢火車時刻,he53 bbe55 rhiung55 sien11 shiong11 tai53 teed24 miong31 cam55 ca53 sun53 foo31 cha11 shi53 kied24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_159.wav,阿怙逐晨早都愛啉咖啡,a11 u24 tu55 chin53 zoo31 doo55 oi31 ling11 ga11 bi11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_081.wav,請問內科愛仰子行,ciang31 mun31 nui55 koo11 oi31 ngiong55 zu31 hang53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_094.wav,一支細細个鎖匙結核倆子阿奶个血脈,rhid21 gi33 se53 se53 gai33 so31 shi113 gied21 hed54 liong31 zii31 a33 ne31 gai33 hied21 mag21
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/40n42fwjgq.wav,熊狼熊兩儕你人應該驕傲正著你人起一條橋个著大部分呢捷巴利你若講若壞𫣆人先冷靜一下啦,him53 long53 him53 liong31 sa53 hen53 ngin53 en31 goi11 gio11 ngo55 zhang31 choo55 hen53 ngin53 ki31 rhid24 teeu53 kio53 e11 choo55 tai55 pu55 fun55 ne31 ciab43 ba11 li55 hen53 na31 gong31 na31 fai55 een11 ngin53 sien11 len11 cin55 rhid24 ha55 la11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_012.wav,𠊎一聽著心肝肚當疑狐,ngai113 rhid21 ten33 do31 sim33 gon33 du31 dong33 ngi113 fu113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_167.wav,莫恁嚇人會嚇死人這個考試个筆試較難,mai31 ngin31 hann53 ngin53 bbue55 hann53 si31 ngin53 li24 gai31 koo31 chi31 e55 bid24 chi31 ka31 nan53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_113.wav,𠊎屋下攏總有六個人,ngai53 bbu24 ha11 lng31 zng31 rhiu11 liu24 gai31 ngin53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_003.wav,佢表面項係恁泥講私下斯毋知咧,gi113 biau31 mien53 hong33 he33 an31 ne113 gong31 sii33 ha53 sii33 m113 di33 le33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_147.wav,光雞𬠖記得讀二年生該年連續漚雨幾下禮拜,gong33 gie33 ngiam53 gi53 ded21 tug54 ngi53 ngien113 sen33 gai53 ngien113 lien113 sua53 eu53 rhi31 gi31 ha53 li33 bai53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_225.wav,今年客家桐花祭對四月十二開始到五月初一為止,gin11 neen53 ka24 ga11 tung53 fa11 ze31 doi31 si31 ngied43 shib43 ngi55 koi11 shi31 doo31 m31 ngied43 cu11 rhid24 bbi53 zhi31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/acs2zgxxpz.wav,好𫣆人行啦,hoo31 een11 ngin53 hang53 la11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_066.wav,佢愛照顧佢个阿依,gui53 oi31 zhio31 gu31 gui53 e55 a11 i55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_069.wav,第二個講伯公伯婆,ti55 ngi55 gai31 gong31 ba24 gung11 ba24 poo53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/k79mnfp5zp.wav,暗夜厥等會同書還有記事簿借分佢恁泥佢斯使得同作業抄在新个記事簿項朋友个力量使得減少失志感,am53 rha53 gia33 nen35 voi33 tung113 shu33 han113 rhiu33 gi53 sii53 pu35 zia53 fun33 gi113 an31 ne113 gi113 sii33 sii31 ded21 tung113 zog21 ngiab54 cau33 to33 sin33 gai33 gi53 sii53 pu35 hong33 pen113 rhiu33 gai33 lid54 liong53 sii31 ded21 gam31 sheu31 shid21 zhi53 gam31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_131.wav,禾埕前个菜園種兜菜,vo113 chang113 cien113 gai33 coi53 rhen113 zhung31 deu33 coi53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_130.wav,𠊎爸準備討去花蓮出差個半月,ngai53 ba55 chin55 pi55 too31 kui31 fa11 lien53 chid24 cai11 goo24 ban31 ngied43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_007.wav,拜託你放饒𠊎後生个命啦討食食𠊎,bai31 too24 hen53 biong31 ngiau53 ngai53 heu55 sang11 e55 miang55 la11 too31 shied43 shied43 ngai53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_108.wav,厥等早都將吾个間房拚淨俐,gia33 nen35 zo31 do33 ziong33 nga33 gai33 gien33 fong113 biang53 ciang53 li53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_076.wav,伯婆講毋使擘心𠊎來辦,ba24 poo53 gong31 m55 su31 ba24 sin11 ngai53 loi53 peen55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_043.wav,第三日輪著三嫂个伙頭,ti55 sam11 ngid24 lun53 choo55 sam11 soo31 e55 foo31 tio53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/4iif7sqm1d.wav,情況變䆀个時嚎吠哈利敢會翻頭毋會另外想䀴望𫣆人䀴起來有幾英勇啊你知个猶有時間會用个翻頭歸下攏在控制內底,cin53 kong31 bien31 bbai11 e55 shi53 hoo53 pui55 ha11 li55 gam31 bbue55 fan11 teu53 m11 bboi55 lin55 nguai55 siong55 ngiang31 mong55 een11 ngin53 ngiang31 ki31 loi53 rhiu11 gid24 en11 rhung31 a11 hen53 di11 e11 ia53 rhiu11 shi53 geen11 bbue55 rhung55 e55 fan11 tio53 gui11 ha55 lung31 da55 kung31 zhi31 nui55 de31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/lwkhb4b1wq.wav,該個地區有當多軍事演習佢雖然當驚軍人毋過佢還係無奈何愛行這條輒輒行个路線約瑟夫出門个時節佢都毋知今晡會行哪條路線去學校,gai53 gai33 ti53 ki33 rhiu33 dong33 do33 giun33 sii53 rhen53 sib54 gi113 sui33 rhen113 dong33 giang33 giun33 ngin113 m113 go53 gi113 han113 he53 mo113 nai53 ho113 oi33 hang113 lia31 tiau113 ziab54 ziab54 hang113 gai33 lu53 sien53 rhog21 sid21 fu33 chud21 mun113 gai33 shi113 zied21 gi113 do33 m113 di33 gim33 bi35 voi33 hang113 ne53 tiau113 lu53 sien53 ki33 hog54 gau31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_063.wav,垃圾愛做資源回收,li31 sab24 oi31 zoo31 zu11 ngien53 hue53 shiu11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_008.wav,實在足難相信,shid43 cai55 ziu24 nan53 siong11 sin31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205K2001/DF205K2001_005.wav,用日時頭賞桐花,rhung53 ngid21 shi113 teu113 shong31 tung113 fa33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_027.wav,有麼个問題無,rhiu11 bboo24 gai31 mun55 te53 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_138.wav,淋肥捉蟲細心細意照顧斯像對𠊎共樣,lim113 pui113 zog21 chung113 se53 sim33 se53 rhi53 zheu53 gu53 sii33 ciong53 dui53 ngai113 kiung53 rhong53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_131.wav,王先生你掛个係一月三十一晨早个門診,ong53 sien11 sen11 hen53 gua31 e55 he55 rhid24 ngied43 sam11 shib43 rhid24 chin53 zoo31 e55 mun53 zhin31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_152.wav,請問愛幾久換一擺藥,ciang31 mun31 oi31 gi31 giu31 bban55 id24 bai31 rhio55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205L2067/DF205L2067_009.wav,阿姆个簞笥係請木匠做个手工當幼,a33 me33 gai33 tan53 sii31 he33 ciang31 mug21 siong53 zo53 gai33 shiu31 gung33 dong33 rhiu53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/p10y4yvsjo.wav,足好个你這隻大隻蟲,ziu24 hoo31 e11 hen53 li24 zha24 tai55 zha24 chung53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_034.wav,你个手機幾*多號,hen53 e55 shiu31 gi11 gi31*doo11 gio33 hoo55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/5af92n34fl.wav,坐船價數係二盧比德維个莊頭偎兼河岸厥學校斯在河岸个另外一片,co33 shon113 ga53 sii53 he33 ngi53 lu113 bi31 ded21 vui113 gai33 zong33 teu113 va31 giam33 ho113 ngan53 gia33 hog54 gau31 sii33 to33 ho113 ngan53 gai33 nang53 nguai53 rhid21 pien31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_178.wav,請坐𠊎拁你磅血壓,ciang31 coo11 ngai53 ga11 hen53 bong55 fied24 ab24
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/mp9ycez6mp.wav,在平地路項無細阿倈厥等做下行山頂个路乜跈緊這條長長个路來到學校,to33 piang113 ti53 lu53 hong33 mo113 se53 a33 lai53 gia33 nen35 zo53 ha53 hang113 san33 den31 gai33 lu53 me33 ten113 gin31 lia31 tiau113 chong113 chong113 gai33 lu53 loi113 do53 hog54 gau31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_076.wav,背脊骿真癢拁𠊎爪一下好無,bue31 zia24 piang11 zhin11 rhiong11 ga11 ngai53 rhiau31 rhid24 ha55 hoo31 mo53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/1lcc08g3bs.wav,若係𠊎會用接受獨家採訪,na31 he55 ngai53 bboo55 rhung55 ziab11 shiu55 tu55 ga11 cai31 fong31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_140.wav,佢會煮歸桌大家好食个客家菜分大家食,gi113 voi33 zhu31 gui33 zog21 tai53 ga33 hau53 shid54 gai33 kag21 ga33 coi53 bun33 tai53 ga33 shid54
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_012.wav,你曉無無問題,hn113 hiau31 mo113 mo113 mun53 ti113
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_205.wav,你哪下正有閒使得來同外阿婆个菜園𢯭牽水笐,hn113 ne53 ha53 zhang33 rhiu33 han113 sii31 ded21 loi113 tung113 nguai53 a33 po113 gai33 coi53 rhen113 ten53 kien33 shui31 gong113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_117.wav,厥姊正結婚佢喊姊丈猶喊毋*會慣勢,gua55 ze53 zhang31 gied24 fun11 gui53 heem31 zi31 chong11 ia53 heem31 m11 *bboi55 moi24 guan31 she31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_147.wav,結婚證人愛滿二十歲,gied24 fun11 zhin31 ngin53 oi31 man31 ngi55 shib43 se31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_214.wav,到位彰化大約猶有幾多公里擱有四公里,doo31 bbi55 zhiong11 fa31 tai55 rhio24 ia53 rhiu11 gi31 doo11 gung11 li31 goo24 rhiu11 si31 gung11 li31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_176.wav,𠊎會用个換別款寸尺無,ngai53 bbue55 rhng55 e55 bban55 pe55 kuan53 cun31 cha24 mo53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_117.wav,堆都歸間拉拉雜雜个東西愛尋一雙鞋都難,doi33 do33 gui33 gien33 lab54 lab54 cab54 cab54 gai33 dung33 si33 oi33 cim113 rhid21 sung33 he113 do33 nan113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/6yobvn70yo.wav,𠊎拁佢人个位場傳得你勞力你史帕琪捷巴利你係頭會走个𠊎愛你入去拁露營个人救出來擱來𠊎會用真緊个速度拁佢人接个等个哦諾文達里拉,ngai53 ga11 gui53 ngin53 e55 bbi55 chong53 chen53 ded24 hen53 loo31 lad43 hen53 su31 pa31 rhim55 ciab43 ba11 li55 hen53 he55 teu53 bbue55 zeu31 e11 ngai53 oi31 hen53 ngib43 kui31 ga11 lu55 rhiang53 e55 ngin53 giu31 chid24 loi53 goo24 loi53 ngai53 bbue55 rhung55 zhin11 gin31 e55 su24 tu55 ga11 gui53 ngin53 ziab24 e55 den31 e11 o24 no55 bbun53 tad43 li31 la11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_051.wav,阿依在灶下煮飯,a11 i55 de55 zoo31 ha11 zhi31 pon55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_148.wav,這下幾*多點啊十點大家作垺來去打鬥四,li24 ha55 gi31 *doo11 gio33 deem31 a31 shib43 deem31 tai55 ga11 zoo24 pu53 loi53 kui31 da31 dio31 si31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_157.wav,在路脣落雨過後个細水窟肚,to33 lu53 shun113 log54 rhi31 go53 heu53 gai33 se53 shui31 kud21 du31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_025.wav,歹勢攪吵啊,painn31 she31 gio55 cau31 a31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_068.wav,𠊎轉來咧你愛去哪位,ngai113 zhon31 loi113 le33 hn113 oi33 ki53 ne53 vui53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/g4ohe3l46y.wav,王國戰隊个緊急光線定著係露營个人好大家係表現个時務啊史帕琪隨得𠊎人附近有露營个所在這跡位个樹林發生大火啊收著路卡,ong53 gud24 zhen31 tui55 e55 gin31 gib24 gong11 sien31 ten55 choo55 he55 lu55 rhiang53 e55 ngin53 hoo31 tai55 ga11 he55 bio31 hien55 e55 shi53 bbu55 a33 su31 pa31 ki53 sui53 dad24 ngai53 ngin53 fu31 kun11 rhiu11 lu55 rhiang53 e55 su31 cai55 li24 zia24 bbi55 e55 shi55 na53 fad24 sing11 tai55 foo31 a11 shiu11 choo55 lu55 ka31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/605pwsjd3s.wav,攔走遐隻熊 𠊎愛遐粒水晶茉莉花茶 猶有餅救命啊,lan53 zeu31 ga24 zha24 him53 ngai53 oi31 ga24 liab43 fi31 zin11 mad43 li55 fa11 ca53 ia53 rhiu11 biang31 giu31 miang55 a33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_154.wav,小姐先生𠊎愛點菜𠊎愛點八號餐,siau31 zi31 sin33 sen33 ngai113 oi33 diam31 coi53 ngai113 oi33 diam31 bad21 ho53 con33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_064.wav,暗夜時駛車愛擱較注意,am31 rhia55 shi53 su31 cha11 oi31 goo24 ka31 zhi31 rhi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_149.wav,請問你仰子傷著个,ca31 mun31 hen53 ngiong55 zu31 shiong55 chio55 e11
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/fi8uowu48o.wav,希望替厥等提供過加美好个未來,hi33 mong53 te53 gia33 nen35 ti113 giung33 go53 ga33 mui33 ho31 gai33 vui53 loi113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_012.wav,你會無無問題,hen53 bbue55 mo53 mo53 mun55 te53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_163.wav,五姊妹絪草絪撿樵準備起火,m31 zi31 muai31 bbin55 cio31 bbin11 giam31 cio31 zhin31 pi55 ki31 foo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_120.wav,搭𠊎肩頭安慰𠊎講毋驚事難頭驚人懶,dab24 ngai53 geen11 tio53 o11 bbui31 ngai53 gong31 m55 giang11 su55 nan53 tio53 giang11 ngin53 nan11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_137.wav,按个日子實在真快活,an24 e55 ngid24 zi31 shid43 cai55 zhin11 kuai31 bbad43
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_165.wav,暗夜時駛車愛擱較注意,am31 rhia55 shi53 su31 cha11 oi31 goo24 ka31 zhi31 rhi31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_143.wav,頭福氣个一段美好回憶,tio53 fu24 ki31 e55 rhid24 ton55 mi31 hoo31 fue11 rhi31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/wxx23zn27s.wav,所以你个輪椅會飛啊實在足好个呢𠊎敢會用賞史帕琪真失禮一開始𠊎即應該拁你講實在事个𠊎干若係希望𠊎會用个歇睏著𠊎知,su31 rhi31 hen53 e55 lun53 rhi31 bbue55 bui11 a11 shid43 cai55 ziu24 hoo31 e11 ne31 ngai53 gam31 bbue55 rhung55 song31 su31 pa31 ki53 zhin11 shid24 li31 rhid24 koi11 shi31 ngai53 cid43 en11 goi11 ga11 hen53 gong31 shid43 cai55 su55 e55 ngai53 gan11 na31 he55 hi11 mong55 ngai53 bbue55 rhung55 e55 hied24 kun31 choo55 ngai53 di11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_001.wav,同正開个花恁泥拗拗撇實在還孤盲,tung113 zhang53 koi33 gai33 fa33 an31 ne113 au31 au31 ped21 shid54 cai53 han113 go33 mo33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_067.wav,晃啊晃斡頭屎胐斯畀觜著咧,gong113 a33 gong113 vad21 teu113 shi53 vud21 sii33 bi113 zui31 do31 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_180.wav,成擺用灶煮飯遐下無歕火火毋會猛,shang53 bai31 rhung55 zoo31 zhi31 pon55 ga24 ha55 mo53 pun53 foo31 foo31 m11 bboi55 mang31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_023.wav,香茅油个香味真重會用做香精,hiong11 mau53 rhiu53 e55 hiong11 bbi55 zhin11 chung11 bbue55 rhung55 zoo31 hiong11 zin11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/plx1wzt754.wav,著 𫣆人救了莊頭嘛得熊族這窟真好个溫泉𫣆人成功啊 毋過因為𠊎个毋著造成恁多麻煩無定著啦 毋過你認真想清楚你即會用解決麻煩啊,choo55 een11 ngin53 giu31 leeu31 zong11 teu53 ma11 ded24 him53 cu55 li24 kud24 zhin11 hoo31 e55 bbun11 can53 een11 ngin53 shin53 gung11 a11 m55 goo31 rhin11 bbui11 ngai53 e55 m55 chioo55 coo55 shin53 ngin31 doo11 ma53 fan53 mo53 ten55 choo55 la11 m55 goo31 hen53 ngin55 zhin11 siong55 cin11 cu31 hen53 cid43 bbue55 rhung55 goi31 guad24 ma53 fan53 a11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_088.wav,斯像吾這兜細孲共樣天闊地闊任在你飆係歡喜事,sii33 ciong53 nga33 lia31 deu33 se53 o113 kiung53 rhong53 tien33 kuad21 ti53 kuad21 rhim53 cai53 hn113 biau33 he53 fan33 hi31 sii53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/d8e3xaemr4.wav,可能看起來無麼像毋過野生漿果係盡大个寶藏厥等值得浪費寶貴个幾分鐘,ko31 nen113 kon53 ki31 loi113 mo113 ma31 ciong53 m113 go53 rha33 sen33 ziong33 go31 he33 cin53 tai53 gai33 bo31 cong113 gia33 nen35 dad54 ded21 long53 fui53 bo31 gui53 gai33 gi31 fun33 zhung33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/nzu23806pk.wav,即像係遐個物件啦,cid43 ciong55 he55 ga24 gai31 mi55 kien55 la11
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/ri1kolc1hx.wav,𠊎會認真教吾莊項个細人,ngai113 voi33 ngin53 zhin33 gau33 nga33 zong33 hong33 gai33 se53 ngin113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_287.wav,請問𠊎愛隨麼个證件來辦老人年金,ciang31 mun31 ngai53 oi31 sui53 bboo24 gai31 zhin31 kien55 loi53 peen55 loo31 ngin53 neen53 gim11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/t42i84w3lk.wav,蜂藪若係挵著遐兜石頭即會壞去𫣆人來䀴王國戰隊會赴攔到遐跡位無毋會用離開你个螢幕哦對另外一個角度翕䀴望等下遐個蓋有揜緪無,pung11 sio31 na31 he55 long31 choo55 ga24 deu11 sha55 tio53 cid43 bbue55 fai55 kui31 een11 ngin53 loi53 ngiang31 ong53 gud24 zhen31 tui55 bbue55 fu31 lan53 doo31 ga24 zia24 bbi55 mo53 m11 bboi55 rhung55 li53 koi11 hen53 e55 rhin53 hm24 o24 doi31 lin55 nguai55 rhid24 gai31 goo24 tu55 hib24 ngiang31 mong55 den31 ha55 ga24 gai31 goi31 rhiu11 keb24 an53 mo53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/eowclp7xx0.wav,無問題,mo53 bbun55 te53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/pg1plnqd7g.wav,這滿𠊎人个屋下即係你人个屋下有欠物件盡量講好無,li24 man31 ngai53 ngin53 e55 bbu24 ha11 cid43 he55 hen53 ngin53 e55 bbu24 ha11 rhiu11 kiam31 mi55 kien55 cin55 liong55 gong31 hoo31 mo53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/ajm157h64p.wav,你人有危險你人敢無聽著路卡講个𠊎人一直攏蹛在大石熊下著啦著啦無毋著啦毋過這真危險埤頭拄毋會核啊,hen53 ngin53 rhiu11 bbui53 hiam31 hen53 ngin53 gam31 mo53 ten11 choo55 lu55 ka31 gong31 e11 ngai53 ngin53 rhid24 chid43 lung31 dai31 da55 tai55 sha55 him53 ha11 choo55 la11 choo55 la11 mo53 m55 choo55 la11 m55 goo31 lia24 zhin11 bbui53 hiam31 bi11 teu53 du31 m11 bboi55 hed43 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_074.wav,拁五尾魚埋在花園內底个桂花樹下,ga11 m31 mui11 m53 mi53 da55 fa11 bbien53 nui55 de31 e55 gui31 fa11 shi55 ha55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_025.wav,天時變到已涼爽,tien33 shi113 bien53 do53 i53 liong113 song31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_293.wav,𠊎屋下整理出一墩書請問會用捐去哪位,nga53 bbu24 ha11 zhin31 li31 chud24 id24 dun11 shi11 cia31 mun31 bbue55 rhung55 gun11 ku31 na55 bbi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_124.wav,一時目汁含蹛牙根咬个煞作認真練習,id24 shi53 hm24 zhib24 ham53 dai31 nga53 gung11 ngau11 e55 sad24 zhoo24 ngin55 zhin11 leen55 sib43
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/pgi287bbsw.wav,𠊎个燒茶咧𠊎來𠊎來傷燒啊,ngai53 e55 shio11 ca53 le11 ngai53 loi53 ngai53 loi53 shiong55 shio11 a31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_199.wav,𠊎恁久嗽無停你哪時注意着這個問題八日前,ngai113 an31 giu31 cug54 mo113 tin113 hn113 ne53 shi113 zhu53 rhi53 do31 lia31 gai53 mun53 ti113 bad21 ngid21 cien113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_005.wav,真得人惜哦,zhin11 dad24 ngin53 sia24 o11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_023.wav,㸐毛蟲當擇食單淨食佢合意个葉,nad21 mo33 chung113 dong33 tog54 shid54 dan33 ciang53 shid54 gi113 gag21 rhi53 gai33 rhab54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_218.wav,三頓食飽後愛食藥一日食三擺一擺八粒,sam11 dun31 shied43 bau31 heu55 oi31 shied43 rhio55 id24 ngid24 shied43 sam11 bai31 id24 bai31 beed24 liab43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_004.wav,若手機幾多號,ngia33 shiu31 gi33 gid21 do33 ho53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_037.wav,隨在你討仰子係你个自由,sui53 cai55 hen53 too31 ngiong55 zu31 he55 hen53 e55 cu55 rhiu53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/15b6rm7ys9.wav,在沙漠肚 水係珍貴个寶物,to33 sa33 mog54 du31 shui31 he53 zhin33 gui53 gai33 bo31 vud54
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_192.wav,請載𠊎去頭近个捷運站,ciang31 zai31 ngai53 kui31 tio53 kung55 e55 ciab43 bbin55 cam55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_129.wav,生來已靚已竳線係一個有愛心又有耐心个人,sang33 loi113 i53 ziang33 i53 den113 sien53 he53 rhid21 gai53 rhiu33 oi53 sim33 rhiu53 rhiu33 nai53 sim33 gai33 ngin113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_061.wav,仰子逐回颱風若來即會造成恁嚴重个災害,ngiong55 zu31 tu55 fue53 tai53 fung11 na31 loi53 cid43 bbue55 zoo31 shin53 ngin31 ngiam53 chung11 e55 zai11 hoi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_031.wav,𠊎愛睡當晝,ngai53 o31 fe55 dong11 zhiu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_181.wav,伸這兜歸下賣得你四百箍即好,chin55 li24 deu11 gui11 ha55 mi11 ded24 hen53 si31 ba24 keu11 cid43 hoo31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_168.wav,這索幾長八十八公尺這菜仰脣賣一抓三十箍,lia31 sog21 gid21 chong113 bad21 shib54 bad21 gung33 chag21 lia31 coi53 ngiong31 shun113 mai53 rhid21 za33 sam33 shib54 kieu33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_246.wav,𠊎人會用个點餐啊麻煩你,ngai53 ngin53 bbue55 rhng55 e55 deem31 con11 a11 ma53 fan53 hen53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_251.wav,當晝頭恁誠熱毋好出去運動,dong11 zhiu31 tio53 ngin31 shiang53 ngied43 m55 hoo31 chud24 ku31 bbin55 tng55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_165.wav,壁崠貼一張停水通知客事各腔聲調無共樣,bia24 dung31 dab24 rhid24 zhong11 ting53 fi31 tung11 di11 ka24 su55 goo24 kiong11 shang11 teeu55 mo53 kung55 rhiong55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/0mx8w8pmhv.wav,哦猶毋會䆀哦毋過後次回愛拁𠊎个名加入你个演講內底哦大家𫣆人愛阿爾法金剛王國戰隊變身,o11 ia53 m11 bboi55 bbai11 o24 m55 goo31 heu55 ci55 fue53 oi31 ga11 ngai53 e55 miang53 ga11 ngib43 hen53 e55 rhen31 gong31 nui55 de31 o24 tai55 ga11 een11 ngin53 oi31 a11 ngi31 fad24 gim11 gong11 ong53 gud24 zhen31 tui55 bien31 shin11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_243.wav,請問𠊎个大型行李愛囥在哪位,ca31 mun31 ngai53 e55 tai55 hin53 hang53 li31 o31 kong31 de55 na55 bbi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_041.wav,擱用豆腐乾切做一條一條,goo24 rhung55 teu55 fu55 gon11 cied24 zoo31 rhid24 tiau53 rhid24 tiau53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_256.wav,你恁重麼儕背會贏阿弟踢著桌腳烏青啊,hen53 ngin31 chung11 bboo24 sa53 ba53 bbue55 rhiang53 a11 te11 ted24 choo55 zoo24 gio24 bbu11 ciang11 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_207.wav,請問猶有座位無𠊎討買兩張全票,cia31 mun31 ia53 rhiu11 zoo11 bbi55 mo53 ngai53 too31 mi11 liong31 zhong11 cen53 pio31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_149.wav,心愛靜手愛穩寫字做事絕對使毋得儘採,sim33 oi53 cin53 shiu31 oi53 vun31 sia31 sii53 zo53 sii53 cied54 dui53 sii31 m113 ded21 cin31 cai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_037.wav,有一日辦三牲拜神明大嫂拁拜過个豬肉切做豬肉盤,rhiu11 rhid24 ngid24 peen55 sam11 sen11 bai31 shin53 men53 tai55 soo31 ga11 bai31 goo31 e55 zhi11 ngiu24 cied24 zoo31 zhi11 ngiu24 pan53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/yfaah1npqe.wav,頭艱難个部分你人攏做好啊討拁佢完成和號名無恁困難啦諾文佢猶準備討演講去啦大箍呆,teu53 gan11 nan53 e55 pu55 fun55 hen53 ngin53 lung31 zoo31 hoo31 a11 too31 ga11 gui53 bbien53 shin53 ham55 hoo55 miang53 mo53 ngin31 kun31 nan53 la11 no55 bbun53 gui53 ia53 zhin31 pi55 too31 rhen31 gong31 kui31 la11 tai55 keu11 dai11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_108.wav,佢蹛哪位佢蹛高雄市,gu53 dai31 na55 bbi55 gu53 dai31 goo11 hiung53 shi55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/37rdh7qtc2.wav,約瑟夫會改變路線並毋係為著搞尞該係因為安全个問題,rhog21 sid21 fu33 voi33 gai31 bien53 lu53 sien53 bin53 m113 he53 vui53 do31 gau31 liau53 gai53 he53 rhin33 vui53 on33 cion113 gai33 mun53 ti113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_119.wav,請問田中火車頭仰子去𠊎渡你去火車頭足多人哦,ciang31 mun31 teen53 zhung11 foo31 cha11 tio53 ngiong55 zu31 kui31 ngai53 tu31 hen53 kui31 foo31 cha11 tio53 ziu24 doo11 ngin53 o24
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_085.wav,當晝頭恁誠熱毋好出去運動,dong11 zhiu31 teu53 ngin31 shang53 ngied43 m55 hoo31 chid24 kui31 bbin55 tung55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/8vr0njcxc5.wav,愛家長抑係監護人陪𠊎正會用入去𠊎係大人 而且係超級天才而且 無公平,oi31 ga11 zhong31 ia31 he55 gam31 fu55 ngin53 pue53 ngai53 zhang31 bbue55 rhung55 ngib43 kui31 ngai53 he55 tai55 ngin53 rhi53 cia31 he55 chio11 gib24 teen11 cai53 rhi53 cia31 mo53 gung11 piang53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_091.wav,在網路買物件真利便,da55 miong31 lu55 mi11 mi55 kien55 zhin11 li55 pen55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_091.wav,這站無閒麼个佢愛照顧厥姆,lia31 zam53 mo113 han113 ma31 gai33 gi113 oi33 zheu53 gu53 gia33 me33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_142.wav,這係特價商品係毋係,li24 he55 ted43 ga31 shiong55 pin31 he55 m53 he55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_065.wav,成過有一座伯公廟逐儕攏講伯公伯婆真顯,shang53 goo31 rhiu11 rhid24 coo55 ba24 gung11 mio55 tu55 sa53 lung31 gong31 ba24 gung11 ba24 poo53 zhin11 hien31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_191.wav,若係討掛號麻煩健保卡得𠊎猶擱納六百箍,na31 he55 too31 gua31 hoo55 ma53 fan53 kien55 boo31 ka31 ded24 ngai53 ia53 goo24 nab43 liu24 ba24 keu11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_002.wav,恁久無䀴著,ngin31 giu31 mo53 ngiang31 choo55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_118.wav,看阿弟牯兩隻腳尾竳啊竳有一屑驚驚,kon53 a33 di53 gu31 liong31 zhag21 giog21 mui33 den113 a33 den113 rhiu33 rhid21 sud54 giang33 giang33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_087.wav,阿伯蹛个樓屋有電梯,a11 ba24 dai31 e55 lio53 bbu24 rhiu11 teen55 toi11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_083.wav,市場內底買一斤角子菜愛幾多錢,shi55 chong53 nui55 de31 mi11 rhid24 gun11 goo24 zu31 coi31 oi31 gi31 doo11 cien53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_123.wav,佢一個人去桃園打拚厥依真擘心,gui53 rhid24 gai31 ngin53 kui31 too53 bbien53 da31 biang31 gua55 i55 zhin11 ba24 sim11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_050.wav,阿公在間底歇睏,a11 gng11 de55 geen11 de31 hied24 kun31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/vt8avq9k2b.wav,恁𠊎人咧會用替𠊎人爭一兜時間定著有得石頭漿慢落來个辦法無問題 路卡,en24 ngai53 ngin53 le11 bbue55 rhung55 te31 ngai53 ngin53 zang11 rhid24 deu11 shi53 geen11 ten55 choo55 rhiu11 ded24 sha55 teu53 ziong11 men55 loo55 loi53 e55 peen55 fad24 mo53 mun55 te53 lu55 ka31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_109.wav,老儕坐巴士毋使錢坐捷運毋會用食物件,loo31 sa53 coo11 ba55 su31 m55 su31 cien53 coo11 ciab43 bbin55 m11 bboi55 rhung55 shied43 mi55 kien55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_253.wav,阿公有糖尿病毋會用食傷甜,a11 gng11 rhiu11 tng53 neeu55 piang55 m11 bboi55 rhng55 shied43 shiong55 teem53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/fdfzkcaj4o.wav,厥姊因致恁泥無讀書厥等忒匱咧,gia33 ze53 rhin33 zhi53 an31 ne113 mo113 tug54 shu33 gia33 nen35 ted21 kuai113 le33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/l18mku8h5u.wav,你係哪儕大家好我係捷巴利咪登的徒弟真好啊一個跈上跈落个,hen53 he55 ni55 sa53 tai55 ga11 hoo31 ngo31 he55 ciab43 ba11 li55 mi11 den11 did24 tu53 te11 zhin11 hoo31 a33 rhid24 gai31 ten53 shong11 ten53 loo55 e55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_240.wav,喊計程車毋使擘心歇車問題,heem31 ge31 chin53 cha11 m55 su31 ba24 sim11 hied24 cha11 bbun55 te53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_182.wav,𠊎聽講阿美著著六千萬个大獎有影抑無影,ngai113 ten33 gong31 a33 mui33 chog54 do31 liug21 cien33 van53 gai33 tai53 ziong31 rhiu33 rhang31 rha33 mo113 rhang31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_132.wav,一斤正九十七箍定價數真實在,rhid24 gun11 zhiang31 giu31 shib43 cid24 keu11 ten11 ga31 su31 zhin11 shid43 cai55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_186.wav,𠊎人輒輒作垺合買美食,ngai53 ngin53 ciab43 ciab43 zoo24 pu53 hab43 mi11 mi55 shid43
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/ngga1o9kse.wav,𠊎一直攏真勇即算對一隻熊來講嘛係恁而且𠊎佮意自家做好事頭𠊎想講𠊎會用照顧好自家一直到位加入王國戰隊變做團隊个一分子,ngai53 rhid24 chid43 lung31 zhin11 rhung31 cid43 son31 doi31 rhid24 zha24 him53 loi53 gong31 ma11 he55 en24 rhi53 cia31 ngai53 ga24 rhi31 zi11 ga11 zoo31 hoo31 su55 teu53 ngai53 siong55 gong31 ngai53 bbue55 rhung55 zhio31 gu31 hoo31 zi11 ga11 rhid24 chid43 doo31 bbi55 ga11 ngib43 ong53 gud24 zhen31 tui55 bien31 zoo31 ton53 tui55 e55 rhid24 fun11 zu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_110.wav,寒天著膨線衫真燒暖熱天真熱著短衫袖就會用啊,hon53 teen11 zhoo24 pong31 sien31 sam11 zhin11 shio11 non11 ngied43 teen11 zhin11 ngied43 zhoo24 don31 sam11 ciu55 ciu55 bbue55 rhung55 a31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_047.wav,請問愛麼个服務,ciang31 mun31 oi31 bboo24 gai31 fu55 bbu55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_057.wav,這個皮包係麼儕个,li24 gai31 pi53 bau11 he55 bboo24 sa53 gai31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/0517k9bwki.wav,阿爾伯爾朝脣出門去學校厥姆當愁厥个安全厥倈做下愛看天時還有自家一個人行增加當多个挑戰性毋管堵到仰脣樣个狀況,a33 ni33 bag21 ni33 zheu33 shun113 chud21 mun113 ki33 hog54 gau31 gia33 me33 dong33 seu113 gia33 gai33 on33 cion113 gia33 lai53 zo53 ha53 oi33 kon53 tien33 shi113 han113 rhiu33 ci33 ga33 rhid21 gai53 ngin113 hang113 zen53 ga33 dong33 do33 gai33 tiau33 zhen53 sin53 m113 guan31 du113 do53 ngiong31 shun113 rhong53 gai33 cong53 kong31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_017.wav,上課毋好啄睡,shong11 koo31 m55 hoo31 du24 fe55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_083.wav,便利商店使得買著當多東西,pien53 li53 shong33 diam53 sii31 ded21 mai33 do31 dong33 do33 dung33 si33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_149.wav,你天光幾多點愛來六點若等先食緊來毋怕,hn113 tien33 gong35 gid21 do33 diam31 oi53 loi113 liug21 diam31 ngia33 nen35 sien33 shid54 gin31 loi113 m113 pa53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203S2027/ZM203S2027_027.wav,係講討暗啊日頭漸漸落山阿女仰子猶吂轉咧,he55 gong31 too31 am31 a11 ngid24 tio53 ciam55 ciam55 loo55 san11 a11 m31 ngiong55 zu31 ia53 mang11 zhen31 le55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_002.wav,放學轉屋家歡歡喜喜同𠊎分享,biong53 hog54 zhon31 vug21 ka33 fan33 fan33 hi31 hi31 tung113 ngai113 fun33 hiong31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_223.wav,𠊎聽講阿美著著兩千萬个大獎有影無影,nga53 ten11 gong31 a11 me31 chio55 chio55 liong31 cen11 bban55 e55 tai55 ziong31 rhiu11 rhiang31 mo53 rhiang31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_190.wav,頭家請八個妹子來揪生理,teu53 ga11 ciang31 beed24 gai31 moi31 zu31 loi53 kiu31 sen11 li31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_098.wav,得阿弟對自然科學真有興趣,ded24 a11 te11 doi31 cu55 rhen53 koo11 hoo55 zhin11 rhiu11 hin31 ki31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM213P2101/ZM213P2101_076.wav,請問收銀臺在哪位,ciang31 mun31 shiu11 ngun53 tai53 de55 na55 bbi55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/r8gk47nejv.wav,佢人用遐種方式來達成協議猶擱真激烈咧你人大家準備離開攏準備好啊提絜你對這裡開始摟𠊎人討踅過去請你个人對另外一裡摟,gui53 ngin53 rhung55 ga24 zhung31 fong11 shid24 loi53 tad43 shin53 hiab43 ngi55 ia53 goo24 zhin11 gid24 lied43 le11 hen53 ngin53 tai55 ga11 zhin31 pi55 li53 koi11 lung31 zhin31 pi55 hoo31 a11 te55 gied24 hen53 doi31 li24 le31 koi11 shi31 leu31 ngai53 ngin53 too31 se55 goo31 kui31 ciang31 hen53 e55 ngin53 doi31 lin55 nguai55 rhid24 le31 leu31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_111.wav,佢總係笑咪咪應講,gi113 zung31 he53 siau53 mi33 mi33 en53 gong31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/bqq51ra121.wav,兩日進前狼群㓾死隔壁村个馬,liong31 ngid21 zin53 cien113 long113 kiun113 chi113 si31 gag21 biag21 cun33 gai33 ma33
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/xygr9w6mkd.wav,賈洛皮 莫擱拖啊 啊若無齁,ga31 loo55 pi53 mai31 goo24 too11 a11 a55 na31 mo53 honn11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/2qvqz7cdjg.wav,團隊合作感覺猶毋會䆀遐當然个路卡你愛做這個團隊个好隊長哦等下你愛𠊎做你人个隊長著啊你个想法和頭腦踅到真緊,ton53 tui55 hab43 zoo24 gam31 goo24 ia53 m11 bboi55 bbai11 ga24 dong11 rhen53 e11 lu55 ka31 hen53 oi31 zoo31 li24 gai31 ton53 tui55 e55 hoo31 tui55 zhong31 o24 den31 ha55 hen53 oi31 ngai53 zoo31 hen53 ngin53 e55 tui55 zhong31 choo55 a33 hen53 e55 siong55 fad24 ham55 teu53 nau31 se55 doo31 zhin11 gin31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203S2027/ZM203S2027_006.wav,三叉轉新雞隆尾班車係討暗五點外,sam11 ca11 zhen31 sin11 ge11 lung53 mui11 ban11 cha11 he55 too31 am31 m31 deem31 nguai55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_096.wav,請問貴姓𠊎姓黃名大民,ciang31 mun31 gui31 siang31 ngai53 siang31 bbong53 miang53 tai55 min53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF205J2067/DF205J2067_041.wav,阿伯戴个樓屋有電梯,a33 bag21 dai53 gai33 leu113 vug21 rhiu33 tien53 toi33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_154.wav,小心細義个拁番薯埋在火屎內底揞蹛,sio31 sim11 se31 ngi55 e55 ga11 han11 shi53 mi53 da55 foo31 shi11 nui55 de31 em11 dai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_106.wav,成過因為愛讀國中學校又離屋下較遠,shang53 goo31 rhin11 bbui11 oi31 tu55 gud24 zhung11 hoo55 hau55 rhiu55 li53 bbu24 ha11 ka31 bbien31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_014.wav,若係愛入人个間房愛先𢼛門,na33 he53 oi33 ngib54 ngin113 gai33 gien33 fong113 oi33 sen33 gog54 mun113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/gooiivrb90.wav,保持穩定𠊎在打拚啊你保持穩定,boo31 chi53 bbun31 ten55 ngai53 da55 da31 biang31 a11 hen53 boo31 chi53 bbun31 ten55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_048.wav,勞力毋使細義,loo31 lad43 m55 su31 se31 ngi55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_111.wav,這滿幾*多點啊兩點,li24 man31 gi31* doo11 gio33 deem31 a31 liong31 deem31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_120.wav,阿爹阿奶這下斯等便便咧,a33 da33 a33 ne31 lia31 ha53 sii33 den31 pien53 pien53 le33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_029.wav,阿爸愛去申請護照,a33 ba33 oi53 ki53 shin33 ciang31 fu53 zheu53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_153.wav,一百空八年度客語認證正式開始報名啊,rhid24 ba24 kung31 beed24 neen53 tu55 ka24 ngi31 ngin55 zhin31 zhin31 shi53 koi11 shi31 boo31 miang53 a31
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/84emkd864f.wav,船項有爛一個空除了停在盡近个島以外無其他个辦法,shon113 hong33 rhiu33 lan53 rhid21 gai53 kung33 chu113 liau31 tin113 to33 cin53 kiun33 gai33 do31 rhi113 nguai53 mo113 ki113 ta33 gai33 pan53 fab21
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_046.wav,韶日晨早正聯絡,shio53 ngid24 chin53 zoo31 zhiang31 lien53 loo55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_003.wav,上自然課先生紹介蝶佢試著當生趣,shong53 cii53 rhen113 ko53 sin33 sen33 sheu53 gai53 rhag54 gi113 chi53 do31 dong33 sen33 ci53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_085.wav,請毋好在車底食物件,ciang31 m55 hoo31 da55 cha11 de31 shied43 mi55 kien55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_070.wav,還得人惜喔還得人惱喔,han113 ded21 ngin113 siag21 o33 han113 ded21 ngin113 nau33 o33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_101.wav,𠊎愛睡當晝恁夜咧好去睡目咧,ngai113 oi33 shoi53 dong33 zhiu53 an31 rha53 le33 ho31 ki33 shoi53 mug21 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_206.wav,為著赴一點䀴電視佢划飯划真緊,bbui55 chio55 fu31 rhid24 deem31 ngiang31 teen55 shi55 gui53 pa53 pon55 pa53 zhin11 gin31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_121.wav,𠊎相信你定著做會到加油哦,ngai53 siong11 sin31 hen53 ten55 choo55 zoo31 bbue55 doo31 ga11 rhiu53 o11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_006.wav,真得人慼哦,zhin11 did24 ngin53 cied24 o11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/fsrflmbvw9.wav,𠊎䀴這兜雪仰子剷嘛剷毋會了,ngai53 ngiang31 li24 deu11 sied24 ngiong55 zi31 can31 ma11 can31 m11 bboi55 leeu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_048.wav,勞力毋使細義,loo31 lad43 m55 su31 se31 ngi55
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/j4q8hf2ob7.wav,王國戰隊按正經毋會用𠊎係靠公平个手段偷駛爬行者號个,ong53 gud24 zhen31 tui55 an24 zhin31 gen11 m11 bboi55 rhung55 ngai53 he55 koo31 gung11 piang53 e55 shiu31 ton55 teu11 su31 pa53 hang53 zha31 hoo55 e55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_051.wav,歸臺灣个人皮即挷緪緪,gui11 tai53 bban53 e55 ngin53 pi53 cid43 bang11 an53 an53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/rrv27x0ns6.wav,雪崩去啊行動,sied24 ben11 kui31 a11 hang53 tung11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_004.wav,你討去哪位,hen53 too31 kui31 ni55 bbi55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/viewgtvtke.wav,在印度洋馬達加斯加个西南片天時當熱富蘭克林還有奧利佛戴在這位,to33 rhin53 tu53 rhong113 ma33 tad54 ga33 sii33 ga33 gai33 si33 nam113 pien31 tien33 shi113 dong33 ngied54 fu53 lan113 kied21 lim113 han113 rhiu33 o53 li53 fud54 dai53 to33 lia31 vui53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/s5qql04y4f.wav,仰子你想會用無會用,ngiong55 zu31 hen53 siong55 bbue55 rhung55 mo53 bbue55 rhung55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_118.wav,𠊎應佢人講其實食著碗粄个時務,ngai53 en31 gui53 ngin53 gong31 ki53 shid43 shied43 choo55 bban31 ban31 e55 shi53 bbu55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/kmsyk90uu0.wav,對當多越南人來講這斯像係世界末日,dui53 dong33 do33 rhed54 nam113 ngin113 loi113 gong31 lia31 sii33 ciong53 he33 shi53 gai53 mad54 ngid21
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/px937bm3k2.wav,足好个有效足厲害个王國戰隊王國戰隊得一分樹林大火零分,ziu24 hoo31 e11 rhiu11 hau55 ziu24 li55 hoi55 e55 ong53 gud24 zhen31 tui55 ong53 gud24 zhen31 tui55 ded24 rhid24 fun11 shi55 na53 tai55 foo31 len53 fun11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_179.wav,請問你有指定个醫生無,ca31 mun31 hen53 rhiu11 zhi31 ten55 e55 rhi11 sen11 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_022.wav,愛擔到香茅寮下請人代工,oi31 dam11 doo31 hiong11 mau53 leeu53 ha11 ciang31 ngin53 dai11 gung11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_168.wav,蹛在遐個所在自由安樂過日像天堂共樣,dai31 da55 ga24 gai31 su31 cai55 cu55 rhiu53 on11 loo55 goo31 ngid24 ciung55 teen11 tong53 kung55 rhiong55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_117.wav,𠊎毋甘願一擺一擺擱試䀴望,ngai53 m55 gam11 ngien55 id24 bai31 id24 bai31 goo24 chi31 ngiang31 mong55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_139.wav,請問愛去哪位領行李,ca31 mun31 oi31 kui31 na55 bbi55 liang31 hang53 li31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_163.wav,佢在路上撿著三十五箍,gui53 da55 lu55 shong55 giam31 choo55 sam11 shib43 m31 kio11
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/xw0ir7d818.wav,路卡𫣆人有麻煩啊訊號係對灰熊谷來个灰熊谷遐毋係諾文和提絜去个所在熊族和獾族作垺了無好𠊎即派佢人去兩族遐做公親了解佢人,lu55 ka31 een11 ngin53 rhiu11 ma53 fan53 a11 sin31 hoo55 he55 doi31 fui11 him53 gu24 loi53 e11 fui11 him53 gu24 ga24 m11 he55 no55 bbun53 ham55 te55 gied24 kui31 e55 su31 cai55 him53 cu55 ham55 fan11 cu55 zoo24 pu53 leeu31 mo53 hoo31 ngai53 cid43 pai31 gui53 ngin53 kui31 liong31 cu55 ga24 zoo31 gung11 cin11 leeu31 goi31 gui53 ngin53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_300.wav,𠊎屋下就近有流浪狗會用請你人派人來處理無,nga53 bbu24 ha11 ciu55 kun11 rhiu11 liu53 long11 geu31 bbe55 rhung55 ciang31 hen53 ngin53 pai31 ngin53 loi53 chi31 zi31 mo53
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/709l0khzqj.wav,大家攏好無攏真好啦,tai55 ga11 lung31 hoo31 mo53 lung31 zhin11 hoo31 la11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_002.wav,做爺哀个歸日攏在操煩細子,zoo31 rhia53 oi11 e11 gui11 ngid24 lung31 da55 cau11 fan53 se31 zu31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_002.wav,寒著愛戴嘴揞,hon53 choo55 oi31 doi31 zhe31 em11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203Q2004/ZM203Q2004_113.wav,這滿正經成功啊,li24 man31 zhin31 gen11 shin53 gung11 a11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF214P2102/ZF214P2102_279.wav,請問你有來過𠊎人病院䀴診過無,ciang31 mun31 hen53 rhiu11 lo53 goo31 ngai53 ngin53 piang55 inn11 ngiang31 zhin31 goo31 mo53
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_146.wav,這領衫特別貴布料嗄恁粗無遐個價值,li24 liang31 sam11 ted43 pied43 gui31 bu31 liau55 sa31 ngin31 cu11 mo53 ga24 gai31 ga31 chid43
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_006.wav,哪有人畜㸐毛蟲,ne53 rhiu33 ngin113 hiug21 nad21 mo33 chung113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_090.wav,有麼个問題無你想到真周到,rhiu11 bboo24 gai31 mun55 te53 mo53 hen53 siong55 doo31 zhin11 zhiu11 doo31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_197.wav,作文題目係𠊎若係有七萬箍想討做麼个,zoo24 bbun53 te53 hm24 he55 ngai53 na31 he55 rhiu11 cid24 man55 kio11 siong55 too31 zoo31 bboo24 gai31
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203R2027/ZM203R2027_123.wav,對面有兩火灶去廟坪䀴人做戲,doi31 mien31 rhiu11 liong31 foo31 zoo31 kui31 mio55 piang53 ngiang31 ngin53 zoo31 hi31
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/c1z1h8o2ef.wav,做了好 大家這滿正伸幾*下個撤離艙啊,zoo31 leeu31 hoo31 tai55 ga11 li24 man31 zhang31 chin55 gi31* ha55 gia33 gai31 ted24 li53 cong11 a11
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_009.wav,佢講單淨愛種一頭柚樹抑係柑樹,gi113 gong31 dan33 ciang53 oi33 zhung53 rhid21 teu113 rhiu53 shu53 rha33 he53 gam33 shu53
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/2u883gprsl.wav,乜有當多無確定性所以厥等在學業方面取得成就感這係成功唯一个路途這點厥等兄弟當清楚,me33 rhiu33 dong33 do33 mo113 kog21 tin53 sin53 so31 rhi113 gia33 nen35 to33 hog54 ngiab54 fong33 mien53 ci31 ded21 shin113 ciu53 gam31 lia31 he33 shin113 gung33 vui113 rhid21 gai33 lu53 tu113 lia31 diam31 gia33 nen35 hiung33 ti53 dong33 cin33 cu31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_226.wav,阿奶講頭擺个婦人家做月像關囹个樣哪有像這下人恁自由,a33 ne31 gong31 teu113 bai31 gai33 fu53 ngin113 ga33 zo53 ngied54 ciong53 guan33 long35 gai33 rhong53 ne53 rhiu33 ciong53 lia31 ha53 ngin113 an31 cii53 rhiu113
+data/dataset_2/熱身賽_媒體語料_詔安腔_1H/27giduau7l.wav,無人會用个烏白揙𠊎个爬行者號再見啊小貓么彈射程序打開啊彈射,mo53 ngin53 bbue55 rhung55 e55 bbu11 pa55 been31 ngai53 e55 pa53 hang53 zha31 hoo55 zai31 gien31 a11 sio31 ngiau31 iaunn11 tan53 sha55 chin53 si55 da31 koi11 a11 tan53 sha55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_017.wav,心肝愐佢在做麼个呢,sim33 gon33 men31 gi113 to33 zo53 ma31 gai33 ne33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM203P2027/ZM203P2027_022.wav,上課毋好啄睡,shong11 koo31 m55 hoo31 du24 fe55
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209Q2003/ZF209Q2003_118.wav,共款猶係無改變練到心情真壞真無好,kung55 kuan31 ia53 he55 mo53 goi31 bien31 leen55 doo31 sin11 cin53 zhin11 fai55 zhin11 mo53 hoo31
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206K2002/DF206K2002_059.wav,隨時愛劈過來个樣相這勢面𠊎看莫惹佢有較贏,sui113 shi113 oi33 piag21 go53 loi113 gai33 rhong53 siong53 lia31 shi53 mien53 ngai113 kon53 mog54 ngia33 gi113 rhiu33 ka33 rhang113
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304Q2002/ZM304Q2002_013.wav,香茅係真賤个草類形像菅榛个樣,hiong11 mau53 he55 zhin11 cien55 e55 coo31 lui55 hin53 ciong55 gon11 zhin11 e55 rhiong55
+data/dataset_2/熱身賽_媒體語料_大埔腔_1H/oj5dtoqasg.wav,貝提歐奇係這所在盡重要个庄頭一禮拜一擺會有市集兄弟兩個定著愛從頭到尾穿過這位正使得來到爺哀同厥等稅个位在偏遠个細屋,bui53 ti113 eu33 ki113 he33 lia31 so31 cai53 cin53 chung53 rheu53 gai33 zong33 teu113 rhid21 li33 bai53 rhid21 bai31 voi33 rhiu33 shi53 sib54 hiung33 ti53 liong31 gai53 tin53 chog54 oi33 ciung113 teu113 do53 mui33 chon33 go53 lia31 vui53 zhang33 sii31 ded21 loi113 do53 rha113 oi33 tung113 gia33 nen35 shoi53 gai33 vui53 to33 pien33 rhen31 gai33 se53 vug21
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DF206J2062/DF206J2062_034.wav,垃圾愛做資源回收,la31 sab21 oi53 zo53 zii33 ngien113 fui113 shiu33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM309P2101/ZM309P2101_133.wav,對這行路去火車頭愛行八分鐘,doi31 lia24 hang53 lu55 kui31 foo31 cha11 teu53 oi31 hang53 beed24 fun11 zhung11
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZM304P2022/ZM304P2022_116.wav,𠊎討轉潮州火車歇在第二月台愛較緊去正毋會赴毋會著,ngai53 too31 zhen31 chio53 zhiu11 foo31 cha11 hied24 da55 ti55 ngi55 ngied43 tai53 oi31 ka31 gin31 kui31 zhang31 m11 bboi55 fu31 m11 bboi55 choo55
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203L2056/DM203L2056_084.wav,愛用个東西全部便便人員一到斯使得開工,oi33 rhung53 gai33 dung33 si33 cion113 pu53 pien53 pien53 ngin113 rhen113 rhid21 do53 sii33 sii31 ded21 koi33 gung33
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203K2001/DM203K2001_117.wav,落過西北雨个暗晡頭阿舅在廳下看電視,log54 go53 si33 bed21 rhi31 gai33 am53 bu33 teu113 a33 kiu33 to33 ten33 ha53 kon53 tien53 shi53
+data/dataset_2/熱身賽_錄製語料_大埔腔_4H/DM203J2056/DM203J2056_045.wav,老弟通過認證考試了,lo31 te33 tung33 go53 ngin53 zhin53 kau31 shi53 le33
+data/dataset_2/熱身賽_錄製語料_詔安腔_4H/ZF209P2101/ZF209P2101_291.wav,𠊎想討借囥行李請問會用借囥幾久咧,ngai53 siong55 too31 zia24 kong31 hang53 li31 ciang31 mun31 bboo55 rhung55 zia24 kong31 gi31 giu31 le11

@@ -1,7 +1,6 @@
 #!/bin/bash
-#SBATCH --account=GOV113054
-#SBATCH --job-name="T1_d2_data_preprocessing"
-#SBATCH --partition=dev
+#SBATCH --job-name="d1_data_preprocessing"
+#SBATCH --partition=a100-al9
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --gres=gpu:1
@@ -11,34 +10,23 @@
 #SBATCH --output=logs/%x_%j.out
 #SBATCH --error=logs/%x_%j.err
 
-# ====== 可調參數 ======
 CONDA_ENV_NAME="hakka_asr"
-# DATA_DIR="/work/raytsai0214/data/FSR-2025-Hakka-train"
-DATA_DIR="data/dataset_2"
-DATA_DIR2="dataset_2"
-RAW_DATA_DIR="$DATA_DIR"
-OUTPUT_CSV="data/$DATA_DIR2.csv"
+RAW_DATA_DIR="data/dataset_2"
+OUTPUT_CSV="data/dataset_2.csv"
+TEST_RATIO=0.2
 
-# ====== 建立必要資料夾 ======
 mkdir -p data
 
-# ====== 啟用 conda 環境 ======
-ml load miniconda3/24.11.1
+module load anaconda3/2024.10-1
+eval "$(conda shell.bash hook)"
 conda activate "$CONDA_ENV_NAME"
 
-# # ====== 下載資料 ======
-# cd "$DATA_DIR"
-# if [ ! -d "$DATA_DIR2" ]; then
-#     git clone https://speech.nchc.org.tw/FSR-2025/FSR-2025-Hakka-train
-# else
-#     echo "$DATA_DIR2 already exists, skipping clone."
-# fi
-# cd -  # 回到原專案目錄
+export HOME=/ceph/work/KLP/yuchi/Hakka_ASR && cd
+export TMPDIR=${HOME}/.tmp
 
-# ====== 執行資料預處理 ======
 if [ ! -f "$OUTPUT_CSV" ]; then
     echo "Running data preparation..."
-    python data_prepare.py --raw_data_dir "$RAW_DATA_DIR" --output_csv "$OUTPUT_CSV"
+    python data_prepare.py --raw_data_dir "$RAW_DATA_DIR" --output_csv "$OUTPUT_CSV"  --test_ratio $TEST_RATIO --random_seed 42
 else
     echo "Output CSV already exists ($OUTPUT_CSV), skipping data preparation."
 fi
